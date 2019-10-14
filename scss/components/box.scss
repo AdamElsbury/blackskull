@@ -1,0 +1,25 @@
+// Hero boxes
+
+.box-blue {
+  background-color: $color-blue;
+  color: #FFF;
+  padding: 5%;
+
+  &:before {
+    content: '';
+    float: left;
+    padding-top: 100%;
+  }
+}
+
+.box-cobalt {
+  background-color: $color-cobalt;
+  color: #FFF;
+  padding: 5%;
+
+  &:before {
+    content: '';
+    float: left;
+    padding-top: 100%;
+  }
+}

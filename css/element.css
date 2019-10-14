@@ -328,6 +328,10 @@ is to offset against the gutter applied to the columns
   margin: 0 0 0 -.5rem
 }
 
+.grid-flex-wrap {
+  flex-wrap: wrap;
+}
+
 
 /*
 [COLUMN]
@@ -478,6 +482,11 @@ side it and they will take up the remaining space.
   padding-right: 20%;
 }
 
+.xl-gutter {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
 
 
 /*
@@ -525,10 +534,6 @@ vertically on devices smaller than 501px.
 
 .grid-row-reset-mobile {
   flex-direction: row !important;
-}
-
-.grid-flex-wrap {
-  flex-wrap: wrap;
 }
 
 .grid-col-20-reset-mobile {
