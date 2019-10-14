@@ -1,0 +1,132 @@
+// Horiztontal navigation bar
+
+.nav-container {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  align-items: center;
+  min-height: 120px;
+  padding: 0 4% 0 4%;
+
+  ul {
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+  }
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  flex: 1;
+  justify-content: flex-end;
+
+  li > a {
+    padding: 10px 25px;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    font-family: $text-primary;
+    font-size: 1.1em;
+    color: $color-white;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+
+    &:hover {
+    }
+  }
+}
+
+.social-media-container {
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  display: flex;
+
+  .margin-outside {
+    margin: 0 10px 0 10px;
+  }
+
+  .margin-outside-large {
+    margin: 0 20px 0 20px;
+  }
+}
+
+.nav-logo {
+  flex: 1;
+
+  img {
+    width: auto;
+    height: auto;
+    max-width: 50px;
+  }
+}
+
+.external-page-link-container {
+  min-height: 100px;
+
+  p {
+    color: white;
+    font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1600 - 300)));
+  }
+
+  button {
+    &:hover {
+      background-color: #FFF;
+      border: 3px solid #FFF;
+    }
+  }
+}
+
+// Mobile responsive
+
+@media screen and ( max-width: 1024px ) {
+
+.social-media-container, .nav-links {
+  flex: 1;
+  width: auto;
+  margin: 0 0 1rem .5rem;
+}
+
+.nav-links {
+    li > a {
+      padding: 0;
+    }
+}
+}
+
+@media screen and ( max-width: 1024px ) {
+.nav-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5%;
+  min-height: 50px;
+}
+
+  .social-media-container {
+    margin: 0;
+
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      margin-bottom: 25px;
+      border-bottom: 1px solid #474747;
+    }
+  }
+}
+
+// Small LAPTOP
+
+@media (min-width: 1025px) and ( max-width: 1366px ) {
+
+}

@@ -1,0 +1,109 @@
+// Reset
+
+.button-reset {
+  background: none;
+  border: none;
+}
+
+// Buttons
+
+.btn-primary {
+  font-family: $text-primary;
+  font-size: 11px;
+  font-weight: $text-weight-semi-bold;
+  letter-spacing: 2px;
+  border-radius: 7px;
+  color: #FFFFFF;
+  border: 3px solid transparent;
+  padding: 13px 23px 13px 23px;
+  text-transform: uppercase;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  min-width: 150px;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: transparent;
+    padding: 13px 23px 13px 23px;
+  }
+}
+
+.btn-secondary {
+  font-family: $text-primary;
+  font-size: 11px;
+  letter-spacing: 2px;
+  background-color: transparent;
+  border-radius: 7px;
+  padding: 13px 23px 13px 23px;
+  text-transform: uppercase;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  min-width: 150px;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    border: 3px solid transparent;
+    padding: 13px 23px 13px 23px;
+  }
+}
+
+// Modifiers
+
+.fw {
+  width: 100%;
+}
+
+.rounded {
+  border-radius: 50px;
+}
+
+.square {
+  border-radius: 0px;
+}
+
+.btn-white {
+  border: 3px solid #FFF;
+  color: #FFF;
+}
+
+// Hover effects
+
+.no-hover-primary:hover {
+  background-color: #514A9D;
+  border: none;
+  color: #FFF;
+  padding: 15px 25px 15px 25px;
+}
+
+.no-hover-secondary:hover {
+  background-color: transparent;
+  border: 2px solid #514A9D;
+  color: #514A9D;
+  padding: 13px 23px 13px 23px;
+}
+
+// Media Queries
+
+// Mobile
+
+@media screen and ( max-width: 600px ) {
+  .btn-primary {
+    font-size: 10px;
+    min-height: 40px;
+    min-width: 130px;
+    font-weight: $text-weight-regular;
+  }
+
+  .btn-secondary {
+    font-size: 10px;
+    min-height: 40px;
+    min-width: 130px;
+    font-weight: $text-weight-regular;
+  }
+}

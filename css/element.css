@@ -1,0 +1,1062 @@
+/*
+=================================================
+=========            GENERAL            =========
+=================================================
+
+[BODY]
+Set the font family, make the body take up 100%
+screen width and apply no outside margin.
+*/
+
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+/*[POSITION: RELATIVE] */
+
+.position-relative {
+  position: relative;
+}
+
+/* [Margin 0 auto] */
+
+.margin-0-auto {
+  margin: 0 auto;
+  display: block;
+}
+/*
+[PADDING]
+Padding rules to apply to elements
+*/
+
+.padding {
+  padding: 5%;
+}
+
+.padding-large {
+  padding: 8%;
+}
+
+.padding-vertical {
+  padding: 5% 0% 5% 0%;
+}
+
+.padding-vertical-large {
+  padding: 8% 0% 0% 8%;
+}
+
+.padding-horizontal {
+  padding: 0% 5% 0% 5%;
+}
+
+.padding-horizontal-large {
+  padding: 0% 8% 0% 8%;
+}
+
+.padding-small {
+  padding: 2%;
+}
+
+.padding-mini {
+  padding: 1%;
+}
+
+.padding-vertical-small {
+  padding: 2% 0% 2% 0%;
+}
+
+.padding-horizontal-small {
+  padding: 0% 2% 0% 2%;
+}
+.padding-top {
+  padding-top: 5%;
+}
+
+.padding-top-small {
+  padding-top: 2%;
+}
+
+.padding-top-large {
+  padding-top: 8%;
+}
+
+.padding-right {
+  padding-right: 5%;
+}
+
+.padding-right-large {
+  padding-right: 8%;
+}
+
+.padding-left {
+  padding-left: 5%;
+}
+
+.padding-left-large {
+  padding-left: 8%;
+}
+
+.padding-bottom {
+  padding-bottom: 5%;
+}
+
+.padding-bottom-small {
+  padding-bottom: 2%;
+}
+
+.padding-bottom-large {
+  padding-bottom: 8%;
+}
+
+.padding-right-small {
+  padding-right: 2%;
+}
+
+.padding-remove {
+  padding: 0 !important;
+}
+
+/* Used to offset the automatic col-gutters */
+
+.gutter-offset {
+  padding-top: 8px;
+}
+
+/*
+[MARGIN]
+Margin rules to apply to elements
+*/
+
+.margin {
+  margin: 2em;
+}
+
+.margin-small {
+  margin: 1em;
+}
+
+.margin-large {
+  margin: 2.5em;
+}
+
+.margin-vertical {
+  margin: 2em 0 2em 0;
+}
+
+.margin-vertical-small {
+  margin: 1em 0 1em 0;
+}
+
+.margin-vertical-large {
+  margin: 2.5em 0 2.5em 0;
+}
+
+.margin-horizontal {
+  margin: 0 2em 0 2em;
+}
+
+.margin-horizontal-large {
+  margin: 0 2.5em 0 2.5em;
+}
+
+.margin-horizontal-small {
+  margin: 0 1em 0 1em;
+}
+
+.margin-top {
+  margin-top: 2em;
+}
+
+.margin-top-2rem {
+  margin-top: 2rem;
+}
+
+.margin-top-small {
+  margin-top: 1em;
+}
+
+.margin-top-large {
+  margin-top: 2.5em;
+}
+
+.margin-bottom {
+  margin-bottom: 2em;
+}
+
+.margin-bottom-small {
+  margin-bottom: 1em;
+}
+
+.margin-bottom-large {
+  margin-bottom: 2.5em;
+}
+
+.margin-right {
+  margin-right: 2em;
+}
+
+.margin-right-small {
+  margin-right: 1em;
+}
+
+.margin-left {
+  margin-left: 2em;
+}
+
+.margin-left-small {
+  margin-left: 1em;
+}
+
+.margin-remove {
+  margin: 0 !important;
+}
+
+.margin-top-remove {
+  margin-top: 0 !important;
+}
+
+.margin-bottom-remove {
+  margin-bottom: 0 !important;
+}
+
+/*
+[TEXT-ALIGN]
+Align text within elements.
+*/
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/*
+[WIDTH]
+Apply specific width to elements.
+*/
+
+.width-40 {
+  width: 40%;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+/* CSS Selector for the fade in javascript animation */
+
+.is-not-visible {
+  visibility: hidden;
+}
+
+.is-visible {
+  opacity: 1;
+}
+
+/* Make something not visible on desktop viewports */
+
+@media screen and ( min-width: 1280px ) {
+  .desktop-hide {
+    display: none !important;
+  }
+}
+
+/* Z-index */
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.z-index-3 {
+  z-index: 3;
+}
+
+.z-index-4 {
+  z-index: 4;
+}
+
+.z-index-5 {
+  z-index: 5;
+}
+/* Make elements inline block */
+
+.inline-block {
+  display: inline-block;
+}
+/*
+=================================================
+=========           FLEX GRID           =========
+=================================================
+
+[CONTAINER]
+The container is the parent element of each row
+and designates the width of child row. This will
+usually be 100% but overwrite with your own CSS.
+*/
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*
+[ROW]
+The rows are nested within the containers. The row
+holds nested columns. This tells the row to wrap
+the content at the start of the row. Negative margin
+is to offset against the gutter applied to the columns
+*/
+
+.grid-row {
+  display: flex;
+  margin: 0 0 0 -.5rem
+}
+
+
+/*
+[COLUMN]
+Columns hold your content and are set to automatically
+fill up an equal width in the row no matter how many
+columns. Each column has padding applied to give it a
+gutter between elements. You can also specify specific
+widths in multiples of 10%. If you specify a width for
+a column you can still place the default columns along-
+side it and they will take up the remaining space.
+*/
+
+.grid-col {
+  display: block;
+  flex: 1;
+  margin: 0 0 0 .5rem ;
+}
+
+.grid-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.grid-flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.grid-flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid-flex-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-center {
+  justify-content: center;
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.grid-col-5 {
+  flex: none;
+  width: 5%;
+  margin: 0 0 0 .5rem ;
+}
+
+.grid-col-10 {
+  flex: none;
+  width: 10%;
+  margin: 0 0 0 .5rem ;
+}
+
+.grid-col-17 {
+  flex: none;
+  width: 17%;
+  margin: 0 0rem 0 .5rem ;
+}
+
+.grid-col-20 {
+  flex: none;
+  width: 20%;
+  margin: 0 0 0 .5rem ;
+}
+
+.grid-col-30 {
+  flex: none;
+  width: 30%;
+  margin: 0 0 0 .5rem ;
+}
+
+.grid-col-40 {
+  flex: none;
+  width: 40%;
+  margin: 0 0 0 .5rem ;
+}
+
+.grid-col-50 {
+  flex: none;
+  width: 50%;
+  margin: 0 0 0 .5rem ;
+}
+
+.grid-col-60 {
+  flex: none;
+  width: 60%;
+  margin: 0 0 0 .5rem ;
+}
+
+.grid-col-70 {
+  flex: none;
+  width: 70%;
+  margin: 0 0 0 .5rem ;
+}
+
+.grid-col-80 {
+  flex: none;
+  width: 80%;
+  margin: 0 0 0 .5rem ;
+}
+
+.grid-col-90 {
+  flex: none;
+  width: 90%;
+  margin: 0 0 0.5rem ;
+}
+
+/*[GUTTERS]*/
+
+.small-gutter {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.medium-gutter {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.large-gutter {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
+
+/*
+[FLEX ITEM POSITIONING]
+You can position individual elements within flexbox
+columns. Apply the following classes to the indivi-
+dual element
+*/
+
+.flex-item-right {
+  margin-left: auto;
+  display: flex;
+}
+
+.flex-item-left {
+  margin-right: auto;
+  display: flex;
+}
+
+/*
+[GUTTER RESETS]
+Here we can make the standard gutter larger or smaller Using
+resets.
+*/
+
+.grid-row-reset-3 {
+  margin: 0 0 0 -3rem;
+}
+
+.grid-col-reset-3 {
+  margin: 0 0 0 3rem;
+}
+
+/*
+[MEDIA QUERIES]
+To make the flex grid look good on mobile we change the
+row flex direction to column to stack the columns
+vertically on devices smaller than 501px.
+*/
+
+@media screen and ( max-width: 1024px ) {
+.grid-row {
+  flex-direction: column;
+  }
+
+.grid-row-reset-mobile {
+  flex-direction: row !important;
+}
+
+.grid-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.grid-col-20-reset-mobile {
+  flex: none !important;
+  width: 10% !important;
+}
+
+.grid-col-reset-mobile {
+  flex: none;
+}
+
+.grid-col-reset-mobile-50 {
+  flex: none;
+  width: 50%;
+  margin: 0 !important;
+}
+}
+
+@media (min-width: 720px) and ( max-width: 1024px ) {
+  .grid-row-reset-tablet {
+  flex-direction: row !important;
+  }
+}
+/*
+=================================================
+=========           BACKGROUNDS         =========
+=================================================
+*/
+
+.grey-background {
+  background-color: #F3F3F3;
+}
+
+/*
+=================================================
+=========             MOBILE            =========
+=================================================
+*/
+
+/* ///////////////// LAYOUT ///////////////// */
+
+/* Media queries to make the layout work on mobile */
+
+@media screen and ( max-width: 1024px ) {
+  .mobile-hide {
+    display: none;
+  }
+
+  .grid-col {
+    margin: 0 0 1rem .5rem;
+  }
+
+  .grid-col-5, .grid-col-10, .grid-col-17, .grid-col-20, .grid-col-30, .grid-col-40, .grid-col-50, .grid-col-60, .grid-col-70, .grid-col-80, .grid-col-90  {
+    flex: 1;
+    width: auto;
+    margin: 0 0 1rem .5rem;
+  }
+
+  .padding-top-reset-mobile {
+    padding-top: 0 !important;
+  }
+
+  .grid-row-reset-3 {
+    margin: 0 0 0 -1rem;
+  }
+
+  .grid-col-reset-3 {
+    margin: 0 0 1rem 1rem;
+  }
+
+.order-1-mobile {
+  order: 1;
+}
+
+.order-2-mobile {
+  order: 2;
+}
+
+.order-3-mobile {
+  order: 3;
+}
+
+.order-4-mobile {
+  order: 4;
+}
+
+.order-5-mobile {
+  order: 5;
+}
+
+.order-6-mobile {
+  order: 6;
+}
+
+.order-7-mobile {
+  order: 7;
+}
+
+.order-8-mobile {
+  order: 8;
+}
+
+.inline-block-reset-mobile-only {
+  display: block;
+}
+}
+
+/* Text alignments */
+
+@media screen and ( max-width: 600px ) {
+  .text-center-mobile-only {
+    text-align: center;
+  }
+
+  .text-left-mobile-only {
+    text-align: left;
+  }
+
+  .text-right-mobile-only {
+    text-align: right;
+  }
+}
+
+/*[GUTTERS]*/
+@media screen and ( max-width: 600px ) {
+.small-gutter {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.medium-gutter {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.large-gutter {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.gutter-reset-mobile-only {
+  padding-left: 0;
+  padding-right: 0;
+}
+}
+
+/* MARGINS */
+
+@media screen and ( max-width: 600px ) {
+.margin, .margin-mobile-only {
+  margin: 1em;
+}
+
+.margin-small, .margin-small-mobile-only {
+  margin: 0.75em;
+}
+
+.margin-large, .margin-large-mobile-only {
+  margin: 1.5em;
+}
+
+.margin-vertical, .margin-vertical-mobile-only {
+  margin: 1em 0 1em 0;
+}
+
+.margin-vertical-small, .margin-vertical-small-mobile-only {
+  margin: 0.5em 0 0.5em 0;
+}
+
+.margin-vertical-large, .margin-vertical-large-mobile-only {
+  margin: 1.5em 0 1.5em 0;
+}
+
+.margin-horizontal, .margin-horizontal-mobile-only {
+  margin: 0 1em 0 1em;
+}
+
+.margin-horizontal-large, .margin-horizontal-large-mobile-only {
+  margin: 0 1.5em 0 1.5em;
+}
+
+.margin-horizontal-small, .margin-horizontal-small-mobile-only {
+  margin: 0 0.5em 0 0.5em;
+}
+
+.margin-top, .margin-top-mobile-only {
+  margin-top: 1em;
+}
+
+.margin-top-2rem {
+  margin-top: 2rem;
+}
+
+.margin-top-small, .margin-top-small-mobile-only {
+  margin-top: 0.5em;
+}
+
+.margin-top-large, .margin-top-large-mobile-only {
+  margin-top: 1.5em;
+}
+
+.margin-bottom, .margin-bottom-mobile-only {
+  margin-bottom: 1em !important;
+}
+
+.margin-bottom-small, .margin-bottom-small-mobile-only {
+  margin-bottom: 0.5em;
+}
+
+.margin-bottom-large, .margin-bottom-large-mobile-only {
+  margin-bottom: 1.5em;
+}
+
+.margin-right, .margin-right-mobile-only {
+  margin-right: 1em;
+}
+
+.margin-right-small, .margin-right-small-mobile-only {
+  margin-right: 0.5em;
+}
+
+.margin-left, .margin-left-mobile-only {
+  margin-left: 1em;
+}
+
+.margin-left-small, .margin-left-small-mobile-only {
+  margin-left: 0.5em;
+}
+
+.margin-remove-mobile-only {
+  margin: 0 !important;
+}
+
+.margin-bottom-remove-mobile-only {
+  margin-bottom: 0 !important;
+}
+
+/* Padding */
+
+.padding-mobile-only {
+  padding: 5%;
+}
+
+.padding-large-mobile-only {
+  padding: 8%;
+}
+
+.padding-large-top-mobile-only {
+  padding-top: 10%;
+}
+
+.padding-large-bottom-mobile-only {
+  padding-bottom: 8%;
+}
+
+.padding-large-left-mobile-only {
+  padding-left: 8%;
+}
+
+.padding-large-right-mobile-only {
+  padding-right: 8%;
+}
+
+.padding-reset-right-mobile-only {
+  padding-right: 0;
+}
+
+.padding-vertical-mobile-only {
+  padding: 5% 0 5% 0;
+}
+
+
+/* Padding resets */
+
+.padding-large-reset-mobile {
+  padding: 5% !important;
+}
+
+.padding-left-large-reset-mobile {
+  padding-left: 5% !important;
+}
+
+.padding-right-large-reset-mobile {
+  padding-right: 5% !important;
+}
+
+.padding-remove-mobile {
+  padding: 0% !important;
+}
+
+.padding-reset-right-mobile-only {
+  padding-right: 0;
+}
+
+.padding-reset-left-mobile-only {
+  padding-left: 0;
+}
+
+}
+/*
+=================================================
+=========             TABLET            =========
+=================================================
+*/
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .grid-row {
+    margin: 0 0 0 -1rem;
+  }
+  .grid-col {
+    margin: 0 0 1rem 1rem;
+  }
+
+  .grid-col-5, .grid-col-10, .grid-col-17, .grid-col-20, .grid-col-30, .grid-col-40, .grid-col-50, .grid-col-60, .grid-col-70, .grid-col-80, .grid-col-90  {
+    flex: 1;
+    width: auto;
+    margin: 0 0 1rem 1rem;
+  }
+
+  /*[GUTTERS]*/
+
+  .small-gutter {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .medium-gutter {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .large-gutter {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .gutter-reset-tablet-only {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .padding-remove-tablet {
+    padding: 0% !important;
+  }
+}
+
+/* Padding and margin values */
+
+@media ( min-width: 601px ) and ( max-width: 1024px ) {
+.margin, .margin-tablet-only {
+  margin: 1.5em;
+}
+
+.margin-small, .margin-small-tablet-only {
+  margin: 0.75em;
+}
+
+.margin-large, .margin-large-tablet-only {
+  margin: 2em;
+}
+
+.margin-vertical, .margin-vertical-tablet-only {
+  margin: 1.5em 0 1.5em 0;
+}
+
+.margin-vertical-small, .margin-vertical-small-tablet-only {
+  margin: 0.75em 0 0.75em 0;
+}
+
+.margin-vertical-large, .margin-vertical-large-tablet-only {
+  margin: 2em 0 2em 0;
+}
+
+.margin-horizontal, .margin-horizontal-tablet-only {
+  margin: 0 1.5em 0 1.5em;
+}
+
+.margin-horizontal-large, .margin-horiztonal-large-tablet-only {
+  margin: 0 2em 0 2em;
+}
+
+.margin-horizontal-small, .margin-horizontal-small-tablet-only {
+  margin: 0 0.75em 0 0.75em;
+}
+
+.margin-top, .margin-top-tablet-only {
+  margin-top: 2em;
+}
+
+.margin-top-2rem {
+  margin-top: 2rem;
+}
+
+.margin-top-small, .margin-top-small-tablet-only {
+  margin-top: 0.75em;
+}
+
+.margin-top-large, .margin-top-large-tablet-only {
+  margin-top: 2em;
+}
+
+.margin-bottom, .margin-bottom-tablet-only {
+  margin-bottom: 1.5em;
+}
+
+.margin-bottom-small, .margin-bottom-small-tablet-only {
+  margin-bottom: 0.75em;
+}
+
+.margin-right, .margin-right-tablet-only {
+  margin-right: 1.5em;
+}
+
+.margin-right-small, .margin-right-small-tablet-only {
+  margin-right: 0.75em;
+}
+
+.margin-left, .margin-left-tablet-only {
+  margin-left: 1.5em;
+}
+
+.margin-left-small, .margin-left-small-tablet-only {
+  margin-left: 0.75em;
+}
+
+.margin-remove-tablet-only {
+  margin: 0 !important;
+}
+
+/* Padding */
+
+.padding-large-bottom-tablet-only {
+  padding-bottom: 12%;
+}
+
+.padding-tablet-only {
+  padding: 5%;
+}
+
+.padding-left-large-tablet-only {
+  padding-left: 10%;
+}
+
+.padding-right-large-tablet-only {
+  padding-right: 10%;
+}
+
+.padding-top-tablet-only {
+  padding-top: 5%;
+}
+
+
+.padding-small-tablet-only {
+  padding: 3%;
+}
+
+.padding-reset-right-tablet-only {
+  padding-right: 0;
+}
+
+.padding-reset-left-tablet-only {
+  padding-left: 0;
+}
+
+.padding-reset-horizontal-tablet-only {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* Text alignment */
+
+.text-center-tablet-only {
+  text-align: center;
+}
+}
+
+/*
+=================================================
+=========      SMALL LAPTOP            =========
+=================================================
+*/
+
+/* hiding elements */
+
+@media (min-width: 1025px) and ( max-width: 1366px ) {
+.small-laptop-hide {
+  display: none;
+}
+
+/* Gutters */
+
+.small-gutter {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.medium-gutter {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.large-gutter {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/* Padding values */
+
+.padding-large-laptop-only {
+  padding: 8%;
+}
+.padding-large-top-laptop-only {
+  padding-top: 8%;
+}
+.padding-large-right-laptop-only {
+  padding-right: 8%;
+}
+.padding-large-left-laptop-only {
+  padding-left: 8%;
+}
+.padding-large-bottom-laptop-only {
+  padding-bottom: 8%;
+}
+.padding-top-remove-small-laptop-only {
+  padding-top: 0;
+}
+.padding-right-12-sl-only {
+  padding-right: 12%;
+}
+
+}
