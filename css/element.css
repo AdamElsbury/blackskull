@@ -659,17 +659,7 @@ vertically on devices smaller than 501px.
 
 /*[GUTTERS]*/
 @media screen and ( max-width: 600px ) {
-.small-gutter {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.medium-gutter {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.large-gutter {
+.small-gutter, .medium-gutter, .large-gutter, .xl-gutter {
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -865,10 +855,11 @@ vertically on devices smaller than 501px.
     padding-right: 15%;
   }
 
-  .large-gutter {
+  .large-gutter, .xl-gutter {
     padding-left: 20%;
     padding-right: 20%;
   }
+
 
   .gutter-reset-tablet-only {
     padding-left: 0;
@@ -1035,7 +1026,7 @@ vertically on devices smaller than 501px.
   padding-right: 10%;
 }
 
-.large-gutter {
+.large-gutter, .xl-gutter {
   padding-left: 15%;
   padding-right: 15%;
 }

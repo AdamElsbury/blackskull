@@ -86,10 +86,9 @@ h6 {
 
 // Mobile fix for the h1 after
 
-@media screen and ( max-width: 1024px ) {
+@media screen and ( max-width: 600px ) {
   h1 {
     &:after {
-      margin: 0 auto;
       margin-bottom: 1.5rem;
     }
   }

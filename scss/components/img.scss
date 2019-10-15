@@ -5,3 +5,31 @@
   height: auto;
   max-height: 40px;
 }
+
+// Hero box svg
+
+.hero-svg {
+  width: auto;
+  height: auto;
+  max-width: 30%;
+  float: right;
+}
+
+.header-skull-svg {
+  width: auto;
+  height: auto;
+  max-height: .8em;
+  margin-left: 20px;
+}
+
+// Mobile
+
+@media screen and ( max-width: 600px ) {
+  .header-skull-svg {
+    max-height: 1em;
+  }
+
+  .hero-svg {
+    max-width: 18%;
+  }
+}
