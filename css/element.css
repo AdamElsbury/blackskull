@@ -483,8 +483,8 @@ side it and they will take up the remaining space.
 }
 
 .xl-gutter {
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 23%;
+  padding-right: 23%;
 }
 
 
@@ -855,11 +855,10 @@ vertically on devices smaller than 501px.
     padding-right: 15%;
   }
 
-  .large-gutter, .xl-gutter {
+  .large-gutter {
     padding-left: 20%;
     padding-right: 20%;
   }
-
 
   .gutter-reset-tablet-only {
     padding-left: 0;
@@ -1026,9 +1025,14 @@ vertically on devices smaller than 501px.
   padding-right: 10%;
 }
 
-.large-gutter, .xl-gutter {
+.large-gutter {
   padding-left: 15%;
   padding-right: 15%;
+}
+
+.xl-gutter {
+  padding-left: 13%;
+  padding-right: 13%
 }
 
 /* Padding values */
@@ -1055,4 +1059,17 @@ vertically on devices smaller than 501px.
   padding-right: 12%;
 }
 
+}
+
+/*
+=================================================
+=========      SPECIFIC BREAKPOINTS     =========
+=================================================
+*/
+
+@media (min-width: 1366px) and ( max-width: 1477px ) {
+  .xl-gutter {
+    padding-left: 20%;
+    padding-right: 20%
+  }
 }

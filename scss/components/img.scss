@@ -33,3 +33,11 @@
     max-width: 18%;
   }
 }
+
+// Tablet
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .hero-svg {
+    max-width: 15%;
+  }
+}
