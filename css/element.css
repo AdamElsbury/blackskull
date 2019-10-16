@@ -12,6 +12,7 @@ screen width and apply no outside margin.
 body {
   width: 100%;
   margin: 0;
+  overflow: hidden;
 }
 
 /*[POSITION: RELATIVE] */
