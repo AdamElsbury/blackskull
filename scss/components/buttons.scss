@@ -94,6 +94,19 @@
   }
 }
 
+.btn-pink {
+  border: 3px solid $color-pink;
+  background-color: $color-pink;
+  color: #FFF;
+
+  &:hover {
+    background-color: transparent;
+    padding: 10px 23px 10px 23px;
+    color: $color-pink;
+  }
+}
+
+
 // Media Queries
 
 // Mobile
