@@ -83,14 +83,19 @@ h6 {
   color: #FFF;
 }
 
-// Opacity resets
+.yellow-text-reset {
+  color: $color-yellow;
+}
+
+.white-less-contrast-text-reset {
+  color: #BBBBBB;
+}
 
 .text-sub-cobalt {
   color: #66656E;
 }
 
-
-// Mobile fix for the h1 after
+// Mobile
 
 @media screen and ( max-width: 600px ) {
   h1 {

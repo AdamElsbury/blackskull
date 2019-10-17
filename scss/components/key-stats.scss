@@ -1,0 +1,57 @@
+// Boxes
+
+.key-stat-box {
+  flex: none;
+  width: 10%;
+  padding: 2%;
+}
+
+// Key stats large figures
+
+.key-stats-figure {
+  font-size: calc(60px + (70 - 60) * ((100vw - 300px) / (1600 - 300))) !important;
+  margin: -.1em 0 0 0;
+  float: right;
+  line-height: .75em;
+  position: absolute;
+  bottom: 11%;
+  right: 11%;
+}
+
+.key-stats-header {
+  font-size: calc(14px + (25 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
+}
+
+// Mobile
+
+@media screen and ( max-width: 600px ) {
+  .key-stat-box {
+    width: 36%;
+    padding: 7%;
+
+    &:before {
+      padding-top: 100%;
+    }
+  }
+
+  .key-stats-figure {
+
+  }
+
+  .key-stats-header {
+    font-size: calc(20px + (45 - 20) * ((100vw - 300px) / (1600 - 300))) !important;
+  }
+}
+
+// Tablet
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .key-stat-box {
+    width: 20%;
+    padding: 4%;
+
+    &:before {
+      padding-top: 100%;
+    }
+  }
+}
