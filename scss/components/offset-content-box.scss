@@ -1,0 +1,27 @@
+// Offset boxes
+
+.offset-box-left {
+  display: block;
+  flex: 1;
+  margin: 100px -100px 0 0;
+  z-index: 3;
+  padding: 6%;
+  max-height: 523px;
+  max-width: 523px;
+
+  &:before {
+    content: '';
+    float: left;
+    padding-top: 100%;
+  }
+}
+
+// Offset images
+
+.offset-box-img-right {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  z-index: -1;
+  margin-right: -200px;
+}
