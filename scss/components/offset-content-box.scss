@@ -5,9 +5,14 @@
   flex: 1;
   margin: 100px -100px 0 0;
   z-index: 3;
-  padding: 6%;
-  max-height: 523px;
+  padding: 7%;
   max-width: 523px;
+
+  h6 {
+    letter-spacing: 2px;
+    font-weight: $text-weight-semi-bold;
+    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+  }
 
   &:before {
     content: '';
@@ -18,10 +23,51 @@
 
 // Offset images
 
+.offset-box-img-container-right {
+  flex: 1;
+  display: block;
+  margin: 0 -0 0 .5rem;
+}
+
 .offset-box-img-right {
   width: auto;
   height: auto;
   max-width: 100%;
   z-index: -1;
   margin-right: -200px;
+}
+
+// Mobile
+
+@media screen and ( max-width: 600px ) {
+  .offset-box-left {
+    margin: 50px 0 0 .5rem;
+    padding: 7%;
+    max-width: none;
+  }
+}
+
+// Tablet {
+@media (min-width: 601px) and (max-width: 1024px) {
+   .offset-box-left {
+     margin: 50px 0 0 1rem;
+     padding: 10%;
+     max-width: none;
+
+     &:before {
+       padding-top: 0;
+     }
+   }
+}
+
+// Small laptop
+
+@media (min-width: 1025px) and ( max-width: 1400px ) {
+  .offset-box-img-container-right {
+    min-width: 55%;
+  }
+
+  .offset-box-left {
+    max-width: none;
+  }
 }

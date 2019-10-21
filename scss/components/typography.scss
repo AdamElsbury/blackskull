@@ -72,12 +72,19 @@ h5 {
 
 h6 {
   color: $color-cobalt;
-  font-size: calc(16px + (19 - 16) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
   font-family: $text-primary;
+  letter-spacing: 2px;
+  font-weight: $text-weight-semi-bold;
+  font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+
 }
 
 // Color resets
+
+.blue-text-reset {
+  color: $color-blue;
+}
 
 .white-text-reset {
   color: #FFF;

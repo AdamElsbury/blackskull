@@ -523,6 +523,15 @@ resets.
   margin: 0 0 0 3rem;
 }
 
+.grid-row-reset-5 {
+  margin: 0 0 0 -5rem;
+}
+
+.grid-col-reset-5 {
+  margin: 0 0 0 5rem;
+}
+
+
 /*
 [MEDIA QUERIES]
 To make the flex grid look good on mobile we change the
@@ -599,11 +608,11 @@ vertically on devices smaller than 501px.
     padding-top: 0 !important;
   }
 
-  .grid-row-reset-3 {
+  .grid-row-reset-3, .grid-row-reset-5 {
     margin: 0 0 0 -1rem;
   }
 
-  .grid-col-reset-3 {
+  .grid-col-reset-3, .grid-col-reset-5 {
     margin: 0 0 1rem 1rem;
   }
 
@@ -1011,7 +1020,7 @@ vertically on devices smaller than 501px.
 
 /* hiding elements */
 
-@media (min-width: 1025px) and ( max-width: 1366px ) {
+@media (min-width: 1025px) and ( max-width: 1400px ) {
 .small-laptop-hide {
   display: none;
 }
