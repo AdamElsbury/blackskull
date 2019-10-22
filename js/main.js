@@ -9,3 +9,14 @@ function closeMenu() {
   document.getElementById("menu").style.zIndex = "-1";
   document.getElementById("menu").style.top = "-2000px";
 }
+
+const slider = tns({
+  container: '.my-slider',
+  items: 1,
+  slideBy: 'page',
+  autoplay: false,
+  speed: 800,
+  controlsContainer: "#customize-controls",
+  mouseDrag: true,
+
+  });

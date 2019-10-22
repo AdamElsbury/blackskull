@@ -12,9 +12,6 @@ screen width and apply no outside margin.
 body {
   width: 100%;
   margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
 }
 
 /*[POSITION: RELATIVE] */
@@ -350,7 +347,8 @@ side it and they will take up the remaining space.
 .grid-col {
   display: block;
   flex: 1;
-  margin: 0 0 0 .5rem ;
+  margin: 0 0 0 .5rem;
+  max-width: 100%;
 }
 
 .grid-flex-center {
@@ -833,6 +831,11 @@ vertically on devices smaller than 501px.
 .padding-reset-left-mobile-only {
   padding-left: 0;
 }
+
+.padding-reset-right-mobile-only {
+  padding-right: 0;
+}
+
 
 }
 /*

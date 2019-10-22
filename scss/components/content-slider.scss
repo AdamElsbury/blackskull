@@ -1,0 +1,21 @@
+// Control arrows
+
+.arrow-svg {
+  width: auto;
+  height: auto;
+  max-width: 20%;
+  cursor: pointer;
+}
+
+// Hide control buttons from tinyslider
+
+.tns-nav {
+  display: none;
+}
+
+// Source background
+
+.yellow-text-background {
+  background-color: $color-yellow;
+  padding: 2px 0 2px 5%;
+}
