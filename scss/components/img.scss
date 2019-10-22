@@ -66,3 +66,11 @@
     max-width: 15%;
   }
 }
+
+// Small laptop
+
+@media (min-width: 1025px) and ( max-width: 1366px ) {
+  .numbered-section-svg {
+    max-width: 15%;
+  }
+}
