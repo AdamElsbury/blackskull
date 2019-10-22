@@ -47,6 +47,15 @@
   max-width: 10%;
 }
 
+// Testimonial img
+
+.testimonial-img {
+  width: auto;
+  height: auto;
+  max-width: 30%;
+  border-radius: 50%;
+}
+
 // Mobile
 
 @media screen and ( max-width: 600px ) {
