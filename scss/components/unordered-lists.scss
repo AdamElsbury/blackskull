@@ -1,0 +1,12 @@
+// Services UL
+
+.services-ul {
+  padding: 0 !important;
+  list-style-type: none;
+
+  li {
+    color: #FFF;
+    list-style-type: none;
+    font-weight: $text-weight-medium;
+  }
+}

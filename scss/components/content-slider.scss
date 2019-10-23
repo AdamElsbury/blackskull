@@ -7,6 +7,13 @@
   cursor: pointer;
 }
 
+.arrow-mini-svg {
+  width: auto;
+  height: auto;
+  max-width: 5%;
+  cursor: pointer;
+}
+
 // Hide control buttons from tinyslider
 
 .tns-nav {
@@ -33,4 +40,13 @@
 .yellow-text-background {
   background-color: $color-yellow;
   padding: 2px 0 2px 5%;
+}
+
+// Mobile
+
+@media screen and ( max-width: 600px ) {
+  .arrow-mini-svg {
+    max-height: 20px;
+    max-width: none;
+  }
 }

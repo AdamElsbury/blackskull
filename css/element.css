@@ -26,6 +26,12 @@ body {
   margin: 0 auto;
   display: block;
 }
+
+/* Remove bullet points from UL */
+
+ul > li {
+  list-style-type: none;
+}
 /*
 [PADDING]
 Padding rules to apply to elements
@@ -750,6 +756,11 @@ vertically on devices smaller than 501px.
 .margin-right, .margin-right-mobile-only {
   margin-right: 1em;
 }
+
+.margin-right-large, .margin-right-large-mobile-only {
+  margin-right: 1.5em;
+}
+
 
 .margin-right-small, .margin-right-small-mobile-only {
   margin-right: 0.5em;

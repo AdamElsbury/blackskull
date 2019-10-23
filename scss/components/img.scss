@@ -52,7 +52,7 @@
 .testimonial-img {
   width: auto;
   height: auto;
-  max-width: 30%;
+  max-width: 25%;
   border-radius: 50%;
 }
 
@@ -65,6 +65,10 @@
 
   .hero-svg {
     max-width: 18%;
+  }
+
+  .testimonial-img {
+    max-width: 30%;
   }
 }
 

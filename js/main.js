@@ -11,12 +11,21 @@ function closeMenu() {
 }
 
 const slider = tns({
-  container: '.my-slider',
+  container: '#my-slider',
   items: 1,
   slideBy: 'page',
   autoplay: false,
   speed: 800,
   controlsContainer: "#customize-controls",
   mouseDrag: true,
-
   });
+
+  const slider2 = tns({
+    container: '#my-slider2',
+    items: 1,
+    slideBy: 'page',
+    autoplay: false,
+    speed: 800,
+    controlsContainer: "#customize-controls2",
+    mouseDrag: true,
+    });
