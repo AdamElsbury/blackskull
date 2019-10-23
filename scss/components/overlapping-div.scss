@@ -1,0 +1,64 @@
+// Container
+
+.overlap-container {
+  background-color: $color-yellow;
+  border-radius: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 50%;
+  bottom: -125px;
+  position: absolute;
+  padding: 2% 3% 2% 3%;
+
+  h2 {
+    font-weight: $text-weight-bold;
+  }
+}
+
+// Padding values for container sections
+
+.padding-overlap-container-above {
+  padding-bottom: 15%;
+}
+
+.padding-overlap-container-below {
+  padding-top: 12%;
+}
+
+// Mobile
+
+@media screen and ( max-width: 600px ) {
+  .overlap-container {
+    width: 80%;
+    padding: 5% 5% 0 5%;
+    text-align: center;
+  }
+
+  .padding-overlap-container-above {
+    padding-bottom: 40%;
+  }
+
+  .padding-overlap-container-below {
+    padding-top: 40%;
+  }
+}
+
+// Tablet
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .overlap-container {
+    width: 70%;
+    padding: 5% 5% 0 5%;
+    text-align: center;
+  }
+
+  .padding-overlap-container-above {
+    padding-bottom: 25%;
+  }
+
+  .padding-overlap-container-below {
+    padding-top: 25%;
+  }
+}

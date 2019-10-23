@@ -102,6 +102,18 @@ h6 {
   color: #66656E;
 }
 
+// Underlined
+
+.underlined-blue {
+  &:after {
+    content: "";
+    width: 20%;
+    border-bottom: 2px solid $color-blue;
+    display: block;
+    padding-top: 1rem;
+  }
+}
+
 // Mobile
 
 @media screen and ( max-width: 600px ) {

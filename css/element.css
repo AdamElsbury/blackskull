@@ -1001,6 +1001,10 @@ vertically on devices smaller than 501px.
   padding-top: 5%;
 }
 
+.padding-top-large-tablet-only {
+  padding-top: 10%;
+}
+
 
 .padding-small-tablet-only {
   padding: 3%;

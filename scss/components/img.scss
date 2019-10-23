@@ -56,6 +56,15 @@
   border-radius: 50%;
 }
 
+// Social media favicons
+
+.social-media-svg {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 35px;
+}
+
 // Mobile
 
 @media screen and ( max-width: 600px ) {
@@ -77,6 +86,10 @@
 @media (min-width: 601px) and (max-width: 1024px) {
   .hero-svg {
     max-width: 15%;
+  }
+
+  .numbered-section-svg {
+    max-width: 7%;
   }
 }
 
