@@ -1,0 +1,16 @@
+.footer-anchors {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  font-family: $text-primary;
+  color: #FFF;
+  font-weight: $text-weight-semi-bold;
+  text-decoration: none;
+  display: block;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  transition: all 0.3s;
+
+  &:hover {
+    color: $color-yellow;
+  }
+}

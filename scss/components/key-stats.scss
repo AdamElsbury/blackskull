@@ -2,14 +2,14 @@
 
 .key-stat-box {
   flex: none;
-  width: 10%;
+  width: 9%;
   padding: 2%;
 }
 
 // Key stats large figures
 
 .key-stats-figure {
-  font-size: calc(60px + (70 - 60) * ((100vw - 300px) / (1600 - 300))) !important;
+  font-size: calc(60px + (65 - 60) * ((100vw - 300px) / (1600 - 300))) !important;
   margin: -.1em 0 0 0;
   float: right;
   line-height: .75em;
@@ -19,7 +19,7 @@
 }
 
 .key-stats-header {
-  font-size: calc(14px + (25 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
+  font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
 }
 
 // Mobile
