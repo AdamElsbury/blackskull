@@ -14,6 +14,19 @@ body {
   margin: 0;
 }
 
+/* Border box ting */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
 /*[POSITION: RELATIVE] */
 
 .position-relative {
@@ -882,8 +895,8 @@ vertically on devices smaller than 501px.
   }
 
   .large-gutter {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 23%;
+    padding-right: 23%;
   }
 
   .gutter-reset-tablet-only {

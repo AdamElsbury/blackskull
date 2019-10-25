@@ -2,11 +2,11 @@
 
 .offset-box-left {
   display: block;
-  flex: 1;
+  flex: none;
+  width: 40%;
   margin: 100px -100px 0 0;
   z-index: 3;
   padding: 7%;
-  max-width: 523px;
 
   h6 {
     letter-spacing: 2px;
@@ -23,11 +23,11 @@
 
 .offset-box-right {
   display: block;
-  flex: 1;
+  flex: none;
+  width: 40%;
   margin: 100px 0 0 -100px;
   z-index: 3;
   padding: 7%;
-  max-width: 523px;
 
   h6 {
     letter-spacing: 2px;
@@ -80,13 +80,13 @@
   .offset-box-left {
     margin: 50px 0 0 .5rem;
     padding: 7%;
-    max-width: none;
+    width: 100%;
   }
 
   .offset-box-right {
     margin: 50px 0 0 .5rem;
     padding: 7%;
-    max-width: none;
+    width: 100%;
   }
 
 }
@@ -96,7 +96,7 @@
    .offset-box-left {
      margin: 50px 0 0 1rem;
      padding: 10%;
-     max-width: none;
+     width: 100%;
 
      &:before {
        padding-top: 0;
@@ -106,7 +106,7 @@
    .offset-box-right {
      margin: 50px 0 0 1rem;
      padding: 10%;
-     max-width: none;
+     width: 100%;
 
      &:before {
        padding-top: 0;
@@ -118,11 +118,14 @@
 // Small laptop
 
 @media (min-width: 1025px) and ( max-width: 1400px ) {
-  .offset-box-img-container-right {
-    min-width: 55%;
+  .offset-box-left {
+    width: 50%;
+    padding: 5%;
   }
 
-  .offset-box-left {
-    max-width: none;
+  .offset-box-right {
+    width: 50%;
+    padding: 5%;
   }
+
 }
