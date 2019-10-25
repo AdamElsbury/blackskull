@@ -61,27 +61,26 @@
         </div>
     </div>
 
-    <section class="submission-container">
-      <div class="submission-content">
-        <h2 class="white-text-reset">Get a quote.</h2>
-        <p>Get a quotation for your new web solution. Due to our modular payment system not every job is priced differently. The more details you can provide - the more accurate the quote. </p>
-        <p>07506782509</p>
-        <p>bsmedia@gmail.com</p>
+    <section class="submission-container" id="submission-container">
+      <div class="submission-content position-relative">
+        <img src="assets/icons/error.svg" alt="A white circle with an X in the middle" class="cancel-button" onclick="closeSubmission()">
+        <span class="white-text-reset">Get a quote.</span>
+        <p class="white-less-contrast-text-reset">Get a quotation for your new web solution. Due to our modular payment system not every job is priced differently. The more details you can provide - the more accurate the quote. </p>
+        <p><b>07506782509</b></p>
+        <p><b>bsmedia@gmail.com</b></p>
         <hr>
-        <form action="">
-          <h6 class="white-text-reset">WHAT DO YOU NEED HELP WITH? *</h6>
+        <form action="" class="quote">
+          <h6 class="white-text-reset margin-top">WHAT DO YOU NEED HELP WITH? *</h6>
           <input type="text" placeholder="e.g 'Website' or 'Digital marketing'">
-          <h6 class="white-text-reset">WHAT IS YOUR BUDGET? *</h6>
+          <h6 class="white-text-reset margin-top">WHAT IS YOUR BUDGET? *</h6>
           <input type="text" placeholder="Rough estimates are fine">
-          <h6 class="white-text-reset">DO YOU HAVE A DEADLINE IN MIND? *</h6>
+          <h6 class="white-text-reset margin-top">DO YOU HAVE A DEADLINE IN MIND? *</h6>
           <input type="text">
-          <h6 class="white-text-reset">TELL US MORE ABOUT YOUR PROJECT *</h6>
+          <h6 class="white-text-reset margin-top">TELL US MORE ABOUT YOUR PROJECT *</h6>
           <textarea placeholder="Tell us about your goals, what's been done already & what your vision is for the outcome of this project. Use bullet points, a paragraph or hell even write us a poem. Or give us a call instead."></textarea>
-          <button type="submit" class="btn-primary btn-pink">SUBMIT MESSAGE</button>
+          <button type="submit" class="btn-primary btn-pink margin-top">SUBMIT MESSAGE</button>
         </form>
         <p>We always strive to deliver same day replies to all potential clients but sometimes deadlines are tight. Can't wait to chat!</p>
-
-
       </div>
     </section>
 
@@ -90,7 +89,7 @@
         <a href="index.html"><img src="assets/icons/logo.svg" alt="Two black boxes with the words Blackskull Media inside" class="logo"></a>
         <ul class="nav-links">
           <img src="assets/icons/hamburger.svg" alt="A hamburger menu" class="margin-right-small" onclick="showMenu()">
-          <button class="btn-primary btn-blue margin-left">HIRE US</button>
+          <button class="btn-primary btn-blue margin-left" onclick="showSubmission()">HIRE US</button>
         </ul>
       </div>
 

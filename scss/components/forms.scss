@@ -1,6 +1,6 @@
 // Newsletter sign up CTA
 
-.newsletter {
+.newsletter, {
   input[type="text"] {
     border: 2px solid #FFF;
     color: #FFF;
@@ -16,19 +16,62 @@
 // Quote submission
 
 .submission-container {
-  opacity: 1;
-  width: 30%;
+  opacity: 0;
+  width: 40%;
   max-width: 50%;
-  max-height: 100%;
   padding: 5%;
   background-color: #191919;
   position: fixed;
-  right: 0;
+  right: -2000px;
   top: 0;
-  z-index: 2;
-  border: 15px solid #FFD500;
+  z-index: -1;
   transition: top 1.5s ease;
   color: #FFF;
+  overflow-y: scroll;
+  height: 100vh;
+  box-sizing: border-box;
+  transition: right 1.5s ease;
+}
+
+.submission-content {
+  span {
+    background-color: #FFF;
+    color: $color-cobalt;
+    padding: 2%;
+    margin-top: 3px;
+    display: inline-block;
+    font-size: calc(22px + (33 - 22) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 700;
+    margin: 1.5% 0 1.5% 0;
+    font-family: "Poppins",sans-serif;
+  }
+}
+
+.quote {
+  input[type="text"] {
+    border: 2px solid #FFF;
+    color: #FFF;
+    border-radius: 7px;
+    background: transparent;
+    padding: 9px 23px 9px 23px;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    width: 100%;
+    box-sizing : border-box;
+    }
+
+    textarea {
+      border: 2px solid #FFF;
+      color: #FFF;
+      border-radius: 7px;
+      background: transparent;
+      padding: 9px 23px 9px 23px;
+      font-family: "Poppins",sans-serif;
+      font-size: 14px;
+      width: 100%;
+      box-sizing : border-box;
+      min-height: 150px;
+    }
 }
 
 // Mobile
@@ -39,5 +82,24 @@
       min-width: 170px;
       max-width: 200px
     }
+  }
+
+  .submission-container {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    border: 11px solid #FFD500;
+  }
+}
+
+// Tablet
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .submission-container {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    border: 11px solid #FFD500;
+    padding: 17%;
   }
 }

@@ -6,3 +6,11 @@
   background-position: center;
   border: 15px solid $color-yellow;
 }
+
+// Mobile
+
+@media screen and ( max-width: 600px ) {
+  .hero {
+    border: 11px solid $color-yellow;
+  }
+}
