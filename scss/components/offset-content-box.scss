@@ -80,13 +80,17 @@
   .offset-box-left {
     margin: 50px 0 0 .5rem;
     padding: 7%;
-    width: 100%;
+    flex: 1;
+    display: block;
+    width: auto;
   }
 
   .offset-box-right {
     margin: 50px 0 0 .5rem;
     padding: 7%;
-    width: 100%;
+    flex: 1;
+    display: block;
+    width: auto;
   }
 
 }
@@ -96,7 +100,9 @@
    .offset-box-left {
      margin: 50px 0 0 1rem;
      padding: 10%;
-     width: 100%;
+     flex: 1;
+     display: block;
+     width: auto;
 
      &:before {
        padding-top: 0;
@@ -106,7 +112,9 @@
    .offset-box-right {
      margin: 50px 0 0 1rem;
      padding: 10%;
-     width: 100%;
+     flex: 1;
+     display: block;
+     width: auto;
 
      &:before {
        padding-top: 0;
@@ -127,5 +135,4 @@
     width: 50%;
     padding: 5%;
   }
-
 }

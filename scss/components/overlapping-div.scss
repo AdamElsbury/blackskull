@@ -62,3 +62,15 @@
     padding-top: 25%;
   }
 }
+
+// Small laptop
+
+@media (min-width: 1025px) and ( max-width: 1400px ) {
+  .overlap-container {
+    width: 60%;
+  }
+
+  .padding-overlap-container-below {
+    padding-top: 17%;
+  }
+}
