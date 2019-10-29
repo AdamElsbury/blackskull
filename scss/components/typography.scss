@@ -29,12 +29,19 @@ h1 {
   }
 }
 
+.h1-center-underline {
+  &:after {
+    content: "";
+    width: 30%;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    padding-top: .5rem;
+    margin: 0 auto;
+  }
+}
+
 h2 {
-  color: $color-cobalt;
-  font-size: calc(22px + (33 - 22) * ((100vw - 300px) / (1600 - 300)));
-  font-weight: 600;
   margin: 1.5% 0 1.5% 0;
-  font-family: $text-primary;
 }
 
 .hero-h2 {
@@ -47,14 +54,48 @@ h2 {
   margin-bottom: 1em;
 }
 
-h3 {
-  font-size: calc(24px + (38 - 24) * ((100vw - 300px) / (1600 - 300)));
-  margin: 1.5% 0 1.5% 0;
+.large-section-header {
   color: $color-cobalt;
+  font-size: calc(22px + (33 - 22) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 600;
+  margin: 1.5% 0 1.5% 0;
   font-family: $text-primary;
 }
 
-h4 {
+.large-section-header-bold {
+  color: $color-cobalt;
+  font-size: calc(22px + (33 - 22) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 700;
+  margin: 1.5% 0 1.5% 0;
+  font-family: $text-primary;
+}
+
+.small-section-header {
+  color: $color-cobalt;
+  font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 600;
+  margin: 1.5% 0 1.5% 0;
+  font-family: $text-primary;
+}
+
+.box-header {
+  color: $color-cobalt;
+  font-size: calc(20px + (28 - 20) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 700;
+  margin: 1.5% 0 1.5% 0;
+  font-family: $text-primary;
+}
+
+.small-bold-header {
+  color: $color-cobalt;
+  margin: 1.5% 0 1.5% 0;
+  font-family: $text-primary;
+  letter-spacing: 2px;
+  font-weight: $text-weight-semi-bold;
+  font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.text-section-header {
   font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
   font-family: $text-primary;
@@ -62,22 +103,12 @@ h4 {
   letter-spacing: 2px;
 }
 
-h5 {
+.magazine-header {
   font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
   color: $color-cobalt;
   font-family: $text-primary;
   font-weight: $text-weight-semi-bold;
-}
-
-h6 {
-  color: $color-cobalt;
-  margin: 1.5% 0 1.5% 0;
-  font-family: $text-primary;
-  letter-spacing: 2px;
-  font-weight: $text-weight-semi-bold;
-  font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
-
 }
 
 // Color resets

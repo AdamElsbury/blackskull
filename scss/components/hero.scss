@@ -7,6 +7,12 @@
   border: 15px solid $color-yellow;
 }
 
+// Sub pages
+
+.hero-alt-blue {
+  background-color: $color-blue;
+}
+
 // Mobile
 
 @media screen and ( max-width: 600px ) {
