@@ -117,39 +117,39 @@
 
       <section class="grid-row margin-remove">
         <article class="grid-col-thirds margin-remove cobalt-background padding-small">
-          <a href="#" class="text-decoration-none">
+          <a href="#/" class="text-decoration-none" onclick="showPanelOne()">
             <div>
               <h3 class="small-bold-header white-text-reset">WE CAN</h3>
               <h2 class="large-section-header white-text-reset margin-remove">Design</h2>
-              <p class="inline-block width-70 white-text-reset">Beautiful UX & UI design to visually represent an effective, easy to use content structure.</p>
+              <p class="inline-block width-70 white-text-reset margin-remove">Beautiful UX & UI design to visually represent an effective, easy to use content structure.</p>
               <img src="assets/icons/design-white.svg" alt="A number of design tools appearing out of a cloud" class="inline-block float-right numbered-section-svg">
             </div>
           </a>
         </article>
         <article class="grid-col-thirds margin-remove blue-background padding-small">
-          <a href="#" class="text-decoration-none">
+          <a href="#/" class="text-decoration-none" onclick="showPanelTwo()">
             <div>
               <h3 class="small-bold-header">WE CAN</h3>
               <h2 class="large-section-header margin-remove">Build</h2>
-              <p class="inline-block width-70 cobalt-text-reset">Translating design to secure, fast digital products that rank highly in Google.</p>
+              <p class="inline-block width-70 cobalt-text-reset margin-remove">Translating design to secure, fast digital products that rank highly in Google.</p>
               <img src="assets/icons/build.svg" alt="A blockchain cube within a computer monitor" class="inline-block float-right numbered-section-svg">
             </div>
           </a>
         </article>
         <article class="grid-col-thirds margin-remove yellow-background padding-small">
-          <a href="#" class="text-decoration-none">
+          <a href="#/" class="text-decoration-none" onclick="showPanelThree()">
             <div>
               <h3 class="small-bold-header">WE CAN</h3>
               <h2 class="large-section-header margin-remove">Market</h2>
-              <p class="inline-block width-70 cobalt-text-reset">Using industry standard digital marketing techniques to increase your traffic & marketing ROI.</p>
+              <p class="inline-block width-70 cobalt-text-reset margin-remove">Using industry standard digital marketing techniques to increase your traffic & marketing ROI.</p>
               <img src="assets/icons/bullhorn.svg" alt="A number of soial media favicons in front of a bullhorn" class="inline-block float-right numbered-section-svg">
             </div>
           </a>
         </article>
       </section>
 
-      <section class="panel-switch-container">
-        <article class="panel-1 cobalt-background">
+      <div class="panel-switch-container">
+        <article class="cobalt-background" id="panel-switch-1">
           <div class="grid-row medium-gutter padding-top padding-bottom">
             <article class="grid-col white-text-reset grid-flex-center">
               <div>
@@ -164,9 +164,37 @@
             </article>
           </div>
         </article>
-        <article class="panel-2"></article>
-        <article class="panel-3"></article>
-      </section>
+        <article id="panel-switch-2" class="blue-background">
+          <div class="grid-row medium-gutter padding-top padding-bottom">
+            <article class="grid-col grid-flex-center">
+              <div>
+                <img src="assets/icons/2-cobalt.svg" alt="A number 2 inside a yellow circle" class="numbered-section-svg">
+                <h2 class="small-section-header">Build</h2>
+                <p>In the build phase of your project we take the designs we have created and turn it into a live product. All the nerdy bits. Coding, unit tests, responsive testing, browser compatibility.</p>
+                <p>We probably won't update you much during this point unless you express an interest. Coding is boring to talk about.</p>
+              </div>
+            </article>
+            <article class="grid-col">
+              <img src="assets/img/design-img.jpg" alt="A doodle of web page designs on paper" class="panel-img float-right">
+            </article>
+          </div>
+        </article>
+        <article id="panel-switch-3" class="yellow-background">
+          <div class="grid-row medium-gutter padding-top padding-bottom">
+            <article class="grid-col grid-flex-center">
+              <div>
+                <img src="assets/icons/3-cobalt.svg" alt="A number 3 inside a yellow circle" class="numbered-section-svg">
+                <h2 class="small-section-header">Panel 3</h2>
+                <p>In the design phase of your project we will conduct user & market research to accurately create a solution that represents and addresses your individual user needs.</p>
+                <p>We then design the site structure, content strategy, navigation and UX. Once that is done we add on the graphic design to give your site its own personal touch & branding.</p>
+              </div>
+            </article>
+            <article class="grid-col">
+              <img src="assets/img/design-img.jpg" alt="A doodle of web page designs on paper" class="panel-img float-right">
+            </article>
+          </div>
+        </article>
+      </div>
     </main>
 
 
