@@ -394,6 +394,10 @@ side it and they will take up the remaining space.
   justify-content: center;
 }
 
+.align-items-center {
+  align-items: center;
+}
+
 .grid-flex-end {
   display: flex;
   justify-content: flex-end;
