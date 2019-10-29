@@ -123,6 +123,10 @@ h2 {
 
 // Color resets
 
+.cobalt-text-reset {
+  color: $color-cobalt;
+}
+
 .blue-text-reset {
   color: $color-blue;
 }
@@ -154,6 +158,17 @@ h2 {
     padding-top: 1rem;
   }
 }
+
+.underlined-white {
+  &:after {
+    content: "";
+    width: 20%;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    padding-top: 1rem;
+  }
+}
+
 
 // Mobile
 
