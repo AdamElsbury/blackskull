@@ -32,7 +32,7 @@ h1 {
 .h1-center-underline {
   &:after {
     content: "";
-    width: 30%;
+    width: 20%;
     border-bottom: 2px solid #FFF;
     display: block;
     padding-top: .5rem;
@@ -109,6 +109,16 @@ h2 {
   color: $color-cobalt;
   font-family: $text-primary;
   font-weight: $text-weight-semi-bold;
+}
+
+// Span with black background
+
+.black-background-text {
+  background-color: #191919;
+  color: #FFF;
+  padding: 2%;
+  margin-top: 3px;
+  display: inline-block;
 }
 
 // Color resets

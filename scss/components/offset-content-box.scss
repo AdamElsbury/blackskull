@@ -3,8 +3,8 @@
 .offset-box-left {
   display: block;
   flex: none;
-  width: 45%;
-  margin: 100px -100px 0 0;
+  width: 43%;
+  margin: 100px -100px 0 .5rem;
   z-index: 3;
   padding: 7%;
 
@@ -24,7 +24,7 @@
 .offset-box-right {
   display: block;
   flex: none;
-  width: 45%;
+  width: 43%;
   margin: 100px 0 0 -100px;
   z-index: 3;
   padding: 7%;
