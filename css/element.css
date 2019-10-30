@@ -304,7 +304,7 @@ Apply specific width to elements.
 
 /* Make something not visible on desktop viewports */
 
-@media screen and ( min-width: 1280px ) {
+@media screen and ( min-width: 1025px ) {
   .desktop-hide {
     display: none !important;
   }

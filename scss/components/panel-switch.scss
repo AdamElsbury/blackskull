@@ -8,7 +8,7 @@
   &:after {
     content: "";
     display: block;
-    padding-bottom: 40%;
+    padding-bottom: 35%;
   }
 }
 
@@ -58,7 +58,7 @@
 @media (min-width: 1025px) and ( max-width: 1132px ) {
   .panel-switch-container {
     &:after {
-      padding-bottom: 46%; 
+      padding-bottom: 41%; 
     }
   }
 }

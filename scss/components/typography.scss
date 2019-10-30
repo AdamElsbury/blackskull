@@ -56,7 +56,7 @@ h2 {
 
 .large-section-header {
   color: $color-cobalt;
-  font-size: calc(22px + (33 - 22) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(22px + (32 - 22) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 600;
   margin: 1.5% 0 1.5% 0;
   font-family: $text-primary;
@@ -64,7 +64,7 @@ h2 {
 
 .large-section-header-bold {
   color: $color-cobalt;
-  font-size: calc(22px + (33 - 22) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(22px + (32 - 22) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 700;
   margin: 1.5% 0 1.5% 0;
   font-family: $text-primary;
@@ -96,7 +96,7 @@ h2 {
 }
 
 .text-section-header {
-  font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
   font-family: $text-primary;
   font-weight: $text-weight-bold;
