@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/element.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="menu-container" id="menu">
+      <div class="menu-content">
+        <img src="assets/icons/logo-alt.svg" alt="" class="menu-logo">
+        <img src="assets/icons/error.svg" alt="A white circle with an X in the middle" class="cancel-button" onclick="closeMenu()">
+        <div class="grid-row padding-top-large medium-gutter">
+          <article class="grid-col white-text-reset menu-project-links padding-right order-2-mobile">
+            <h2 class="text-sub-cobalt large-section-header">Recent work</h2>
+            <a href="#" class="margin-top inline-block">
+              <h3>Luisa Pereira Santos</h3>
+              <p class="text-sub-cobalt">Designing and building a professional portfolio to generate leads and showcase work</p>
+            </a>
+            <a href="#" class="margin-top inline-block">
+              <h3>Project Controls & Services Ltd</h3>
+              <p class="text-sub-cobalt">Designing, building & branding a professional web presence for Project planning company</p>
+            </a>
+            <a href="#" class="margin-top inline-block">
+              <h3>Our voice our community</h3>
+              <p class="text-sub-cobalt">Designing & building a platform for young people to engage in politics</p>
+            </a>
+          </article>
+
+          <article class="grid-col padding-left padding-right order-1-mobile padding-reset-right-mobile-only padding-reset-left-mobile-only padding-reset-left-tablet-only padding-reset-right-tablet-only">
+            <h2 class="text-sub-cobalt large-section-header">Menu</h2>
+            <ul class="margin-top white-less-contrast-text-reset">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">What we do</a></li>
+              <li><a href="index.html">Services</a></li>
+              <li><a href="index.html">Pricing</a></li>
+              <li><a href="index.html">Projects</a></li>
+              <li><a href="index.html">Blog</a></li>
+              <li class="margin-top-large"><a href="cookies.html" class="mini-li">Cookie policy</a></li>
+              <li><a href="faq.html" class="mini-li">FAQs</a></li>
+            </ul>
+          </article>
+
+          <div class="grid-col white-text-reset padding-left order-3-mobile padding-reset-left-mobile-only padding-reset-left-tablet-only margin-top-large-mobile-only margin-top-large-tablet-only">
+            <p class="text-sub-cobalt text-section-header">Web solutions with a different attitude.</p>
+            <h3 class="white-text-reset margin-top small-section-header">Location</h5>
+            <p class="text-sub-cobalt">Bridgend, South Wales</p>
+            <h3 class="white-text-reset margin-top small-section-header">Contact</h5>
+            <p class="text-sub-cobalt">hello@blackskull.creative</p>
+            <p class="text-sub-cobalt">07506782509</p>
+            <button class="btn-primary btn-pink margin-top">HIRE US</button>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <section class="submission-container" id="submission-container">
+      <div class="submission-content position-relative">
+        <img src="assets/icons/error.svg" alt="A white circle with an X in the middle" class="cancel-button" onclick="closeSubmission()">
+        <span class="white-text-reset">Get a quote.</span>
+        <p class="white-less-contrast-text-reset">Get a quotation for your new web solution. Due to our modular payment system not every job is priced differently. The more details you can provide - the more accurate the quote. </p>
+        <p><b>07506782509</b></p>
+        <p><b>bsmedia@gmail.com</b></p>
+        <hr>
+        <form action="" class="quote">
+          <p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT DO YOU NEED HELP WITH? *</p>
+          <input type="text" placeholder="e.g 'Website' or 'Digital marketing'">
+          <p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT IS YOUR BUDGET? *</p>
+          <input type="text" placeholder="Rough estimates are fine">
+          <p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">DO YOU HAVE A DEADLINE IN MIND? *</p>
+          <input type="text">
+          <p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">TELL US MORE ABOUT YOUR PROJECT *</p>
+          <textarea placeholder="Tell us about your goals, what's been done already & what your vision is for the outcome of this project. Use bullet points, a paragraph or hell even write us a poem. Or give us a call instead."></textarea>
+          <button type="submit" class="btn-primary btn-pink margin-top margin-top-large-mobile-only">SEND MESSAGE</button>
+        </form>
+        <p>We always strive to deliver same day replies to all potential clients but sometimes deadlines are tight. Can't wait to chat!</p>
+      </div>
+    </section>
+
+    <header class="hero-alt-blue">
+      <div class="nav-container">
+        <a href="index.html"><img src="assets/icons/logo.svg" alt="Two black boxes with the words Blackskull Media inside" class="logo"></a>
+        <ul class="nav-links">
+          <img src="assets/icons/hamburger.svg" alt="A hamburger menu" class="margin-right-small" onclick="showMenu()">
+          <button class="btn-primary btn-pink margin-left" onclick="showSubmission()">HIRE US</button>
+        </ul>
+      </div>
+
+      <section class="grid-row justify-center padding-bottom">
+        <article class="grid-col-40 text-center">
+          <img src="assets/icons/black-skull.svg" alt="A black skull" class="logo">
+          <h1 class="h1-center-underline">Our services</h1>
+        </article>
+      </section>
+    </header>
+
+    <main class="position-relative">
+      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-bottom">
+        <article class="grid-col grid-col-reset-5">
+          <h2 class="small-bold-header blue-text-reset">OUR SERVICES</h2>
+          <h3 class="magazine-header">We take pride in the fact that we can provide pretty much anything an SME needs for the <span class="black-background-text">web.</span></h3>
+        </article>
+        <article class="grid-col grid-col-reset-5">
+          <p>Companies do things in different ways. Some people believe the only way to set up a successful business is to specialise in a market niche and become the best at it. This is true for many markets but for the web, and our specific target market, its a little more tricky.</p>
+          <p>We like to think of it this way. If you're coming to us for a solution, you either don't have the time or expertise to create one yourself. Or both. So you probably don't know much about the industry or have the time to research all the different services.</p>
+          <p>We know this because we did the research! So from strategy through to deployment we can handle everything. You pay one price for one solution. Nice and simple!</p>
+        </article>
+      </section>
+
+      <div class="grid-row">
+        <article class="cobalt-background offset-box-left grid-flex-center">
+          <div class="white-text-reset">
+            <img src="assets/icons/research.svg" alt="A magnifying glass looking at a computer monitor" class="service-svg">
+            <h2 class="blue-text-reset small-bold-header">FIGURING OUT HOW YOUR USERS TICK</h2>
+            <h3 class="large-section-header white-text-reset underlined-white">Research</h3>
+            <p>A good research strategy is the foundation for any design studio worth their salt. Here we can establish who your users are, what their goals & needs are and create a website to address those goals.</p>
+            <p>We also do competitor research to establish benchmarks and see what other websites do well and where they are lacking.</p>
+          </div>
+        </article>
+        <div class="offset-box-img-container-right">
+          <img src="assets/img/service-1.jpg" alt="A man having a telephone call inside a cubicle, with a woman a few feet behind doing work on a laptop" class="offset-box-img-right">
+        </div>
+      </div>
+
+      <section class="grid-row padding-top medium-gutter">
+        <article class="grid-col-50 grid-flex-center">
+          <div>
+          <h2 class="large-section-header-bold">A good research strategy is like revising for a science exam with Stephen Hawking.</h2>
+          <p>Its kinda cheating, really. Think logically. If we have the know how to create good, engaging content to question and understand your user base, establish what their goals are then its easy to work backwards from that point to create a website!</p>
+          <p>All our designs are data driven and specifically crafted to meet your user goals. No guesswork. All we do is ask the right questions and know how to translate them into actionable tasks.</p>
+          </div>
+        </article>
+        <div class="grid-col-50 small-gutter">
+          <img src="assets/img/service-1-sub.jpg" alt="Three people looking at a webpage with magnifying glasses" class="full-width-img">
+        </div>
+      </section>
+
+      <section class="grid-row medium-gutter padding-top padding-bottom">
+        <article class="grid-col">
+          <h3 class="small-bold-header blue-text-reset">BENEFITS OF A GOOD RESEARCH STRATEGY</h3>
+          <ul class="services-horizontal-ul">
+            <li>Avoid wrong decisions early to avoid expensive fixes later</li>
+            <li>Understanding users with tangible data to easily identify success or failiure</li>
+            <li>Create benchmarks for the project to drive work scheduling</li>
+            <li>Knowing who your audience is allows you to create products they want</li>
+            <li>Create accurate project scope to avoid going over budget or wasting time</li>
+          </ul>
+        </article>
+      </section>
+
+      <div class="grid-row">
+        <div class="offset-box-img-container-left">
+          <img src="assets/img/service-2.jpg" alt="A man having a telephone call inside a cubicle, with a woman a few feet behind doing work on a laptop" class="offset-box-img-right">
+        </div>
+        <article class="yellow-background offset-box-right grid-flex-center">
+          <div>
+            <img src="assets/icons/design.svg" alt="A magnifying glass looking at a computer monitor" class="service-svg">
+            <h2 class="white-text-reset small-bold-header">DESIGNING A SOLUTION THAT ADDRESSES USER PROBLEMS</h2>
+            <h3 class="large-section-header underlined-white">Design</h3>
+            <p>First we create a User Experience design to understand your user journey from landing on your site to landing a conversion and creating all the functionality and content they require along the way.</p>
+            <p>Once we have the usability design we add bespoke graphics, icons, logos and colour schemes to represent your brand online.</p>
+          </div>
+        </article>
+      </div>
+
+      <section class="grid-row padding-top medium-gutter">
+        <article class="grid-col-50 grid-flex-center">
+          <div>
+          <h2 class="large-section-header-bold">Good design avoids user frustration and guides your user through an easy to use, visually appealing interface.</h2>
+          <p>Imagine a shopping centre with no signage or maps, and shops were not categorised and hidden in hard to reach areas. And you're trying to find a store. Frustrating right? That's exactly what it feels like to a user who is trying to achieve a goal on a poorly designed site.</p>
+          <p>Now imagine a shopping centre with great maps and easy to find stores but there's trash, broken windows and rats running everywhere! That's what its like when a website is lacking visually.</p>
+          <p>Fear no more! We can cater to both. Theres no point having an easy to use website if it looks awful. We will create great usability combined with appealing visuals to craft a balanced experience.</p>
+          </div>
+        </article>
+        <div class="grid-col-50 small-gutter">
+          <img src="assets/img/service-2-sub.jpg" alt="Three people looking at a webpage with magnifying glasses" class="full-width-img">
+        </div>
+      </section>
+
+      <section class="grid-row medium-gutter padding-top">
+        <article class="grid-col">
+          <h3 class="small-bold-header blue-text-reset">BENEFITS OF GOOD DESIGN</h3>
+          <ul class="services-horizontal-ul">
+            <li>Good UX design leads to good conversion rates improving sales</li>
+            <li>Reduces user frustration on the website</li>
+            <li>Reduces production length & cost by testing prototypes</li>
+            <li>Allows for good brand representation online</li>
+            <li>Avoids unnecessary content & reduces number of "steps" the user has to take to achieve a goal</li>
+            <li>Creates customised solution for YOUR users that templates cannot achieve</li>
+            <li>Usability testing provides tangible evidence of problems in the design & allows us to fix them easily</li>
+          </ul>
+        </article>
+      </section>
+
+
+
+
+
+
+
+    </main>
+
+
+
+    <footer>
+      <section class="grid-row padding-overlap-container-below small-gutter cobalt-background">
+        <article class="grid-col-30 white-text-reset">
+          <h2 class="yellow-text-reset small-bold-header">STAY CONNECTED WITH OUR NEWSLETTER</h2>
+          <p class="margin-top margin-bottom">If you sign up maybe you'll get emailed an offer or an interesting article about the industry. Or not. It will probably just be a meme.</p>
+          <form action="" class="newsletter margin-bottom">
+            <input type="text" placeholder="Email address" class="margin-right-small">
+            <button class="btn-primary btn-blue" type="submit">SIGN UP</button>
+          </form>
+          <div class="grid-flex-start">
+            <a href="#"><img src="assets/icons/email.svg" alt="An envelope" class="margin-right-small social-media-svg"></a>
+            <a href="#"><img src="assets/icons/instagram.svg" alt="The instagram logo" class="margin-right-small social-media-svg"></a>
+            <a href="#"><img src="assets/icons/facebook.svg" alt="The facebook logo" class="margin-right-small social-media-svg"></a>
+          </div>
+        </article>
+        <div class="grid-col"></div>
+        <article class="grid-col-40">
+          <div class="grid-row grid-flex-end grid-row-reset-tablet">
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header">PAGES</h2>
+              <a href="#" class="footer-anchors margin-top">Home</a>
+              <a href="#" class="footer-anchors">What we do</a>
+              <a href="#" class="footer-anchors">Services</a>
+              <a href="#" class="footer-anchors">Pricing</a>
+              <a href="#" class="footer-anchors">Projects</a>
+              <a href="#" class="footer-anchors">Blog</a>
+              <a href="#" class="footer-anchors">FAQs</a>
+            </article>
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header" class="yellow-text-reset">DEVELOPER TINGS</h2>
+              <a href="#" class="footer-anchors margin-top">Github</a>
+              <a href="#" class="footer-anchors">Style guide</a>
+              <a href="#" class="footer-anchors">Sitemap</a>
+            </article>
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header">DATA STUFF</h2>
+              <a href="#" class="footer-anchors">Data policy</a>
+            </article>
+          </div>
+          <div class="flex-direction-column padding-top">
+            <div class="grid-flex-start align-items-center">
+              <img src="assets/icons/copyright.svg" alt="The copyright symbol" class="inline-block social-media-svg margin-right-small"><p class="inline-block white-text-reset">All rights reserved by BlackSkull Media 2019</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </footer>
+
+
+
+
+    </div>
+
+
+
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
