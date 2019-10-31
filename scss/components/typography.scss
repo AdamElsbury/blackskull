@@ -169,6 +169,17 @@ h2 {
   }
 }
 
+.underlined-cobalt {
+  &:after {
+    content: "";
+    width: 20%;
+    border-bottom: 2px solid $color-cobalt;
+    display: block;
+    padding-top: 1rem;
+  }
+}
+
+
 
 // Mobile
 
