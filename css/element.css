@@ -643,7 +643,7 @@ vertically on devices smaller than 501px.
     margin: 0 0 1rem .5rem;
   }
 
-  .grid-col-5, .grid-col-10, .grid-col-17, .grid-col-20, .grid-col-30, .grid-col-40, .grid-col-50, .grid-col-60, .grid-col-70, .grid-col-80, .grid-col-90  {
+  .grid-col-5, .grid-col-10, .grid-col-17, .grid-col-20, .grid-col-30, .grid-col-40, .grid-col-50, .grid-col-60, .grid-col-70, .grid-col-80, .grid-col-90, .grid-col-thirds  {
     flex: 1;
     width: auto;
     margin: 0 0 1rem .5rem;
@@ -837,6 +837,10 @@ vertically on devices smaller than 501px.
   padding-top: 10%;
 }
 
+.padding-bottom-mobile-only {
+  padding-bottom: 5%;
+}
+
 .padding-large-bottom-mobile-only {
   padding-bottom: 8%;
 }
@@ -904,7 +908,7 @@ vertically on devices smaller than 501px.
     margin: 0 0 1rem 1rem;
   }
 
-  .grid-col-5, .grid-col-10, .grid-col-17, .grid-col-20, .grid-col-30, .grid-col-40, .grid-col-50, .grid-col-60, .grid-col-70, .grid-col-80, .grid-col-90  {
+  .grid-col-5, .grid-col-10, .grid-col-17, .grid-col-20, .grid-col-30, .grid-col-40, .grid-col-50, .grid-col-60, .grid-col-70, .grid-col-80, .grid-col-90, .grid-col-thirds  {
     flex: 1;
     width: auto;
     margin: 0 0 1rem 1rem;
@@ -1024,6 +1028,10 @@ vertically on devices smaller than 501px.
 
 .padding-large-bottom-tablet-only {
   padding-bottom: 12%;
+}
+
+.padding-bottom-tablet-only {
+  padding-bottom: 5%;
 }
 
 .padding-tablet-only {
