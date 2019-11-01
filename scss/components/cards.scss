@@ -1,25 +1,74 @@
 // Pricing cards
 
-.pricing-card-1 {
-  background-image: url(../assets/icons/price-svg-bg-1.svg);
+.pricing-card-container {
+  flex: none;
+  width: 22%;
+  margin: 0 0 0 .5rem;
+}
+
+.pricing-card {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: auto 35%;
   border-radius: 26px;
   box-shadow: 0px 7px 9px 4px rgba(0,0,0,0.2);
-  padding: 3% 0 3% 0;
-  flex: none;
-  width: 22%;
+  padding: 10% 0 10% 0;
 
   button {
     margin-top: 10em;
   }
 }
 
+.pricing-card-1 {
+  background-image: url(../assets/icons/price-svg-bg-1.svg);
+}
+
+.pricing-card-2 {
+  background-image: url(../assets/icons/price-svg-bg-2.svg);
+}
+
+.pricing-card-3 {
+  background-image: url(../assets/icons/price-svg-bg-3.svg);
+}
+
+// Mobile
+
+@media screen and ( max-width: 461px ) {
+  .pricing-card-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .pricing-card {
+    background-size: auto 43%;
+    padding: 8% 0 8% 0;
+  }
+}
+
+@media (min-width: 462px) and (max-width: 600px) {
+  .pricing-card-container {
+    width: 55%;
+    margin: 0 auto;
+  }
+}
+
+// Tablet
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .pricing-card-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .pricing-card {
+    background-size: auto 43%;
+    padding: 8% 0 8% 0;
+  }
+}
+
 // Small laptop
 
 @media (min-width: 1025px) and ( max-width: 1639px ) {
-  .pricing-card-1 {
-    width: 25%;
+  .pricing-card-container {
+    width: 28%;
   }
 }

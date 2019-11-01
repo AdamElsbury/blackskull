@@ -106,6 +106,19 @@
   }
 }
 
+.btn-white {
+  border: 3px solid #FFF;
+  background-color: #FFF;
+  color: $color-cobalt;
+
+  &:hover {
+    background-color: transparent;
+    padding: 10px 23px 10px 23px;
+    color: #FFF;
+  }
+}
+
+
 
 // Media Queries
 

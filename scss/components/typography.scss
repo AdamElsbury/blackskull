@@ -72,7 +72,7 @@ h2 {
 
 .small-section-header {
   color: $color-cobalt;
-  font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(21px + (24 - 21) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 600;
   margin: 1.5% 0 1.5% 0;
   font-family: $text-primary;
@@ -92,7 +92,7 @@ h2 {
   font-family: $text-primary;
   letter-spacing: 2px;
   font-weight: $text-weight-semi-bold;
-  font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .text-section-header {
