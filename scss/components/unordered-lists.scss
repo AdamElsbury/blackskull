@@ -38,6 +38,19 @@
   }
 }
 
+// Pricing card UL
+
+.pricing-card-ul {
+  li {
+    margin-bottom: 10px;
+
+    p {
+      font-weight: 500;
+      font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1600 - 300)));
+    }
+  }
+}
+
 // Mobile
 
 @media screen and ( max-width: 600px ) {
