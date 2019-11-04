@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/element.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="menu-container" id="menu">
+      <div class="menu-content">
+        <img src="assets/icons/logo-alt.svg" alt="" class="menu-logo">
+        <img src="assets/icons/error.svg" alt="A white circle with an X in the middle" class="cancel-button" onclick="closeMenu()">
+        <div class="grid-row padding-top-large medium-gutter">
+          <article class="grid-col white-text-reset menu-project-links padding-right order-2-mobile">
+            <h2 class="text-sub-cobalt large-section-header">Recent work</h2>
+            <a href="#" class="margin-top inline-block">
+              <h3>Luisa Pereira Santos</h3>
+              <p class="text-sub-cobalt">Designing and building a professional portfolio to generate leads and showcase work</p>
+            </a>
+            <a href="#" class="margin-top inline-block">
+              <h3>Project Controls & Services Ltd</h3>
+              <p class="text-sub-cobalt">Designing, building & branding a professional web presence for Project planning company</p>
+            </a>
+            <a href="#" class="margin-top inline-block">
+              <h3>Our voice our community</h3>
+              <p class="text-sub-cobalt">Designing & building a platform for young people to engage in politics</p>
+            </a>
+          </article>
+
+          <article class="grid-col padding-left padding-right order-1-mobile padding-reset-right-mobile-only padding-reset-left-mobile-only padding-reset-left-tablet-only padding-reset-right-tablet-only">
+            <h2 class="text-sub-cobalt large-section-header">Menu</h2>
+            <ul class="margin-top white-less-contrast-text-reset">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">What we do</a></li>
+              <li><a href="index.html">Services</a></li>
+              <li><a href="index.html">Pricing</a></li>
+              <li><a href="index.html">Projects</a></li>
+              <li><a href="index.html">Blog</a></li>
+              <li class="margin-top-large"><a href="cookies.html" class="mini-li">Cookie policy</a></li>
+              <li><a href="faq.html" class="mini-li">FAQs</a></li>
+            </ul>
+          </article>
+
+          <div class="grid-col white-text-reset padding-left order-3-mobile padding-reset-left-mobile-only padding-reset-left-tablet-only margin-top-large-mobile-only margin-top-large-tablet-only">
+            <p class="text-sub-cobalt text-section-header">Web solutions with a different attitude.</p>
+            <h3 class="white-text-reset margin-top small-section-header">Location</h5>
+            <p class="text-sub-cobalt">Bridgend, South Wales</p>
+            <h3 class="white-text-reset margin-top small-section-header">Contact</h5>
+            <p class="text-sub-cobalt">hello@blackskull.creative</p>
+            <p class="text-sub-cobalt">07506782509</p>
+            <button class="btn-primary btn-pink margin-top">HIRE US</button>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <section class="submission-container" id="submission-container">
+      <div class="submission-content position-relative">
+        <img src="assets/icons/error.svg" alt="A white circle with an X in the middle" class="cancel-button" onclick="closeSubmission()">
+        <span class="white-text-reset">Get a quote.</span>
+        <p class="white-less-contrast-text-reset">Get a quotation for your new web solution. Due to our modular payment system not every job is priced differently. The more details you can provide - the more accurate the quote. </p>
+        <p><b>07506782509</b></p>
+        <p><b>bsmedia@gmail.com</b></p>
+        <hr>
+        <form action="" class="quote">
+          <p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT DO YOU NEED HELP WITH? *</p>
+          <input type="text" placeholder="e.g 'Website' or 'Digital marketing'">
+          <p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT IS YOUR BUDGET? *</p>
+          <input type="text" placeholder="Rough estimates are fine">
+          <p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">DO YOU HAVE A DEADLINE IN MIND? *</p>
+          <input type="text">
+          <p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">TELL US MORE ABOUT YOUR PROJECT *</p>
+          <textarea placeholder="Tell us about your goals, what's been done already & what your vision is for the outcome of this project. Use bullet points, a paragraph or hell even write us a poem. Or give us a call instead."></textarea>
+          <button type="submit" class="btn-primary btn-pink margin-top margin-top-large-mobile-only">SEND MESSAGE</button>
+        </form>
+        <p>We always strive to deliver same day replies to all potential clients but sometimes deadlines are tight. Can't wait to chat!</p>
+      </div>
+    </section>
+
+    <header class="blue-background">
+      <div class="nav-container">
+        <a href="index.html"><img src="assets/icons/logo.svg" alt="Two black boxes with the words Blackskull Media inside" class="logo"></a>
+        <ul class="nav-links">
+          <img src="assets/icons/hamburger.svg" alt="A hamburger menu" class="margin-right-small" onclick="showMenu()">
+          <button class="btn-primary btn-cobalt margin-left" onclick="showSubmission()">HIRE US</button>
+        </ul>
+      </div>
+
+      <section class="grid-row justify-center padding-bottom">
+        <article class="grid-col-40 text-center">
+          <img src="assets/icons/black-skull.svg" alt="A black skull" class="logo">
+          <h1 class="h1-center-underline">Our work</h1>
+        </article>
+      </section>
+    </header>
+
+    <main class="position-relative">
+      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-bottom padding-top-large-tablet-only">
+        <article class="grid-col grid-col-reset-5">
+          <h2 class="small-bold-header blue-text-reset">IF WE AREN'T PROUD OF A JOB, WE DIDN'T DO IT</h2>
+          <h3 class="magazine-header">It doesn't matter whether a client has a £250 budget or a £5000 budget. We apply the same care and  <span class="black-background-text">pride.</span></h3>
+        </article>
+        <article class="grid-col grid-col-reset-5">
+          <p>Our work has our name on it. Imagine how embarrassing it would be if a bad site we made existed. So we ensure there aren't any.</p>
+          <p>We have a vested interest in making the best website possible. You want to sell stuff, we want people to see how great your site looks and hire us. We never submit work to a client that we aren't happy to put our name on.</p>
+        </article>
+      </section>
+
+      <div class="grid-row justify-center padding-top padding-top-large-tablet-only medium-gutter">
+        <article class="grid-col-40">
+          <h2 class="blue-text-reset small-bold-header">OUR WORK</h2>
+          <h3 class="large-section-header-bold">Some of our best work</h3>
+          <p>We've been lucky enough to work with some fantastic companies so far. Here are some of our favourite projects. We present each project as a case study so you can see our thought process in detail.</p>
+        </article>
+      </div>
+
+      <div class="grid-row medium-gutter grid-row-reset-5 padding-top padding-overlap-container-above">
+        <article class="grid-col grid-col-reset-5 margin-bottom-large-mobile-only">
+          <h4 class="blue-text-reset small-bold-header">LUISA PEREIRA SANTOS</h4>
+          <p class="margin-top-remove">Social media manager</p>
+          <img src="assets/img/project-1.jpg" alt="Luisa Santos holding a camera looking into the camera" class="full-width-img mobile-hide">
+          <img src="assets/img/menu-img-1.jpg" alt="Luisa Santos holding a camera looking into the camera" class="full-width-img desktop-hide small-laptop-hide">
+          <p>Luisa came to us to get an online portfolio to showcase her work & services to prospective clients & generate leads through her website.</p>
+          <button class="btn-primary btn-cobalt margin-right-small margin-top">GO TO WEBSITE</button>
+          <button class="btn-secondary btn-cobalt-secondary margin-top-small">READ CASE STUDY</button>
+        </article>
+        <article class="grid-col grid-col-reset-5 margin-bottom-large-mobile-only margin-top-large-tablet-only">
+          <h4 class="blue-text-reset small-bold-header">PROJECT CONTROLS & SERVICES LTD</h4>
+          <p class="margin-top-remove">Project planning & management</p>
+          <img src="assets/img/project-2.jpg" alt="Two men looking at data on a sheet of paper" class="full-width-img mobile-hide">
+          <img src="assets/img/menu-img-2.jpg" alt="Two men looking at data on a sheet of paper" class="full-width-img desktop-hide small-laptop-hide">
+          <p>PCSS wanted a professional online presence to represent their brand and generate leads for new commissions.</p>
+          <button class="btn-primary btn-cobalt margin-right-small margin-top">GO TO WEBSITE</button>
+          <button class="btn-secondary btn-cobalt-secondary margin-top-small">READ CASE STUDY</button>
+        </article>
+        <article class="grid-col grid-col-reset-5 margin-bottom-large-mobile-only margin-top-large-tablet-only">
+          <h4 class="blue-text-reset small-bold-header">OUR VOICE OUR COMMUNITY</h4>
+          <p class="margin-top-remove">Engaging young people in politics</p>
+          <img src="assets/img/project-3.jpg" alt="A man holding a microphone speaking to a large crowd" class="full-width-img mobile-hide">
+          <img src="assets/img/menu-img-3.jpg" alt="A man holding a microphone speaking to a large crowd" class="full-width-img desktop-hide small-laptop-hide">
+          <p>BGC Wales wanted a website to display their Our Voice Our Community project and to inspire and engage young people through the website to participate in politics.</p>
+          <button class="btn-primary btn-cobalt margin-right-small margin-top">GO TO WEBSITE</button>
+          <button class="btn-secondary btn-cobalt-secondary margin-top-small">READ CASE STUDY</button>
+        </article>
+      </div>
+
+      <section class="overlap-container">
+        <div class="grid-row">
+          <article class="grid-col-60 padding-right padding-reset-right-mobile-only">
+            <h2 class="margin-top-remove large-section-header">Web solutions without the b******t</h4>
+            <p>Get your free consultation today. What do you have to lose? If we suck you didn't waste a penny!</p>
+          </article>
+          <div class="grid-col grid-flex-center margin-bottom-remove-mobile-only">
+            <div>
+            <p class="margin-top-remove"><b>07506782509</b></p>
+            <p><b>hello@blackskull.creative</b></p>
+            <button class="btn-primary btn-pink">FREE QUOTE</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    </main>
+
+
+
+
+    </main>
+
+
+
+    <footer>
+      <section class="grid-row padding-overlap-container-below small-gutter cobalt-background">
+        <article class="grid-col-30 white-text-reset">
+          <h2 class="yellow-text-reset small-bold-header">STAY CONNECTED WITH OUR NEWSLETTER</h2>
+          <p class="margin-top margin-bottom">If you sign up maybe you'll get emailed an offer or an interesting article about the industry. Or not. It will probably just be a meme.</p>
+          <form action="" class="newsletter margin-bottom">
+            <input type="text" placeholder="Email address" class="margin-right-small">
+            <button class="btn-primary btn-blue" type="submit">SIGN UP</button>
+          </form>
+          <div class="grid-flex-start">
+            <a href="#"><img src="assets/icons/email.svg" alt="An envelope" class="margin-right-small social-media-svg"></a>
+            <a href="#"><img src="assets/icons/instagram.svg" alt="The instagram logo" class="margin-right-small social-media-svg"></a>
+            <a href="#"><img src="assets/icons/facebook.svg" alt="The facebook logo" class="margin-right-small social-media-svg"></a>
+          </div>
+        </article>
+        <div class="grid-col"></div>
+        <article class="grid-col-40">
+          <div class="grid-row grid-flex-end grid-row-reset-tablet">
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header">PAGES</h2>
+              <a href="#" class="footer-anchors margin-top">Home</a>
+              <a href="#" class="footer-anchors">What we do</a>
+              <a href="#" class="footer-anchors">Services</a>
+              <a href="#" class="footer-anchors">Pricing</a>
+              <a href="#" class="footer-anchors">Projects</a>
+              <a href="#" class="footer-anchors">Blog</a>
+              <a href="#" class="footer-anchors">FAQs</a>
+            </article>
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header" class="yellow-text-reset">DEVELOPER TINGS</h2>
+              <a href="#" class="footer-anchors margin-top">Github</a>
+              <a href="#" class="footer-anchors">Style guide</a>
+              <a href="#" class="footer-anchors">Sitemap</a>
+            </article>
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header">DATA STUFF</h2>
+              <a href="#" class="footer-anchors">Data policy</a>
+            </article>
+          </div>
+          <div class="flex-direction-column padding-top">
+            <div class="grid-flex-start align-items-center">
+              <img src="assets/icons/copyright.svg" alt="The copyright symbol" class="inline-block social-media-svg margin-right-small"><p class="inline-block white-text-reset">All rights reserved by BlackSkull Media 2019</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </footer>
+
+
+
+
+    </div>
+
+
+
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
