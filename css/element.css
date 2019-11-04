@@ -395,6 +395,7 @@ side it and they will take up the remaining space.
 }
 
 .align-items-center {
+  display: flex;
   align-items: center;
 }
 
