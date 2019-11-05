@@ -198,8 +198,8 @@ Margin rules to apply to elements
   margin-top: 2em;
 }
 
-.margin-top-2rem {
-  margin-top: 2rem;
+.margin-top-3rem {
+  margin-top: 3rem;
 }
 
 .margin-top-small {
@@ -771,7 +771,7 @@ vertically on devices smaller than 501px.
   margin-top: 1em;
 }
 
-.margin-top-2rem {
+.margin-top-3rem {
   margin-top: 2rem;
 }
 
