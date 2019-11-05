@@ -7,6 +7,10 @@ body {
   color: $color-cobalt;
 }
 
+.large-p {
+  font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
 li {
   font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
   color: $color-cobalt;
@@ -37,6 +41,14 @@ h1 {
     display: block;
     padding-top: .5rem;
     margin: 0 auto;
+  }
+}
+
+// h1 underline reset
+
+.h1-no-underline {
+  &:after {
+    content: none;
   }
 }
 
@@ -168,6 +180,18 @@ h2 {
     padding-top: 1rem;
   }
 }
+
+.underlined-white-center {
+  &:after {
+    content: "";
+    width: 20%;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    padding-top: 1rem;
+    margin: 0 auto;
+  }
+}
+
 
 .underlined-cobalt {
   &:after {

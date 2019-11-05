@@ -15,3 +15,15 @@
 .pink-background {
   background-color: $color-pink;
 }
+
+.pcss-navy-background {
+  background-color: $color-pcss-navy;
+}
+
+// PCSS case study header
+
+.pcss-header {
+  background-image: url("../assets/img/pcss-header.jpg");
+  background-size: cover;
+  background-position: center;
+}
