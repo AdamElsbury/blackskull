@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/element.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="menu-container" id="menu">
+      <div class="menu-content">
+        <img src="assets/icons/logo-alt.svg" alt="" class="menu-logo">
+        <img src="assets/icons/error.svg" alt="A white circle with an X in the middle" class="cancel-button" onclick="closeMenu()">
+        <div class="grid-row padding-top-large medium-gutter">
+          <article class="grid-col white-text-reset menu-project-links padding-right order-2-mobile">
+            <h2 class="text-sub-cobalt large-section-header">Recent work</h2>
+            <a href="#" class="margin-top inline-block">
+              <h3>Luisa Pereira Santos</h3>
+              <p class="text-sub-cobalt">Designing and building a professional portfolio to generate leads and showcase work</p>
+            </a>
+            <a href="#" class="margin-top inline-block">
+              <h3>Project Controls & Services Ltd</h3>
+              <p class="text-sub-cobalt">Designing, building & branding a professional web presence for Project planning company</p>
+            </a>
+            <a href="#" class="margin-top inline-block">
+              <h3>Our voice our community</h3>
+              <p class="text-sub-cobalt">Designing & building a platform for young people to engage in politics</p>
+            </a>
+          </article>
+
+          <article class="grid-col padding-left padding-right order-1-mobile padding-reset-right-mobile-only padding-reset-left-mobile-only padding-reset-left-tablet-only padding-reset-right-tablet-only">
+            <h2 class="text-sub-cobalt large-section-header">Menu</h2>
+            <ul class="margin-top white-less-contrast-text-reset">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">What we do</a></li>
+              <li><a href="index.html">Services</a></li>
+              <li><a href="index.html">Pricing</a></li>
+              <li><a href="index.html">Projects</a></li>
+              <li><a href="index.html">Blog</a></li>
+              <li class="margin-top-large"><a href="cookies.html" class="mini-li">Cookie policy</a></li>
+              <li><a href="faq.html" class="mini-li">FAQs</a></li>
+            </ul>
+          </article>
+
+          <div class="grid-col white-text-reset padding-left order-3-mobile padding-reset-left-mobile-only padding-reset-left-tablet-only margin-top-large-mobile-only margin-top-large-tablet-only">
+            <p class="text-sub-cobalt text-section-header">Web solutions with a different attitude.</p>
+            <h3 class="white-text-reset margin-top small-section-header">Location</h5>
+            <p class="text-sub-cobalt">Bridgend, South Wales</p>
+            <h3 class="white-text-reset margin-top small-section-header">Contact</h5>
+            <p class="text-sub-cobalt">hello@blackskull.creative</p>
+            <p class="text-sub-cobalt">07506782509</p>
+            <button class="btn-primary btn-pink margin-top">HIRE US</button>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <section class="submission-container" id="submission-container">
+      <div class="submission-content position-relative">
+        <img src="assets/icons/error.svg" alt="A white circle with an X in the middle" class="cancel-button" onclick="closeSubmission()">
+        <span class="white-text-reset">Get a quote.</span>
+        <p class="white-less-contrast-text-reset">Get a quotation for your new web solution. Due to our modular payment system not every job is priced differently. The more details you can provide - the more accurate the quote. </p>
+        <p><b>07506782509</b></p>
+        <p><b>bsmedia@gmail.com</b></p>
+        <hr>
+        <form action="" class="quote">
+          <p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT DO YOU NEED HELP WITH? *</p>
+          <input type="text" placeholder="e.g 'Website' or 'Digital marketing'">
+          <p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT IS YOUR BUDGET? *</p>
+          <input type="text" placeholder="Rough estimates are fine">
+          <p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">DO YOU HAVE A DEADLINE IN MIND? *</p>
+          <input type="text">
+          <p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">TELL US MORE ABOUT YOUR PROJECT *</p>
+          <textarea placeholder="Tell us about your goals, what's been done already & what your vision is for the outcome of this project. Use bullet points, a paragraph or hell even write us a poem. Or give us a call instead."></textarea>
+          <button type="submit" class="btn-primary btn-pink margin-top margin-top-large-mobile-only">SEND MESSAGE</button>
+        </form>
+        <p>We always strive to deliver same day replies to all potential clients but sometimes deadlines are tight. Can't wait to chat!</p>
+      </div>
+    </section>
+
+    <header class="yellow-background">
+      <div class="nav-container">
+        <a href="index.html"><img src="assets/icons/logo.svg" alt="Two black boxes with the words Blackskull Media inside" class="logo"></a>
+        <ul class="nav-links">
+          <img src="assets/icons/hamburger.svg" alt="A hamburger menu" class="margin-right-small" onclick="showMenu()">
+          <button class="btn-primary btn-cobalt margin-left" onclick="showSubmission()">HIRE US</button>
+        </ul>
+      </div>
+
+      <section class="grid-row justify-center padding-bottom">
+        <article class="grid-col-40 text-center">
+          <img src="assets/icons/black-skull.svg" alt="A black skull" class="logo">
+          <h1 class="h1-center-underline">FAQs</h1>
+        </article>
+      </section>
+    </header>
+
+    <main class="position-relative">
+      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-bottom padding-top-large-tablet-only">
+        <article class="grid-col grid-col-reset-5">
+          <h2 class="small-bold-header blue-text-reset">HERE TO PUT YOUR RESERVATIONS TO REST</h2>
+          <h3 class="magazine-header">Most companies operate behind smoke and mirrors. Not us. BlackSkull has a completely transparent policy so you never have to   <span class="black-background-text">worry.</span></h3>
+        </article>
+        <article class="grid-col grid-col-reset-5">
+          <p>We really firmly believe in complete honesty and transparency when interacting with a client. We will never lie or hide issues. We will never pretend to be working when we are not. If we finish a project early, we will tell you and refund you the difference.</p>
+          <p>This goes against everything you are taught when it comes to customer relations. We don't care. Your money & reputation is at stake and you deserve an honest answer when you have questions.</p>
+        </article>
+      </section>
+
+      <div class="grid-row justify-center padding-top padding-top-large-tablet-only medium-gutter padding-bottom">
+        <article class="grid-col-40">
+          <h2 class="blue-text-reset small-bold-header">ITS QUESTION TIME!</h2>
+          <h3 class="large-section-header-bold">Frequently asked questions</h3>
+          <p>Everyone has questions or concerns when entering into a new industry. Web design can be confusing with all the buzzwords and ambiguous quotes. Let us help.</p>
+        </article>
+      </div>
+
+      <section class="faq-box-row large-gutter padding-bottom-small">
+        <article class="faq-box-col">
+          <div class="faq-box-question grid-flex-start align-items-center small-gutter">
+            <p class="large-section-header margin-right white-text-reset">Q.</p>
+            <p>Why do I need a professionally designed website?</p>
+          </div>
+          <div class="faq-box-answer grid-flex-center align-items-center small-gutter">
+            <p class="large-section-header margin-right">A.</p>
+            <div>
+              <p>This Marketo survey shows that the highest proportion of a companies marketing budget is invested in website optimisation followed by social media and SEO. Why? Because the marketing industry has moved from aggressive advertising to lead generation.</p>
+              <p>It is both cheaper and provides a better ROI to have a fully bespoke, optimised website and digital marketing strategy and to let customers come to you than to aimlessly push ads into the wrong channels. If companies are spending so much money trying to get traffic to their website, then you need to ensure the website is fit for purpose.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="faq-box-row large-gutter padding-bottom-small">
+        <article class="faq-box-col">
+          <div class="faq-box-question grid-flex-start align-items-center small-gutter">
+            <p class="large-section-header margin-right white-text-reset">Q.</p>
+            <p>How much does a custom website cost?</p>
+          </div>
+          <div class="faq-box-answer grid-flex-center align-items-center small-gutter">
+            <p class="large-section-header margin-right">A.</p>
+            <div>
+              <p>Tough to answer. How much does it cost to build a house? Depends on the requirements, functionality, scale, attention to detail and much more. We price projects from a minimum of £500 anywhere up to tens of thousands of pounds.</p>
+              <p>Ultimately we price a project based on the expected ROI that you receive. The more money it will make you in the long run, the more we charge.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="faq-box-row large-gutter padding-bottom-small">
+        <article class="faq-box-col">
+          <div class="faq-box-question grid-flex-start align-items-center small-gutter">
+            <p class="large-section-header margin-right white-text-reset">Q.</p>
+            <p>But I can build a website on a website builder like Wix for almost nothing. Why are you so expensive?</p>
+          </div>
+          <div class="faq-box-answer grid-flex-center align-items-center small-gutter">
+            <p class="large-section-header margin-right">A.</p>
+            <div>
+              <p>Experience. We are great at what we do. We went to university to study design principles and how to monetize a website. We are better at it than you.</p>
+              <p>Our projects are all specifically crafted for your individual requirements and user base. We do this with extensive research and testing. When we hand off a project, there is no question that it will make money. You pay for that security.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="faq-box-row large-gutter padding-bottom-small">
+        <article class="faq-box-col">
+          <div class="faq-box-question grid-flex-start align-items-center small-gutter">
+            <p class="large-section-header margin-right white-text-reset">Q.</p>
+            <p>How do I know if my company would benefit from a new website?</p>
+          </div>
+          <div class="faq-box-answer grid-flex-center align-items-center small-gutter">
+            <p class="large-section-header margin-right">A.</p>
+            <div>
+              <p>Easy, we will run an audit on your current website and advise you honestly. You may already have a perfectly functional website. But you probably don't, otherwise you wouldn't be reading this!</p>
+              <p>We are happy to run a free audit that looks at traffic, conversion rates, why customers leave your site, why they stay on it. What they like and what they don't like. You even get a small report for free.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="faq-box-row large-gutter padding-bottom-small">
+        <article class="faq-box-col">
+          <div class="faq-box-question grid-flex-start align-items-center small-gutter">
+            <p class="large-section-header margin-right white-text-reset">Q.</p>
+            <p>How long does it take to build a new website?</p>
+          </div>
+          <div class="faq-box-answer grid-flex-center align-items-center small-gutter">
+            <p class="large-section-header margin-right">A.</p>
+            <div>
+              <p>Again, tough to answer. Depends on how complex the solution is. We can churn out a templated, cheap website in a few days. Or we could take a month if you require something completely bespoke and you have a large budget.</p>
+              <p>Ultimately it comes down to your budget. The larger your budget, the more time we put in. Simple.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="faq-box-row large-gutter padding-bottom-small">
+        <article class="faq-box-col">
+          <div class="faq-box-question grid-flex-start align-items-center small-gutter">
+            <p class="large-section-header margin-right white-text-reset">Q.</p>
+            <p>How do I get traffic to my website to make money?</p>
+          </div>
+          <div class="faq-box-answer grid-flex-center align-items-center small-gutter">
+            <p class="large-section-header margin-right">A.</p>
+            <div>
+              <p>Digital marketing, That's the broad term. Within digital marketing you have different channels. Social media, email, paid ads with google, organic search hits etc.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="faq-box-row large-gutter padding-bottom-small">
+        <article class="faq-box-col">
+          <div class="faq-box-question grid-flex-start align-items-center small-gutter">
+            <p class="large-section-header margin-right white-text-reset">Q.</p>
+            <p>What is User Experience design? Why do you always mention user first?</p>
+          </div>
+          <div class="faq-box-answer grid-flex-center align-items-center small-gutter">
+            <p class="large-section-header margin-right">A.</p>
+            <div>
+              <p>User experience or UX design is the process of starting the design of a product with the user first. First we do research to understand who the users are. Then we understand what their needs & frustrations are. Then we create user personas based on the research in order to allow us to think like the users.</p>
+              <p>Once we know exactly what the users want and what they expect we can create a user journey to plot out the steps required to generate a sale or generate a lead. A large part of user experience design is usability testing where we take a prototype of website, show it to actual users and get them to complete tasks and observe them to identify problems in the design. It takes out all the guesswork.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="faq-box-row large-gutter padding-bottom-small">
+        <article class="faq-box-col">
+          <div class="faq-box-question grid-flex-start align-items-center small-gutter">
+            <p class="large-section-header margin-right white-text-reset">Q.</p>
+            <p>How does hosting work? Are you responsible for hosting a new website?</p>
+          </div>
+          <div class="faq-box-answer grid-flex-center align-items-center small-gutter">
+            <p class="large-section-header margin-right">A.</p>
+            <div>
+              <p>We strongly suggest you pay us to manage hosting by taking out our aftercare plan. That way we are already familiar with the project and we can ensure the website maintains 100% uptime, we can provide monthly statistics to monitor the success and provide you with new keywords to use in your marketing channels.</p>
+              <p>Or you can simply receive the website assets from us and handle hosting yourself.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="faq-box-row large-gutter padding-bottom-small">
+        <article class="faq-box-col">
+          <div class="faq-box-question grid-flex-start align-items-center small-gutter">
+            <p class="large-section-header margin-right white-text-reset">Q.</p>
+            <p>How do payments work?</p>
+          </div>
+          <div class="faq-box-answer grid-flex-center align-items-center small-gutter">
+            <p class="large-section-header margin-right">A.</p>
+            <div>
+              <p>We charge 50% of the quotation up front and 50% upon completion. On larger projects we may add additional stages where we split up the final 50%.</p>
+              <p>We take half upfront for our own security. Imagine we spend 3 weeks on a project and then the client changes their mind and doesn't want their new website anymore. We have now lost thousands in potential earnings. If we take half up front and you change your mind, we still get to keep the money.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="faq-box-row large-gutter padding-bottom-small">
+        <article class="faq-box-col">
+          <div class="faq-box-question grid-flex-start align-items-center small-gutter">
+            <p class="large-section-header margin-right white-text-reset">Q.</p>
+            <p>How often would we get progress updates?</p>
+          </div>
+          <div class="faq-box-answer grid-flex-center align-items-center small-gutter">
+            <p class="large-section-header margin-right">A.</p>
+            <div>
+              <p>Whenever you want. We can check in daily to show you what we have been working on or not at all. Its ultimately up to you. Our focus is providing you with whatever amount of info you need to feel secure in using our service.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="faq-box-row large-gutter padding-overlap-container-above">
+        <article class="faq-box-col">
+          <div class="faq-box-question grid-flex-start align-items-center small-gutter">
+            <p class="large-section-header margin-right white-text-reset">Q.</p>
+            <p>What do you do with our data? Like email address or company name?</p>
+          </div>
+          <div class="faq-box-answer grid-flex-center align-items-center small-gutter">
+            <p class="large-section-header margin-right">A.</p>
+            <div>
+              <p>It gets stored in a secure database and that's where it stays. We will never share your personal data with anyone else and we certainly won't sell it on to cold calling companies. We also comply with EU GDPR restrictions. Your data is safe with us and you can request to have it destroyed at any time.</p>
+              <p>The only time we would request to use your company name is if we request to produce a case study of your project to use on our site. You are more than welcome to say no.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="overlap-container">
+        <div class="grid-row">
+          <article class="grid-col-60 padding-right padding-reset-right-mobile-only">
+            <h2 class="margin-top-remove large-section-header">Web solutions without the b******t</h4>
+            <p>Get your free consultation today. What do you have to lose? If we suck you didn't waste a penny!</p>
+          </article>
+          <div class="grid-col grid-flex-center margin-bottom-remove-mobile-only">
+            <div>
+            <p class="margin-top-remove"><b>07506782509</b></p>
+            <p><b>hello@blackskull.creative</b></p>
+            <button class="btn-primary btn-pink">FREE QUOTE</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+    <footer>
+      <section class="grid-row padding-overlap-container-below small-gutter cobalt-background">
+        <article class="grid-col-30 white-text-reset">
+          <h2 class="yellow-text-reset small-bold-header">STAY CONNECTED WITH OUR NEWSLETTER</h2>
+          <p class="margin-top margin-bottom">If you sign up maybe you'll get emailed an offer or an interesting article about the industry. Or not. It will probably just be a meme.</p>
+          <form action="" class="newsletter margin-bottom">
+            <input type="text" placeholder="Email address" class="margin-right-small">
+            <button class="btn-primary btn-blue" type="submit">SIGN UP</button>
+          </form>
+          <div class="grid-flex-start">
+            <a href="#"><img src="assets/icons/email.svg" alt="An envelope" class="margin-right-small social-media-svg"></a>
+            <a href="#"><img src="assets/icons/instagram.svg" alt="The instagram logo" class="margin-right-small social-media-svg"></a>
+            <a href="#"><img src="assets/icons/facebook.svg" alt="The facebook logo" class="margin-right-small social-media-svg"></a>
+          </div>
+        </article>
+        <div class="grid-col"></div>
+        <article class="grid-col-40">
+          <div class="grid-row grid-flex-end grid-row-reset-tablet">
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header">PAGES</h2>
+              <a href="#" class="footer-anchors margin-top">Home</a>
+              <a href="#" class="footer-anchors">What we do</a>
+              <a href="#" class="footer-anchors">Services</a>
+              <a href="#" class="footer-anchors">Pricing</a>
+              <a href="#" class="footer-anchors">Projects</a>
+              <a href="#" class="footer-anchors">Blog</a>
+              <a href="#" class="footer-anchors">FAQs</a>
+            </article>
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header" class="yellow-text-reset">DEVELOPER TINGS</h2>
+              <a href="#" class="footer-anchors margin-top">Github</a>
+              <a href="#" class="footer-anchors">Style guide</a>
+              <a href="#" class="footer-anchors">Sitemap</a>
+            </article>
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header">DATA STUFF</h2>
+              <a href="#" class="footer-anchors">Data policy</a>
+            </article>
+          </div>
+          <div class="flex-direction-column padding-top">
+            <div class="grid-flex-start align-items-center">
+              <img src="assets/icons/copyright.svg" alt="The copyright symbol" class="inline-block social-media-svg margin-right-small"><p class="inline-block white-text-reset">All rights reserved by BlackSkull Media 2019</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </footer>
+
+
+
+
+    </div>
+
+
+
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

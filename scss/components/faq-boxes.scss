@@ -1,0 +1,26 @@
+// Box row & cols
+
+.faq-box-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-box-col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.faq-box-question {
+  flex: 1;
+  background-color: $color-cobalt;
+  color: #FFF;
+  border-left: 6px solid $color-yellow;
+}
+
+.faq-box-answer {
+  flex: 1;
+  background-color: $color-grey;
+  color: $color-cobalt;
+  border-left: 6px solid $color-grey;
+}
