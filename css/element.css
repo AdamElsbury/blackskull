@@ -842,6 +842,10 @@ vertically on devices smaller than 501px.
   padding-bottom: 5%;
 }
 
+.padding-bottom-large-mobile-only {
+  padding-bottom: 8%;
+}
+
 .padding-large-bottom-mobile-only {
   padding-bottom: 8%;
 }
@@ -854,6 +858,10 @@ vertically on devices smaller than 501px.
   padding-right: 8%;
 }
 
+.padding-right-mobile-only {
+  padding-right: 5%;
+}
+
 .padding-reset-right-mobile-only {
   padding-right: 0;
 }
@@ -861,6 +869,8 @@ vertically on devices smaller than 501px.
 .padding-vertical-mobile-only {
   padding: 5% 0 5% 0;
 }
+
+
 
 
 /* Padding resets */
