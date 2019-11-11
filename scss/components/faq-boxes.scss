@@ -3,6 +3,7 @@
 .faq-box-row {
   display: flex;
   flex-direction: column;
+  padding-bottom: 4%;
 }
 
 .faq-box-col {
@@ -23,4 +24,20 @@
   background-color: $color-grey;
   color: $color-cobalt;
   border-left: 6px solid $color-grey;
+}
+
+// Mobile
+
+@media screen and ( max-width: 600px ) {
+  .faq-box-row {
+    padding-bottom: 8%;
+  }
+}
+
+// Tablet
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .faq-box-row {
+    padding-bottom: 6%;
+  }
 }

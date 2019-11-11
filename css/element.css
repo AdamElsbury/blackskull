@@ -941,8 +941,8 @@ vertically on devices smaller than 501px.
   }
 
   .large-gutter {
-    padding-left: 23%;
-    padding-right: 23%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   .gutter-reset-tablet-only {
@@ -1036,6 +1036,10 @@ vertically on devices smaller than 501px.
 
 .margin-remove-tablet-only {
   margin: 0 !important;
+}
+
+.margin-bottom-remove-tablet-only {
+  margin-bottom: 0 !important;
 }
 
 /* Padding */

@@ -37,7 +37,7 @@
   }
 
   .padding-overlap-container-above {
-    padding-bottom: 55%;
+    padding-bottom: 55% !important;
   }
 
   .padding-overlap-container-below {
@@ -50,12 +50,12 @@
 @media (min-width: 601px) and (max-width: 1024px) {
   .overlap-container {
     width: 70%;
-    padding: 5% 5% 0 5%;
+    padding: 3%;
     text-align: center;
   }
 
   .padding-overlap-container-above {
-    padding-bottom: 33%;
+    padding-bottom: 33% !important;
   }
 
   .padding-overlap-container-below {
