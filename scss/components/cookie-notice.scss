@@ -1,0 +1,12 @@
+// Cookie notice
+
+.cookie-notice {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: $color-yellow;
+  color: $color-cobalt;
+  z-index: 10;
+  display: none;
+}

@@ -70,3 +70,15 @@ function showPanelThree() {
   document.getElementById("panel-switch-3").style.opacity = "1";
   document.getElementById("panel-switch-3").style.zIndex = "2";
 }
+
+function closeCookieNotice() {
+  document.getElementById("cookie-notice").style.display = "none";
+}
+
+function checkVisited() {
+    var visited = localStorage.getItem('visited');
+    if (!visited) {
+        document.getElementById("cookie-notice").style.display = "block";
+        localStorage.setItem('visited', true);
+      }
+    }

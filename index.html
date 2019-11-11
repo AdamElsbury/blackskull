@@ -11,8 +11,19 @@
   <link rel="stylesheet" href="css/element.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
 </head>
-<body>
+<body onload="checkVisited()">
   <div class="container">
+
+    <div class="cookie-notice" id="cookie-notice">
+      <div class="grid-row small-gutter">
+        <article class="grid-col-80 grid-flex-center">
+          <p>By using this site you are consenting to our <a href="cookies.html">cookie policy</a>. We don't save any personal data but we do use anonymous data with Google analytics to track things like traffic and user actions. This allows us to improve the site to give you a better experience.</p>
+        </article>
+        <div class="grid-col grid-flex-center">
+          <button class="btn-primary btn-cobalt" onclick="closeCookieNotice()">ACCEPT</button>
+        </div>
+      </div>
+    </div>
 
     <div class="menu-container" id="menu">
       <div class="menu-content">
@@ -282,10 +293,11 @@
                 <div class="panel-1">
                   <div class="grid-row margin-remove medium-gutter padding-top">
                     <div class="grid-col margin-remove white-text-reset text-center">
-                      <img src="assets/img/sharon-davies.jpg" alt="A young woman smiling" class="testimonial-img">
-                      <p>BlackSkull were an absolute pleasure to work with. They really listened to my goals and translated them into a beautiful portfolio for my freelance business. They took care of everything. Thank you BS!</p>
-                      <h3 class="white-text-reset small-bold-header">SHARON DAVIES</h3>
-                      <p class="margin-remove">SOCIAL MEDIA MANAGER</p>
+                      <img src="assets/img/paz-profile.jpg" alt="A man smiling" class="testimonial-img">
+                      <p>I can't thank BlackSkull enough for their attention to detail and client focused approach. They really took the time to understand what we needed our website to do and not only satisfied the brief but made it far better than we had imagined.</p>
+                      <p>If you're looking for a creative, up and coming web design company I can't recommend BlackSkull enough!</p>
+                      <h3 class="white-text-reset small-bold-header">JONATHAN PRICE</h3>
+                      <p class="margin-remove">PROJECT OFFICER | BGC WALES</p>
                     </div>
                   </div>
                 </div>
