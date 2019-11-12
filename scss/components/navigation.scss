@@ -6,7 +6,7 @@
   display: -ms-flexbox;
   align-items: center;
   min-height: 120px;
-  padding: 0 4% 0 4%;
+  padding: 2% 4% 0 4%;
 
   ul {
     margin: 0;
@@ -124,7 +124,7 @@
 .menu-logo {
   width: auto;
   height: auto;
-  max-width: 10%;
+  max-height: 70px;
   position: absolute;
   top: 0;
   left: 0;
@@ -213,7 +213,7 @@
 
 @media screen and ( max-width: 600px ) {
   .menu-logo {
-    max-width: 28%;
+    max-height: 50px;
   }
 
   .menu-content {
