@@ -14,3 +14,16 @@
     color: $color-yellow;
   }
 }
+
+.body-anchors {
+  letter-spacing: 1px;
+  font-family: $text-primary;
+  color: $color-blue;
+  font-weight: $text-weight-semi-bold;
+  text-decoration: none;
+  transition: all 0.3s;
+
+  &:hover {
+    color: $color-yellow;
+  }
+}
