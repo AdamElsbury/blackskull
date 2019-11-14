@@ -422,6 +422,9 @@
           </form>
           <div class="grid-flex-start">
             <button onclick="gtag('send', 'event', 'Newsletter sign up', 'Form submit', 'Newsletter');">GA</button>
+            <button onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">GA</button>
+
+            onsubmit="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});
             <a href="#"><img src="assets/icons/email.svg" alt="An envelope" class="margin-right-small social-media-svg"></a>
             <a href="#"><img src="assets/icons/instagram.svg" alt="The instagram logo" class="margin-right-small social-media-svg"></a>
             <a href="#"><img src="assets/icons/facebook.svg" alt="The facebook logo" class="margin-right-small social-media-svg"></a>
