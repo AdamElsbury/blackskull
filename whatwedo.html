@@ -90,7 +90,7 @@
         <p><b>07506782509</b></p>
         <p><b>bsmedia@gmail.com</b></p>
         <hr>
-        <form action="https://formspree.io/mwkkqnrk" method="POST" class="quote">
+        <form action="https://formspree.io/mwkkqnrk" method="POST" class="quote" id="quote">
           <label for="enquiry"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT DO YOU NEED HELP WITH? *</p></label>
           <input type="text" placeholder="e.g 'Website' or 'Digital marketing'" name="enquiry" id="enquiry">
           <label for="budget"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT IS YOUR BUDGET? *</p></label>
@@ -418,7 +418,7 @@
           <p class="margin-top margin-bottom">If you sign up we will send you articles about increasing your traffic and other interesting tips to growing your online presence. All free of course.</p>
           <form action="https://formspree.io/meqqzpja" method="POST" class="newsletter margin-bottom">
             <input type="text" placeholder="Email address" class="margin-right-small" name="email">
-            <button class="btn-primary btn-blue" type="submit">SIGN UP</button>
+            <button class="btn-primary btn-blue" type="submit" onclick="ga('send', 'event', 'Quote submission', 'click', 'Newsletter');">SIGN UP</button>
           </form>
           <div class="grid-flex-start">
             <a href="#"><img src="assets/icons/email.svg" alt="An envelope" class="margin-right-small social-media-svg"></a>
