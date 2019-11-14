@@ -418,13 +418,9 @@
           <p class="margin-top margin-bottom">If you sign up we will send you articles about increasing your traffic and other interesting tips to growing your online presence. All free of course.</p>
           <form action="https://formspree.io/meqqzpja" method="POST" class="newsletter margin-bottom" onsubmit="gtag('send', 'event', 'Newsletter sign up', 'Form submit', 'Newsletter');">
             <input type="text" placeholder="Email address" class="margin-right-small" name="email">
-            <button class="btn-primary btn-blue" type="submit">SIGN UP</button>
+            <button class="btn-primary btn-blue" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">SIGN UP</button>
           </form>
           <div class="grid-flex-start">
-            <button onclick="gtag('send', 'event', 'Newsletter sign up', 'Form submit', 'Newsletter');">GA</button>
-            <button onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">GA</button>
-
-            onsubmit="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});
             <a href="#"><img src="assets/icons/email.svg" alt="An envelope" class="margin-right-small social-media-svg"></a>
             <a href="#"><img src="assets/icons/instagram.svg" alt="The instagram logo" class="margin-right-small social-media-svg"></a>
             <a href="#"><img src="assets/icons/facebook.svg" alt="The facebook logo" class="margin-right-small social-media-svg"></a>
