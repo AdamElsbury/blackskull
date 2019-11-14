@@ -416,9 +416,9 @@
         <article class="grid-col-30 white-text-reset">
           <h2 class="yellow-text-reset small-bold-header">STAY CONNECTED WITH OUR NEWSLETTER</h2>
           <p class="margin-top margin-bottom">If you sign up we will send you articles about increasing your traffic and other interesting tips to growing your online presence. All free of course.</p>
-          <form action="https://formspree.io/meqqzpja" method="POST" class="newsletter margin-bottom">
+          <form action="https://formspree.io/meqqzpja" method="POST" class="newsletter margin-bottom" onsubmit="ga('send', 'event', 'Newsletter sign up', 'Form submit', 'Newsletter');">
             <input type="text" placeholder="Email address" class="margin-right-small" name="email">
-            <button class="btn-primary btn-blue" type="submit" onclick="ga('send', 'event', 'Quote submission', 'Click', 'Newsletter');">SIGN UP</button>
+            <button class="btn-primary btn-blue" type="submit">SIGN UP</button>
           </form>
           <div class="grid-flex-start">
             <a href="#"><img src="assets/icons/email.svg" alt="An envelope" class="margin-right-small social-media-svg"></a>
