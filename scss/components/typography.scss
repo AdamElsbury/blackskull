@@ -82,6 +82,15 @@ h2 {
   font-family: $text-primary;
 }
 
+.xl-section-header-bold {
+  color: $color-cobalt;
+  font-size: calc(28px + (38 - 28) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 700;
+  margin: 1.5% 0 1.5% 0;
+  font-family: $text-primary;
+
+}
+
 .small-section-header {
   color: $color-cobalt;
   font-size: calc(21px + (24 - 21) * ((100vw - 300px) / (1600 - 300)));

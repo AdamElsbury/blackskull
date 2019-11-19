@@ -1,0 +1,39 @@
+// Author section smaller text
+
+.blog-author-sub-text {
+  font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+// Custom blog gutter
+
+.blog-gutter {
+  padding-left: 29%;
+  padding-right: 29%;
+}
+
+// Mobile
+
+@media screen and ( max-width: 600px ) {
+  .blog-gutter {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+// Tablet
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .blog-gutter {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+}
+
+// Small laptop
+
+@media (min-width: 1025px) and ( max-width: 1366px ) {
+  .blog-gutter {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
