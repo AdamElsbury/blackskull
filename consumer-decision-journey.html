@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152530454-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-152530454-1');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BlackSkull | Content marketing for SMEs </title>
+  <meta name="description" content="Content marketing - the under utilized, cost effective marketing solution for small businesses.">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/element.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+</head>
+<body>
+  <div class="container">
+    <div class="cookie-notice" id="cookie-notice">
+      <div class="grid-row small-gutter">
+        <article class="grid-col-80 grid-flex-center">
+          <p>By using this site you are consenting to our <a href="cookies.html">cookie policy</a>. We don't save any personal data but we do use anonymous data with Google analytics to track things like traffic and user actions. This allows us to improve the site to give you a better experience.</p>
+        </article>
+        <div class="grid-col grid-flex-center">
+          <button class="btn-primary btn-cobalt" onclick="closeCookieNotice()">ACCEPT</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="menu-container" id="menu">
+      <div class="menu-content">
+        <img src="assets/icons/blackskull-logo-white.png" alt="A skull with the word BlackSkull underneath" class="menu-logo">
+        <img src="assets/icons/error.svg" alt="A white circle with an X in the middle" class="cancel-button" onclick="closeMenu()">
+        <div class="grid-row padding-top-large medium-gutter">
+          <article class="grid-col white-text-reset menu-project-links padding-right order-2-mobile">
+            <h2 class="text-sub-cobalt large-section-header">Recent work</h2>
+            <a href="lps.html" class="margin-top inline-block">
+              <h3>Luisa Pereira Santos</h3>
+              <p class="text-sub-cobalt">Designing and building a professional portfolio to generate leads and showcase work</p>
+            </a>
+            <a href="pcss.html" class="margin-top inline-block">
+              <h3>Project Controls & Services Ltd</h3>
+              <p class="text-sub-cobalt">Designing, building & branding a professional web presence for Project planning company</p>
+            </a>
+            <a href="ovoc.html" class="margin-top inline-block">
+              <h3>Our voice our community</h3>
+              <p class="text-sub-cobalt">Designing & building a platform for young people to engage in politics</p>
+            </a>
+          </article>
+
+          <article class="grid-col padding-left padding-right order-1-mobile padding-reset-right-mobile-only padding-reset-left-mobile-only padding-reset-left-tablet-only padding-reset-right-tablet-only">
+            <h2 class="text-sub-cobalt large-section-header">Menu</h2>
+            <ul class="margin-top white-less-contrast-text-reset">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="whatwedo.html">What we do</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li class="margin-top-large"><a href="cookies.html" class="mini-li">Cookie policy</a></li>
+              <li><a href="faq.html" class="mini-li">FAQs</a></li>
+            </ul>
+          </article>
+
+          <div class="grid-col white-text-reset padding-left order-3-mobile padding-reset-left-mobile-only padding-reset-left-tablet-only margin-top-large-mobile-only margin-top-large-tablet-only">
+            <p class="text-sub-cobalt text-section-header">Web solutions with a different attitude.</p>
+            <h3 class="white-text-reset margin-top small-section-header">Location</h5>
+            <p class="text-sub-cobalt">Bridgend, South Wales</p>
+            <h3 class="white-text-reset margin-top small-section-header">Contact</h5>
+            <p class="text-sub-cobalt">hello@blackskull.agency</p>
+            <p class="text-sub-cobalt">07506782509</p>
+            <button class="btn-primary btn-pink margin-top" onclick="showSubmission();closeMenu();">FREE QUOTE</button>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <section class="submission-container" id="submission-container">
+      <div class="submission-content position-relative">
+        <img src="assets/icons/error.svg" alt="A white circle with an X in the middle" class="cancel-button" onclick="closeSubmission()">
+        <span class="white-text-reset">Get a quote.</span>
+        <p class="white-less-contrast-text-reset">Get a quotation for your new web solution. Due to our modular payment system not every job is priced differently. The more details you can provide - the more accurate the quote. </p>
+        <p><b>07506782509</b></p>
+        <p><b>bsmedia@gmail.com</b></p>
+        <hr>
+        <form action="https://formspree.io/mwkkqnrk" method="POST" class="quote">
+          <label for="enquiry"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT DO YOU NEED HELP WITH? *</p></label>
+          <input type="text" placeholder="e.g 'Website' or 'Digital marketing'" name="enquiry" id="enquiry">
+          <label for="budget"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT IS YOUR BUDGET? *</p></label>
+          <input type="text" placeholder="Rough estimates are fine" name="budget" id="budget">
+          <label for="deadline"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">DO YOU HAVE A DEADLINE IN MIND? *</p></label>
+          <input type="text" name="deadline" id="deadline">
+          <label for="email"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT IS YOUR EMAIL ADDRESS? *</p></label>
+          <input type="text" name="email" id="email">
+          <label for="message"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">TELL US MORE ABOUT YOUR PROJECT *</p></label>
+          <textarea name="message" placeholder="Tell us about your goals, what's been done already & what your vision is for the outcome of this project. Use bullet points, a paragraph or hell even write us a poem. Or give us a call instead." id="message"></textarea>
+          <button type="submit" class="btn-primary btn-pink margin-top margin-top-large-mobile-only" onclick="gtag('event', 'Form submit', {'event_category': 'Quote submission', 'event_label': 'Quote'});">SEND MESSAGE</button>
+        </form>
+        <p>We always strive to deliver same day replies to all potential clients but sometimes deadlines are tight. Can't wait to chat!</p>
+      </div>
+    </section>
+
+    <header class="yellow-background">
+      <div class="nav-container">
+        <a href="index.html"><img src="assets/icons/blackskull-logo-cobalt.png" alt="A skull with the word BlackSkull underneath" class="logo"></a>
+        <ul class="nav-links">
+          <img src="assets/icons/hamburger-cobalt.svg" alt="A hamburger menu" class="margin-right-small" onclick="showMenu()">
+          <button class="btn-primary btn-cobalt margin-left" onclick="showSubmission()">FREE QUOTE</button>
+        </ul>
+      </div>
+
+      <section class="grid-row justify-center padding-bottom padding-top">
+        <article class="grid-col-40 text-center">
+          <img src="assets/icons/black-skull.svg" alt="A black skull" class="logo">
+          <h1 class="h1-center-underline cobalt-text-reset">Content marketing</h1>
+        </article>
+      </section>
+    </header>
+
+    <main class="position-relative">
+    <div class="subscribe-modal mobile-hide" id="blog-sub-modal">
+      <div class="grid-row">
+        <article class="grid-col">
+          <h5 class="large-section-header-bold margin-remove">Subscribe to our blog</h5>
+          <p>Subscribe to be notified about new online presence tips & articles.</p>
+          <form action="https://formspree.io/meqqzpja" method="POST">
+            <input type="text" placeholder="Email address" class="margin-bottom-small" name="email">
+            <input type="text" placeholder="Name" class="margin-bottom" name="name">
+            <button class="btn-primary btn-cobalt margin-top" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">SUBSCRIBE</button>
+          </form>
+          <img src="assets/icons/error-cobalt.svg" alt="A white circle with an X in the middle" onclick="closeBlogSubModal()">
+        </article>
+      </div>
+    </div>
+
+      <section class="grid-row padding-top blog-gutter">
+        <article class="grid-col">
+          <section class="grid-row grid-row-reset-mobile">
+            <article class="grid-col-10 grid-flex-center grid-col-15-reset-mobile">
+              <img src="assets/img/adam-profile.jpg" alt="Adam Elsbury stood next to a dog" class="full-width-img">
+            </article>
+            <article class="grid-col padding-left align-items-center grid-col-reset-mobile">
+              <div>
+              <p class="margin-remove"><b>Adam Elsbury</b></p>
+              <p class="margin-remove blog-author-sub-text">Updated in November 19'  ・  14 min read</p>
+              </div>
+            </article>
+          </section>
+        </article>
+      </section>
+
+      <section class="grid-row blog-gutter padding-top-small padding-bottom-small">
+        <article class="grid-col">
+          <h2 class="xl-section-header-bold margin-bottom-small">The consumer decision journey & the world of targeted marketing.</h2>
+          <img src="assets/img/content-marketing.jpg" alt="An apple mac on a table next to a cup of coffee" class="full-width-img margin-bottom">
+          <h3 class="large-section-header">Introduction</h3>
+          <p>If you run or work for a business, and you’re reading this, chances are you understand what marketing is. But just in case, marketing is the process of acquiring new customers for your business or service. Simple.</p>
+          <p>Traditionally, marketing was done through traditional media, TV, radio, newspapers etc. With the explosion of the internet marketplace, digital marketing is now the number one utilized form of marketing because of its cost, access to data and the fact that almost everyone owns a smartphone.</p>
+          <p>Individual marketing campaigns or content can have very different goals. You could release a facebook ad to get more likes on your company page. Or you could start up a Google ad to send more leads to your website. Or you could be writing a blog post to generate email sign ups (just like we are doing right now!)</p>
+          <p>Which goal & which type of ad you choose is dictated by the Consumer Decision Journey. Let us break it down for you!</p>
+          <div class="alert-box margin-top-large margin-bottom">
+            <div class="alert-box-header grid-row margin-remove">
+              <article class="grid-col grid-flex-center margin-remove">
+              <img src="assets/icons/question.svg" alt="A question mark in a blue circle" class="inline-block">
+              <h4 class="inline-block margin-left-small small-section-header">What is the Consumer Decision Journey?</h4>
+              </article>
+            </div>
+            <p class="margin-top">The Consumer Decision Journey is the journey a consumer takes before making a purchasing decision. This is a well researched & understood topic in the marketing world and every single marketer on the planet uses this information in their marketing materials.</p>
+            <p class="margin-remove">Different companies have different approaches to the CDJ, the one we will discuss in this article is based on a <b>consumer who has already identified a problem or unmet need and has made a decision to make a purchase.</b> Other articles will talk about the problem identifying stage which comes before the first step in our journey.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="grid-row large-gutter">
+        <article class="grid-col grid-flex-center">
+          <img src="assets/icons/customer-purchasing-journey.png" alt="The five steps of the customer purchasing journey" class="full-width-img">
+        </article>
+      </section>
+
+      <section class="grid-row blog-gutter padding-top-small padding-bottom-small">
+        <article class="grid-col">
+          <h4 class="small-section-header margin-top">1. Awareness</h4>
+          <p>No one can buy your products or sign up to your service if they don’t know you exist, right? The Awareness phase is the first step on the customer journey. It is the process of a potential consumer discovering your company or products. This is typically achieved through releasing an advertisement of some kind.</p>
+          <p>When a consumer decides they wish to make a purchase, this is the first step where they start filtering out options. Consumers are <b>three times more likely to make a purchase from a brand they have heard of.</b></p>
+          <p>Ever wondered why you see TV adverts which are 5 seconds long and state the name of the company and nothing else. Sounds pointless right? What's the point in making an advertisement that doesn’t describe what the company does. Think of a popular aftershave or perfume advert which has literally nothing to do with the company or product.</p>
+          <p>This is because companies are targeting consumers in the awareness stage. All they need is a memorable advert and for the consumer to remember the brand. The rest comes later.</p>
+          <h4 class="small-section-header margin-top">2. Familiarity</h4>
+          <p>This is the stage where the consumer starts filtering out the brands from the first phase that they are least familiar with. Familiarity can be considered an understanding of what the company offers or sells, understanding individual products or services, having second hand knowledge (referrals) or remembering marketing content.</p>
+          <p>This step can be frustrating as its difficult to compete with other companies who have simply been around longer and had more opportunity to get their brand recognised. But fear not, everyone has to start somewhere. </b></p>
+          <h4 class="small-section-header margin-top">3. Consideration</h4>
+          <p>This is the stage where the consumer now only has familiar brands in their consideration pool. Newer companies or companies they don’t have much experience with are out of the decision. </p>
+          <p>The consumer will now start comparing the companies based on different criteria. Price, product quality, location of the company, consumer reviews etc. This might not be a tangible process - the consumer may not be creating a physical list but they will be mentally comparing everything.</b></p>
+          <p>They will start to filter out the brands that do not match their criteria and form a smaller group of the strongest options and move on to the next stage.</p>
+          <h4 class="small-section-header margin-top">4. Purchase</h4>
+          <p>This is the most important stage. Its where the consumer spends money. By now the consumer probably has 2-3 different brands and is making their final decision. They’re checking their bank account, figuring out delivery times & costs and planning for the purchase.</p>
+          <p>They pretty much already have all the criteria in mind and the final group of options will be strong choices across the board. The final decision maker is in the small details. Three companies may have similar prices but one stands out because they run a campaign to help a charity. Or maybe one of the companies has a more professional looking brand with beautiful logos and colour schemes, or their website was easier to use.</b></p>
+          <p>Once they make their final decision, the bank account information gets entered and a sale is completed. But the journey is not over.</p>
+          <h4 class="small-section-header margin-top">5. Loyalty</h4>
+          <p>Many companies stop at step 4. They have the money and return on investment from their marketing, so why would they care what else happens? Well, because consumers have often not finished their journey.</p>
+          <p>Consumers in the loyalty phase are critically analysing your service or product under a microscope. Remember, services can be cancelled and products can be refunded if they're not happy.</p>
+          <p>Companies typically target <b>consumer retention</b> marketing techniques in this stage. Offers, discounts, access to products a week early compared to non subscribers etc. Believe it or not, this is the stage where the most marketing money gets spent.</p>
+          <p>Think logically, if a consumer has reached this point they trust your brand and are willing to spend their hard earned cash on your products. You already know they're interested, <b>this demographic is the easiest group to make re-sales or prolong subscriptions.</b></p>
+          <h3 class="large-section-header margin-top">Exemptions from the rule</h3>
+          <p>The above 5 step process is generalised, the steps may differ slightly between markets. The biggest influencer on the length and scrutiny of each step is the <b>cost of the final product or service.</b></p>
+          <p>Let's take an example. You’ve just broken your mobile phone charger and need a new one. New mobile chargers cost maybe £10, often even cheaper. Chances are you are not going to take the time to compare 65 different companies and create a spreadsheet comparing costs and delivery times right? It's only a tenner.</p>
+          <p>You would probably just google “mobile phone chargers” or go straight to amazon and find an option and get it on next day delivery.</p>
+          <p><b>The length of each step along the consumer purchasing decision is directly correlated to the cost of the end product.</b> Which mobile phone charger to order is a pretty straightforward decision. Which brand new car you’re going to purchase? Now that's a more informed decision because wasting £35,000 on the wrong Subaru is a lot more hurtful than buying the wrong phone charger.</p>
+          <p>So there you have it. Now you know what steps a customer takes to make a purchase and what they're thinking along the way. That's great, but how can you take advantage of it? Well, we’ll let you in on some secrets.</p>
+          <h3 class="large-section-header margin-top">Approaching the journey from the perspective of a real consumer</h3>
+          <img src="assets/icons/jake.svg" alt="A picture of an adult male" class="user-favicon margin-top margin-bottom">
+          <p>Meet Jake. Meet the guy behind the method. Why are we even doing this? At BlackSkull we are User Experience experts, and creating a persona is a common method for empathizing with a consumer to effectively create a targeted solution. Marketing is no different. If you know how a user ticks, you can appeal to them.</p>
+          <h4 class="small-section-header margin-top">Who is Jake?</h4>
+          <p>Jake is 23 years old and lives in the UK. He graduated University a few months ago, has started working at a local office and has decided to upgrade his car because his old one just broke down.</p>
+          <p>Jake is active and goes to the gym regularly and plays for his local rugby team. He has a vibrant social life and loves to go down the pub with his mates. He has a girlfriend that lives 120 miles away that he visits most weekends or whenever he can get time off work.</p>
+          <p>He has a secure financial situation and earns £30,000 a year at his job. He isn’t that interested in cars but has a few friends who are.</p>
+          <h4 class="small-section-header margin-top">What does Jake need from his new car?</h4>
+          <p>Jake isn’t making a purchase to go speeding around the countryside late at night or going to show off his new whip at a meet up. Jakes a pragmatic guy and wants a reliable, affordable option that won’t break down and has cheap mileage.</p>
+          <h3 class="large-section-header margin-top">Step 1: Awareness</h3>
+          <p>It's a friday night, Jake’s just finished work and is sat as his computer with a bottle of lager and is going to power through and come up with some options for his new car.</p>
+          <p>His starting point is car manufacturers that he is aware of. He knows a few major brands, Toyota, Citroen, Ford. So he googles the following;</p>
+          <p>“Affordable reliable new cars”</p>
+          <p>He gets hits from the brands he is aware of but he notices a few ads for local car dealerships that claim to be cheaper than going straight to a dealership and they have some insurance options built in.</p>
+          <div class="alert-box margin-top-large margin-bottom-large">
+            <div class="alert-box-header grid-row margin-remove">
+              <article class="grid-col grid-flex-center margin-remove">
+              <img src="assets/icons/creativity.svg" alt="A question mark in a blue circle" class="inline-block">
+              <h4 class="inline-block margin-left-small small-section-header">TIP 1: Can the consumer trust you?</h4>
+              </article>
+            </div>
+            <p class="margin-top">This is a point of the consumer journey that you can target. If you’re a car dealership you can create a Google ad campaign to target those keywords Jake just searched. Now, you’re competing with the big companies and you don’t have the same marketing budget so you have to offer value in other ways.</p>
+            <p>You have to match the trust indicators that the brands Jake is already aware of. Why would he choose your dealership instead of Toyota? A smart ad could include “Local car dealership - 35 years of experience”. Toyota doesn’t need to say that because people are already aware of their service. You don’t have that luxury.</p>
+            <p class="margin-remove">The most important consumer factor in the awareness stage is brand trust. Reviews, number of products sold, years of experience, etc. They want to know they can trust your service.</p>
+          </div>
+          <p>Jake clicks through a few of the ads and adds two local dealerships to his decision pool that he remembers hearing on the radio. He excludes the organic results he saw because they don’t look as trustworthy.</p>
+          <h3 class="large-section-header margin-top">Step 2: Familiarity</h3>
+          <p>Now the two new dealerships are at a disadvantage because Jake is not as familiar with them. He has seen hundreds of Ford ads on TV. He's only heard of the local dealerships a few times, they’re going to have to offer something extra.</p>
+          <p>So he continues his research. He goes to the websites. One of the dealerships offers to include insurance, car tax and a free MOT every year. Jake likes the idea of saving time on managing his car as remember, he’s not really into cars.</p>
+          <p>Jake excludes the other dealership because they don’t really add anything. </p>
+          <p>Now Jake has about 20 brands he is familiar with. So he reaches out to his best friend who is a car addict and asks a few questions. His friend says to exclude the British car manufacturers because they are “unreliable”. His friend said he actually purchased a car from the local car dealership which makes Jake trust them even more.</p>
+          <div class="alert-box margin-top-large margin-bottom-large">
+            <div class="alert-box-header grid-row margin-remove">
+              <article class="grid-col grid-flex-center margin-remove">
+              <img src="assets/icons/creativity.svg" alt="A question mark in a blue circle" class="inline-block">
+              <h4 class="inline-block margin-left-small small-section-header">TIP 2: Does the consumer know why you stand out?</h4>
+              </article>
+            </div>
+            <p class="margin-top">Marketing content here can be a little more aggressive than stage 1. The consumer trusts your service, now it's time to show off what separates you from your competitors without going into too much detail. Do you offer better customer service? Are you less expensive? Figure out what your company does better than your direct competitors, and make sure people see it.</p>
+          </div>
+          <h3 class="large-section-header margin-top">Step 3: Consideration</h3>
+          <p>So Jake has his list of 7 manufacturers now he's off the phone with his friend. He decides to get a piece of paper and lists all 7. He goes to each website and lists what he likes and what he doesn’t like. Toyota have the best value for money but they don’t offer the free car wash service, that's extra. The local dealership is easier to get to for repairs but has a longer waiting list than Citroen.</p>
+          <p>Jake continues comparing the companies and filters out the ones he doesn’t like or perform badly compared to his metrics. He has three companies left, 2 major manufacturers and the local dealership.</p>
+          <div class="alert-box margin-top-large margin-bottom-large">
+            <div class="alert-box-header grid-row margin-remove">
+              <article class="grid-col grid-flex-center margin-remove">
+              <img src="assets/icons/creativity.svg" alt="A question mark in a blue circle" class="inline-block">
+              <h4 class="inline-block margin-left-small small-section-header">TIP 3: Does the consumer have <b>proof</b> for your claims?</h4>
+              </article>
+            </div>
+            <p class="margin-top">When your consumer is comparing your product or brand against a competitor, they already know <b>why</b> you’re better, you did that in the last stage, now they need to see <b>proof.</b></p>
+            <p>Marketing content in this stage focuses on providing proof to your claims. You claim to offer better customer service, so include something like “A poll we conducted showed 94% of our clients would recommend our service to a friend”. Or maybe include a trust pilot widget showing off your 5 star product.</p>
+            <p>Consumers in this stage may be searching for a specific metric “Cheapest golf clubs in South England”. Show off.</p>
+          </div>
+          <h3 class="large-section-header margin-top">Step 4: Purchase</h3>
+          <p>Jake has seen all the information he needs. He knows the pros and cons of each business and is about to make the final decision. He notices from his piece of paper the two major manufacturers have garages over 90 miles away and they only offer repairs and MOT’s on weekends.</p>
+          <p>Jake doesn’t like the sound of driving 180 miles after a busy day at work and doesn’t want to lose time on the weekends because that's when he sees his girlfriend. He notices the local dealership is only 10 miles away and offers maintenance during the week. Bingo!</p>
+          <div class="alert-box margin-top-large margin-bottom-large">
+            <div class="alert-box-header grid-row margin-remove">
+              <article class="grid-col grid-flex-center margin-remove">
+              <img src="assets/icons/creativity.svg" alt="A question mark in a blue circle" class="inline-block">
+              <h4 class="inline-block margin-left-small small-section-header">TIP 4: Does the consumer see the small details?</h4>
+              </article>
+            </div>
+            <p class="margin-top">Marketing content can still be used but is more or less ignored at this stage. The consumer already has an informed list of a few companies to make a purchase from. Reintroducing a new company to consider at this point is incredibly difficult and most consumers won’t bother.</p>
+            <p>So the information for this stage would appear on your website. You’re looking for that one simple detail that makes you stand out. Its difficult to know what it is, you would need to consult your own data to figure out why people choose your product instead of a competitor.</p>
+            <p>A good example would be delivery costs for an e-commerce site. If yours is lower that may be the final thing the consumer picks you for. Or it could be an easy to use returns policy. Think of things directly related to the act of purchasing. What would your consumer want to see when they're in their (metaphorical) basket about to checkout?</p>
+          </div>
+          <h3 class="large-section-header margin-top">Step 5: Loyalty</h3>
+          <p>It's been 2 weeks. Jake called the local dealership, set up a meeting and went and purchased his new car. Whilst he was filling out the paperwork the dealership signed him up to the free car wash service, MOT & maintenance package. They also took his email address.</p>
+          <p>Jake loved the personable approach of the staff and couldn't be happier with his new car.</p>
+          <div class="alert-box margin-top-large margin-bottom-large">
+            <div class="alert-box-header grid-row margin-remove">
+              <article class="grid-col grid-flex-center margin-remove">
+              <img src="assets/icons/creativity.svg" alt="A question mark in a blue circle" class="inline-block">
+              <h4 class="inline-block margin-left-small small-section-header">TIP 5: Does the consumer have a reason to stay?</h4>
+              </article>
+            </div>
+            <p class="margin-top">A consumer has made a purchase, but you still have the opportunity to promote brand loyalty to either retain the customer or sell further products or services. </p>
+            <p>A good idea is to initially provide something for free - maybe a warranty on the purchase or a 30 days refund policy if they aren’t happy, or free repairs for 6 months. You’re trying to reinforce that the consumer made the right decision.</p>
+            <p>Another good option is a newsletter where you can promote deals or new products directly to existing customers. Remember, consumers who have already purchased once from you will likely do so again if you can convince them.</p>
+          </div>
+          <h3 class="large-section-header margin-top">Summary</h3>
+          <p>So there you have it. Hopefully this article helped you to understand how and why a consumer makes purchasing decisions. It's important to understand which stage of the journey you are targeting with your marketing budget.</p>
+          <p>Consumers at the start of the journey want less detail and more flash. Consumers towards the end need more details and less flash.</p>
+          <p>Bear in mind what we have shown you is simplified, new research in the industry shows consumers in specific fields can often get to a step and regress based on new information. Or they may take 6 months to make a decision and carry out the process 3 times until they choose a company.</p>
+          <p>If you liked this article, sign up to our newsletter and we will email you first when we release a new one, brand loyalty and all that!</p>
+
+
+
+
+
+
+        </article>
+      </section>
+
+
+    </main>
+
+
+
+    <footer>
+      <section class="grid-row padding-overlap-container-below small-gutter cobalt-background">
+        <article class="grid-col-30 white-text-reset">
+          <h2 class="yellow-text-reset small-bold-header">STAY CONNECTED WITH OUR NEWSLETTER</h2>
+          <p class="margin-top margin-bottom">If you sign up we will send you articles about increasing your traffic and other interesting tips to growing your online presence. All free of course.</p>
+          <form action="https://formspree.io/meqqzpja" method="POST" class="newsletter margin-bottom">
+            <input type="text" placeholder="Email address" class="margin-right-small" name="email">
+            <button class="btn-primary btn-blue" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">SIGN UP</button>
+          </form>
+          <div class="grid-flex-start">
+            <a href="mailto:hello@blackskull.agency"><img src="assets/icons/email.svg" alt="An envelope" class="margin-right-small social-media-svg"></a>
+            <a href="https://www.instagram.com/blackskullweb/"><img src="assets/icons/instagram.svg" alt="The instagram logo" class="margin-right-small social-media-svg"></a>
+            <a href="https://www.facebook.com/blackskullweb/"><img src="assets/icons/facebook.svg" alt="The facebook logo" class="margin-right-small social-media-svg"></a>
+          </div>
+        </article>
+        <div class="grid-col"></div>
+        <article class="grid-col-40">
+          <div class="grid-row grid-flex-end grid-row-reset-tablet">
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header">PAGES</h2>
+              <a href="index.html" class="footer-anchors margin-top">Home</a>
+              <a href="whatwedo.html" class="footer-anchors">What we do</a>
+              <a href="services.html" class="footer-anchors">Services</a>
+              <a href="pricing.html" class="footer-anchors">Pricing</a>
+              <a href="projects.html" class="footer-anchors">Projects</a>
+              <a href="blog.html" class="footer-anchors">Blog</a>
+              <a href="faq.html" class="footer-anchors">FAQs</a>
+            </article>
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header" class="yellow-text-reset">DEVELOPER TINGS</h2>
+              <a href="https://github.com/AdamElsbury/blackskull" class="footer-anchors margin-top">Github</a>
+              <a href="sitemap.xml" class="footer-anchors">Sitemap</a>
+            </article>
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header">DATA STUFF</h2>
+              <a href="cookies.html" class="footer-anchors">Cookie policy</a>
+            </article>
+          </div>
+          <div class="flex-direction-column padding-top">
+            <div class="grid-flex-start align-items-center">
+              <img src="assets/icons/copyright.svg" alt="The copyright symbol" class="inline-block social-media-svg margin-right-small"><p class="inline-block white-text-reset">All rights reserved by BlackSkull Media 2019</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </footer>
+
+
+
+
+    </div>
+
+
+
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

@@ -1,3 +1,11 @@
+window.onscroll = function() {showSubscribeModal()};
+
+function showSubscribeModal() {
+  if (document.body.scrollTop > 3500 || document.documentElement.scrollTop > 3500) {
+    document.getElementById("blog-sub-modal").style.right = "20px";
+    document.getElementById("blog-sub-modal").style.bottom = "20px";
+  }
+}
 
 const slider = tns({
   container: '#my-slider',
@@ -73,6 +81,10 @@ function showPanelThree() {
 
 function closeCookieNotice() {
   document.getElementById("cookie-notice").style.display = "none";
+}
+
+function closeBlogSubModal() {
+  document.getElementById("blog-sub-modal").style.display = "none";
 }
 
 function checkVisited() {
