@@ -125,16 +125,16 @@
     </header>
 
     <main class="position-relative">
-    <div class="subscribe-modal mobile-hide" id="blog-sub-modal">
+    <div class="subscribe-modal" id="blog-sub-modal">
       <div class="grid-row">
         <article class="grid-col">
           <h5 class="large-section-header-bold margin-remove">Subscribe to our blog</h5>
-          <p>Subscribe to be notified about new online presence tips & articles.</p>
+          <p>Subscribe to be notified about new online presence tips & articles, nothing else.</p>
           <form action="https://formspree.io/meqqzpja" method="POST">
             <input type="text" placeholder="Email address" class="margin-bottom-small" name="email">
-            <input type="text" placeholder="Name" class="margin-bottom" name="name">
             <button class="btn-primary btn-cobalt margin-top" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">SUBSCRIBE</button>
           </form>
+          <p class="terms-conditions">We will never share your data to third parties. By clicking submit you are consenting to our <a href="data-policy.html">data policy.</a> You may unsubscribe at any time.</p>
           <img src="assets/icons/error-cobalt.svg" alt="A white circle with an X in the middle" onclick="closeBlogSubModal()">
         </article>
       </div>
@@ -158,8 +158,26 @@
 
       <section class="grid-row blog-gutter padding-top-small padding-bottom-small">
         <article class="grid-col">
-          <h2 class="xl-section-header-bold margin-bottom-small">The consumer decision journey & the world of targeted marketing.</h2>
-          <img src="assets/img/content-marketing.jpg" alt="An apple mac on a table next to a cup of coffee" class="full-width-img margin-bottom">
+          <h2 class="xl-section-header-bold margin-bottom-small">The consumer decision journey & targeted marketing.</h2>
+          <img src="assets/img/consumer-purchasing-journey.jpg" alt="A person paying for something with a debit card" class="full-width-img margin-bottom">
+
+          <section class="grid-row padding-bottom">
+            <article class="grid-col-40">
+              <ul class="contents-table">
+                <li><a href="#"><b>1. Introduction</b></a></li>
+                <li class="margin-left-small"><a href="#">a. What is the consumer decision journey?</a></li>
+                <li class="margin-left-small"><a href="#">b. Awareness</a></li>
+                <li class="margin-left-small"><a href="#">c. Familiarity</a></li>
+                <li class="margin-left-small"><a href="#">d. Consideration</a></li>
+                <li class="margin-left-small"><a href="#">e. Purchase</a></li>
+                <li class="margin-left-small margin-bottom-small"><a href="#">f. Loyalty</a></li>
+                <li class="margin-bottom-small"><a href="#"><b>2. Exemptions from the rule</b></a></li>
+                <li class="margin-bottom-small"><a href="#"><b>3. CDJ user case study</b></a></li>
+                <li><a href="#"><b>4. Summary</b></a></li>
+              </ul>
+            </article>
+          </section>
+
           <h3 class="large-section-header">Introduction</h3>
           <p>If you run or work for a business, and you’re reading this, chances are you understand what marketing is. But just in case, marketing is the process of acquiring new customers for your business or service. Simple.</p>
           <p>Traditionally, marketing was done through traditional media, TV, radio, newspapers etc. With the explosion of the internet marketplace, digital marketing is now the number one utilized form of marketing because of its cost, access to data and the fact that almost everyone owns a smartphone.</p>
@@ -350,6 +368,7 @@
             <article class="grid-col white-text-reset">
               <h2 class="yellow-text-reset small-bold-header">DATA STUFF</h2>
               <a href="cookies.html" class="footer-anchors">Cookie policy</a>
+              <a href="data-policy.html" class="footer-anchors">Data policy</a>
             </article>
           </div>
           <div class="flex-direction-column padding-top">

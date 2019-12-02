@@ -4,6 +4,24 @@
   font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
 }
 
+// Contents table
+
+.contents-table {
+  background-color: $color-yellow;
+  padding: 25px;
+  border-radius: 7px;
+
+  a {
+    text-decoration: none;
+    color: $color-cobalt;
+    transition: 0.3s all;
+
+    &:hover {
+      color: $color-pink;
+    }
+  }
+}
+
 // Custom blog gutter
 
 .blog-gutter {
@@ -57,7 +75,7 @@
   bottom: -1000px;
   right: -1000px;
   background-color: $color-yellow;
-  padding: 45px;
+  padding: 40px;
   border-radius: 7px;
   -webkit-box-shadow: 0 11px 32px -5px rgba(54, 61, 77, 0.2)!important;
   -moz-box-shadow: 0 11px 32px -5px rgba(54, 61, 77, 0.2)!important;
@@ -98,6 +116,10 @@
   }
 }
 
+.terms-conditions {
+  font-size: 12px !important;
+}
+
 // Mobile
 
 @media screen and ( max-width: 600px ) {
@@ -107,9 +129,8 @@
   }
 
   .subscribe-modal {
-    width: 100%;
+    width: 68%;
     padding: 8% 6% 6% 6%;
-    border-radius: 0;
 
     img {
       position: absolute;

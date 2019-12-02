@@ -125,6 +125,21 @@
     </header>
 
     <main class="position-relative">
+      <div class="subscribe-modal" id="blog-sub-modal">
+        <div class="grid-row">
+          <article class="grid-col">
+            <h5 class="large-section-header-bold margin-remove">Subscribe to our blog</h5>
+            <p>Subscribe to be notified about new online presence tips & articles, nothing else.</p>
+            <form action="https://formspree.io/meqqzpja" method="POST">
+              <input type="text" placeholder="Email address" class="margin-bottom-small" name="email">
+              <button class="btn-primary btn-cobalt margin-top" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">SUBSCRIBE</button>
+            </form>
+            <p class="terms-conditions">We will never share your data to third parties. By clicking submit you are consenting to our <a href="data-policy.html">data policy.</a> You may unsubscribe at any time.</p>
+            <img src="assets/icons/error-cobalt.svg" alt="A white circle with an X in the middle" onclick="closeBlogSubModal()">
+          </article>
+        </div>
+      </div>
+
       <section class="grid-row padding-top blog-gutter">
         <article class="grid-col">
           <section class="grid-row grid-row-reset-mobile">
@@ -239,6 +254,7 @@
             <article class="grid-col white-text-reset">
               <h2 class="yellow-text-reset small-bold-header">DATA STUFF</h2>
               <a href="cookies.html" class="footer-anchors">Cookie policy</a>
+              <a href="data-policy.html" class="footer-anchors">Data policy</a>
             </article>
           </div>
           <div class="flex-direction-column padding-top">
