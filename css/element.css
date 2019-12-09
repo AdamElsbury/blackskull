@@ -936,8 +936,8 @@ vertically on devices smaller than 501px.
   }
 
   .medium-gutter {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
   .large-gutter {

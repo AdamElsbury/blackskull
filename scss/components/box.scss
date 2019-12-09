@@ -125,11 +125,6 @@
 // Tablet
 
 @media (min-width: 601px) and (max-width: 1024px) {
-  .box-row-index {
-    padding-left: 23%;
-    padding-right: 23%;
-  }
-
   .box-cobalt, .box-blue, .box-yellow, .box-white, .box-grey {
     margin: 0 !important;
     padding: 10%;
@@ -145,6 +140,28 @@
     }
   }
 }
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .box-row-index {
+    padding-left: 23%;
+    padding-right: 23%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 896px) {
+  .box-row-index {
+    padding-left: 27%;
+    padding-right: 27%;
+  }
+}
+
+@media (min-width: 896px) and (max-width: 1024px) {
+  .box-row-index {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+
 
 // Small laptop
 
