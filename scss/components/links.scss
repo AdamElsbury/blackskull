@@ -27,3 +27,22 @@
     color: $color-yellow;
   }
 }
+
+.page-section-anchors {
+  text-decoration: none;
+  transition: all 0.3s;
+  display: block;
+}
+
+// Sitcky tings
+
+.sticky-link-container {
+  position: sticky;
+  top: 250px;
+}
+
+// Scroll behaviour
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}

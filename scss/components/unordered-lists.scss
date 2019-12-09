@@ -17,24 +17,17 @@
 .services-horizontal-ul {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 1em;
+  padding: 0;
+  margin-bottom: 8em;
 
   li {
-    color: $color-cobalt;
+    color: $color-white;
     font-weight: $text-weight-medium;
     flex: none;
-    width: calc(100% / 3);
+    width: 50%;
     list-style-type: none;
-    padding: 0 5% 5% 0;
-
-    &:before {
-      content: "\2022";
-      color: $color-blue;
-      font-weight: 700;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
-    }
+    padding: 0 5% 3% 0;
+    font-size: 20px;
   }
 }
 
@@ -55,9 +48,11 @@
 
 @media screen and ( max-width: 600px ) {
   .services-horizontal-ul {
+    margin-bottom: 3em;
     li {
       list-style-type: none;
       width: 100%;
+      font-size: 17px;
     }
   }
 }
