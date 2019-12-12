@@ -143,3 +143,11 @@
     width: 100%;
   }
 }
+
+// Tablet
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .btn-tablet-full-width {
+    width: 100%;
+  }
+}

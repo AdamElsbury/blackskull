@@ -76,6 +76,26 @@
     }
 }
 
+// Landing page form
+
+.landing-page-form {
+
+  input[type="text"] {
+    background: transparent;
+    padding: 9px 23px 9px 23px;
+    border-bottom: 3px solid $color-pink !important;
+    border: none;
+    margin-right: 1em;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
 // Mobile
 
 @media screen and ( max-width: 600px ) {
@@ -96,6 +116,18 @@
     border: 11px solid #FFD500;
     padding: 8%;
   }
+
+  .landing-page-form {
+
+    input[type="text"] {
+      width: 100%;
+      margin-bottom: 2em;
+    }
+
+    button {
+      margin-top: 1em;
+    }
+  }
 }
 
 // Tablet
@@ -107,5 +139,39 @@
     height: 100vh;
     border: 11px solid #FFD500;
     padding: 17%;
+  }
+
+  .landing-page-form {
+    input[type="text"] {
+      width: 100%;
+      margin-bottom: 2em;
+    }
+
+    button {
+      margin-top: 1em;
+    }
+  }
+}
+
+// Small laptop
+
+@media (min-width: 1025px) and ( max-width: 1182px ) {
+  .landing-page-form {
+    input[type="text"] {
+      width: 80%;
+      margin-bottom: 2em;
+    }
+
+    button {
+      margin-top: 1em;
+    }
+  }
+}
+
+@media (min-width: 1183px) and ( max-width: 1791px ) {
+  .landing-page-form {
+    button {
+      margin-top: 3em;
+    }
   }
 }

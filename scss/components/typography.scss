@@ -11,6 +11,10 @@ body {
   font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
+.small-p {
+  font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
 li {
   font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
   color: $color-cobalt;
@@ -130,6 +134,13 @@ h2 {
   color: $color-cobalt;
   font-family: $text-primary;
   font-weight: $text-weight-semi-bold;
+}
+
+.landing-header {
+  font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+  margin: 1.5% 0 1.5% 0;
+  font-family: $text-primary;
+  font-weight: $text-weight-light;
 }
 
 // Span with black background

@@ -837,6 +837,10 @@ vertically on devices smaller than 501px.
   padding: 8%;
 }
 
+.padding-top-mobile-only {
+  padding-top: 5%;
+}
+
 .padding-large-top-mobile-only {
   padding-top: 10%;
 }
