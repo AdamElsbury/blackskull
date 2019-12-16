@@ -625,7 +625,7 @@ vertically on devices smaller than 501px.
 */
 
 .grey-background {
-  background-color: #F3F3F3;
+  background-color: #F9F9F9;
 }
 
 /*
@@ -786,6 +786,10 @@ vertically on devices smaller than 501px.
   margin-top: 1.5em;
 }
 
+.margin-top-xl-mobile-only {
+  margin-top: 2.5em;
+}
+
 .margin-bottom, .margin-bottom-mobile-only {
   margin-bottom: 1em !important;
 }
@@ -940,13 +944,13 @@ vertically on devices smaller than 501px.
   }
 
   .medium-gutter {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 23%;
+    padding-right: 23%;
   }
 
   .large-gutter {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 23%;
+    padding-right: 23%;
   }
 
   .gutter-reset-tablet-only {
@@ -1000,6 +1004,10 @@ vertically on devices smaller than 501px.
 
 .margin-top, .margin-top-tablet-only {
   margin-top: 2em;
+}
+
+.margin-top-xl-tablet-only {
+  margin-top: 4em;
 }
 
 .margin-top-2rem {
@@ -1110,6 +1118,12 @@ vertically on devices smaller than 501px.
 /* hiding elements */
 
 @media (min-width: 1025px) and ( max-width: 1400px ) {
+
+.grid-col-70-sl {
+  flex: none;
+  width: 70% !important;
+  margin: 0 0 0 .5rem;
+}
 .small-laptop-hide {
   display: none;
 }

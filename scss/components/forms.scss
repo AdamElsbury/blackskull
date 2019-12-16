@@ -78,7 +78,7 @@
 
 // Landing page form
 
-.landing-page-form {
+.landing-page-form, .landing-page-form-footer {
 
   input[type="text"] {
     background: transparent;
@@ -117,7 +117,7 @@
     padding: 8%;
   }
 
-  .landing-page-form {
+  .landing-page-form, .landing-page-form-footer{
 
     input[type="text"] {
       width: 100%;
@@ -141,7 +141,7 @@
     padding: 17%;
   }
 
-  .landing-page-form {
+  .landing-page-form, .landing-page-form-footer {
     input[type="text"] {
       width: 100%;
       margin-bottom: 2em;
@@ -166,6 +166,12 @@
       margin-top: 1em;
     }
   }
+
+  .landing-page-form-footer {
+      input[type="text"] {
+        width: 32%;
+      }
+  }
 }
 
 @media (min-width: 1183px) and ( max-width: 1791px ) {
@@ -174,4 +180,11 @@
       margin-top: 3em;
     }
   }
+
+  .landing-page-form-footer {
+      input[type="text"] {
+        width: 34%;
+      }
+  }
+
 }
