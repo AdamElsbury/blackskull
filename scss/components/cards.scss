@@ -64,9 +64,9 @@
 
 // Tablet
 
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 796px) {
   .pricing-card-container {
-    width: 50%;
+    width: 66%;
     margin: 0 auto;
   }
   .pricing-card {
@@ -74,6 +74,18 @@
     padding: 8% 0 8% 0;
   }
 }
+
+@media (min-width: 796px) and (max-width: 1024px) {
+  .pricing-card-container {
+    width: 52%;
+    margin: 0 auto;
+  }
+  .pricing-card {
+    background-size: auto 43%;
+    padding: 8% 0 8% 0;
+  }
+}
+
 
 // Small laptop
 

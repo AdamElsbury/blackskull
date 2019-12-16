@@ -1,16 +1,9 @@
 // Control arrows
 
-.arrow-svg {
+.arrow-svg, .arrow-mini-svg {
   width: auto;
   height: auto;
-  max-width: 20%;
-  cursor: pointer;
-}
-
-.arrow-mini-svg {
-  width: auto;
-  height: auto;
-  max-width: 4%;
+  max-height: 20px;
   cursor: pointer;
 }
 
