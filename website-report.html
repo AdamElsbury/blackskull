@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="smooth-scroll">
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152530454-1"></script>
@@ -32,6 +32,13 @@
 </head>
 <body>
   <div class="container">
+    <div class="nav-container-sticky">
+      <a href="index.html"><img src="assets/icons/blackskull-logo-white.png" alt="A skull with the word BlackSkull underneath" class="logo"></a>
+      <ul class="nav-links">
+        <a href="#report-form"><button class="btn-primary btn-white margin-left">GET YOUR REPORT</button></a>
+      </ul>
+    </div>
+
     <div class="cookie-notice" id="cookie-notice">
       <div class="grid-row small-gutter">
         <article class="grid-col-80 grid-flex-center">
@@ -118,20 +125,14 @@
     </section>
 
     <header>
-      <div class="nav-container">
-        <a href="index.html"><img src="assets/icons/blackskull-logo-cobalt.png" alt="A skull with the word BlackSkull underneath" class="logo"></a>
-        <ul class="nav-links">
-          <button class="btn-primary btn-pink margin-left" onclick="showSubmission()">FREE WEBSITE REPORT</button>
-        </ul>
-      </div>
     </header>
 
     <main class="position-relative">
-      <section class="grid-row medium-gutter padding-large-top-mobile-only padding-bottom">
+      <section class="grid-row medium-gutter padding-large-top-mobile-only padding-bottom padding-top">
         <article class="grid-col-50 grid-flex-center">
           <div>
             <img src="assets/icons/landing-logo.svg" alt="A yellow diamond turned 45 degrees with a black accent" class="svg-pixel-30">
-            <h1 class="large-section-header margin-bottom-small">Get your free website report today</h1>
+            <h1 class="xl-section-header-bold margin-bottom-small">Get your free website report today</h1>
             <h2 class="landing-header">Learn where your website is underperforming & identify optimisation opportunities to improve your traffic & conversion rates to <b>generate more revenue.</b></h2>
             <form action="https://formspree.io/xjvgbqnl" method="POST" class="landing-page-form margin-top-large margin-bottom">
               <input type="text" name="url" placeholder="Your website URL">
@@ -190,7 +191,7 @@
           <h4 class="small-bold-header pink-text-reset">WHATS IN THE REPORT?</h4>
           <h3 class="large-section-header">Our single page, comprehensive report</h1>
           <p class="margin-top margin-bottom">Our easy to digest free report will contain everything you need to optimise your website. From design to SEO, and everything between.</p>
-          <button class="btn-primary btn-pink">GET YOUR REPORT</button>
+          <a href="#report-form"><button class="btn-primary btn-pink">GET YOUR REPORT</button></a>
           </div>
         </article>
       </section>
@@ -202,7 +203,7 @@
           <h3 class="large-section-header">Our reports go further than just metrics.</h1>
           <p class="margin-top">Most website audits focus on SEO and page load speed times, which our report also contains, but we delve into your user journey and help identify issues with your User Experience design.</p>
           <p class="margin-bottom">We can help you craft easy to use, meaningful interfaces for your users.</p>
-          <button class="btn-primary btn-pink">GET YOUR REPORT</button>
+          <a href="#report-form"><button class="btn-primary btn-pink">GET YOUR REPORT</button></a>
         </article>
         <article class="grid-col grid-col-reset-5 grid-flex-center">
           <img src="assets/img/ux-report.png" alt="" class="full-width-img">
@@ -233,7 +234,7 @@
         </article>
       </section>
 
-      <section class="grid-row justify-center padding-top padding-bottom medium-gutter yellow-background">
+      <section class="grid-row justify-center padding-top padding-bottom medium-gutter yellow-background" id="report-form">
         <article class="grid-col-40 text-center">
           <img src="assets/icons/landing-logo-white.svg" alt="A white diamond turned 45 degrees with a black accent" class="svg-pixel-30">
           <h4 class="small-bold-header pink-text-reset">LEVEL UP YOUR ONLINE PRESENCE</h4>
