@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152530454-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-152530454-1');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BlackSkull | Design better with Visual Hierarchy </title>
+  <meta name="description" content="Learn how to design better using a Visual Hieararchy as a non designer. Free guide.">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/element.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+</head>
+<body>
+  <div class="container">
+    <div class="cookie-notice" id="cookie-notice">
+      <div class="grid-row small-gutter">
+        <article class="grid-col-80 grid-flex-center">
+          <p>By using this site you are consenting to our <a href="cookies.html">cookie policy</a>. We don't save any personal data but we do use anonymous data with Google analytics to track things like traffic and user actions. This allows us to improve the site to give you a better experience.</p>
+        </article>
+        <div class="grid-col grid-flex-center">
+          <button class="btn-primary btn-cobalt" onclick="closeCookieNotice()">ACCEPT</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="menu-container" id="menu">
+      <div class="menu-content">
+        <img src="assets/icons/blackskull-logo-white.png" alt="A skull with the word BlackSkull underneath" class="menu-logo">
+        <img src="assets/icons/error.svg" alt="A white circle with an X in the middle" class="cancel-button" onclick="closeMenu()">
+        <div class="grid-row padding-top-large medium-gutter">
+          <article class="grid-col white-text-reset menu-project-links padding-right order-2-mobile">
+            <h2 class="text-sub-cobalt large-section-header">Recent work</h2>
+            <a href="lps.html" class="margin-top inline-block">
+              <h3>Luisa Pereira Santos</h3>
+              <p class="text-sub-cobalt">Designing and building a professional portfolio to generate leads and showcase work</p>
+            </a>
+            <a href="pcss.html" class="margin-top inline-block">
+              <h3>Project Controls & Services Ltd</h3>
+              <p class="text-sub-cobalt">Designing, building & branding a professional web presence for Project planning company</p>
+            </a>
+            <a href="ovoc.html" class="margin-top inline-block">
+              <h3>Our voice our community</h3>
+              <p class="text-sub-cobalt">Designing & building a platform for young people to engage in politics</p>
+            </a>
+          </article>
+
+          <article class="grid-col padding-left padding-right order-1-mobile padding-reset-right-mobile-only padding-reset-left-mobile-only padding-reset-left-tablet-only padding-reset-right-tablet-only">
+            <h2 class="text-sub-cobalt large-section-header">Menu</h2>
+            <ul class="margin-top white-less-contrast-text-reset">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="whatwedo.html">What we do</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li class="margin-top-large"><a href="cookies.html" class="mini-li">Cookie policy</a></li>
+              <li><a href="faq.html" class="mini-li">FAQs</a></li>
+            </ul>
+          </article>
+
+          <div class="grid-col white-text-reset padding-left order-3-mobile padding-reset-left-mobile-only padding-reset-left-tablet-only margin-top-large-mobile-only margin-top-large-tablet-only">
+            <p class="text-sub-cobalt text-section-header">Web solutions with a different attitude.</p>
+            <h3 class="white-text-reset margin-top small-section-header">Location</h5>
+            <p class="text-sub-cobalt">Bridgend, South Wales</p>
+            <h3 class="white-text-reset margin-top small-section-header">Contact</h5>
+            <p class="text-sub-cobalt">hello@blackskull.agency</p>
+            <p class="text-sub-cobalt">07506782509</p>
+            <button class="btn-primary btn-pink margin-top" onclick="showSubmission();closeMenu();">GET FREE QUOTE</button>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <section class="submission-container" id="submission-container">
+      <div class="submission-content position-relative">
+        <img src="assets/icons/error.svg" alt="A white circle with an X in the middle" class="cancel-button" onclick="closeSubmission()">
+        <span class="white-text-reset">Get a quote.</span>
+        <p class="white-less-contrast-text-reset">Get a quotation for your new web solution. Due to our modular payment system every job is priced differently. The more details you can provide - the more accurate the quote. </p>
+        <p><b>07506782509</b></p>
+        <p><b>hello@blackskull.agency</b></p>
+        <hr>
+        <form action="https://formspree.io/mwkkqnrk" method="POST" class="quote">
+          <label for="enquiry"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT DO YOU NEED HELP WITH? *</p></label>
+          <input type="text" placeholder="e.g 'Website' or 'Digital marketing'" name="enquiry" id="enquiry">
+          <label for="budget"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT IS YOUR BUDGET? *</p></label>
+          <input type="text" placeholder="Rough estimates are fine" name="budget" id="budget">
+          <label for="deadline"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">DO YOU HAVE A DEADLINE IN MIND? *</p></label>
+          <input type="text" name="deadline" id="deadline">
+          <label for="email"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT IS YOUR EMAIL ADDRESS? *</p></label>
+          <input type="text" name="email" id="email" required>
+          <label for="message"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">TELL US MORE ABOUT YOUR PROJECT *</p></label>
+          <textarea name="message" placeholder="Tell us about your goals, what's been done already & what your vision is for the outcome of this project. Use bullet points, a paragraph or hell even write us a poem. Or give us a call instead." id="message"></textarea>
+          <button type="submit" class="btn-primary btn-pink margin-top margin-top-large-mobile-only" onclick="gtag('event', 'Form submit', {'event_category': 'Quote submission', 'event_label': 'Quote'});">SEND MESSAGE</button>
+        </form>
+        <p>We always strive to deliver same day replies to all potential clients but sometimes deadlines are tight. Can't wait to chat!</p>
+      </div>
+    </section>
+
+    <header class="yellow-background">
+      <div class="nav-container">
+        <a href="index.html"><img src="assets/icons/blackskull-logo-cobalt.png" alt="A skull with the word BlackSkull underneath" class="logo"></a>
+        <ul class="nav-links">
+          <img src="assets/icons/hamburger-cobalt.svg" alt="A hamburger menu" class="margin-right-small" onclick="showMenu()">
+          <button class="btn-primary btn-cobalt margin-left" onclick="showSubmission()">GET FREE QUOTE</button>
+        </ul>
+      </div>
+
+      <section class="grid-row justify-center padding-bottom padding-top">
+        <article class="grid-col-40 text-center">
+          <img src="assets/icons/black-skull.svg" alt="A black skull" class="logo">
+          <h1 class="h1-center-underline cobalt-text-reset">The consumer decision journey</h1>
+        </article>
+      </section>
+    </header>
+
+    <main class="position-relative">
+    <div class="subscribe-modal" id="blog-sub-modal">
+      <div class="grid-row">
+        <article class="grid-col">
+          <h5 class="large-section-header-bold margin-remove">Subscribe to our blog</h5>
+          <p>Subscribe to be notified about new online presence tips & articles, nothing else.</p>
+          <form action="https://formspree.io/meqqzpja" method="POST">
+            <input type="text" placeholder="Email address" class="margin-bottom-small" name="email">
+            <button class="btn-primary btn-cobalt margin-top" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">SUBSCRIBE</button>
+          </form>
+          <p class="terms-conditions">We will never share your data to third parties. By clicking submit you are consenting to our <a href="data-policy.html">data policy.</a> You may unsubscribe at any time.</p>
+          <img src="assets/icons/error-cobalt.svg" alt="A white circle with an X in the middle" onclick="closeBlogSubModal()">
+        </article>
+      </div>
+    </div>
+
+      <section class="grid-row padding-top blog-gutter">
+        <article class="grid-col">
+          <section class="grid-row grid-row-reset-mobile">
+            <article class="grid-col-10 grid-flex-center grid-col-15-reset-mobile">
+              <img src="assets/img/adam-profile.jpg" alt="Adam Elsbury stood next to a dog" class="full-width-img">
+            </article>
+            <article class="grid-col padding-left align-items-center grid-col-reset-mobile">
+              <div>
+              <p class="margin-remove"><b>Adam Elsbury</b></p>
+              <p class="margin-remove blog-author-sub-text">Updated in December 19'  ・  8 min read</p>
+              </div>
+            </article>
+          </section>
+        </article>
+      </section>
+
+      <section class="grid-row blog-gutter padding-top-small padding-bottom-small">
+        <article class="grid-col">
+          <h2 class="xl-section-header-bold margin-bottom-small">Design better with Visual Hierarchy as a non designer</h2>
+          <img src="assets/img/visual-hierarchy.jpg" alt="A person holding a bag of coffee" class="full-width-img margin-bottom">
+
+          <section class="grid-row padding-bottom">
+            <article class="grid-col-40">
+              <ul class="contents-table">
+                <li class="margin-bottom-small"><a href="#"><b>1. Introduction</b></a></li>
+                <li class="margin-bottom-small"><a href="#"><b>2. Breaking down Visual Hierarchy</b></a></li>
+                <li class="margin-bottom-small"><a href="#"><b>3. Visual hierarchy techniques</b></a></li>
+                <li class="margin-left-small"><a href="#">a. Macro & Micro</a></li>
+                <li class="margin-left-small"><a href="#">b. Size</a></li>
+                <li class="margin-left-small"><a href="#">c. Contrast</a></li>
+                <li class="margin-left-small"><a href="#">d. Opacity</a></li>
+                <li class="margin-left-small"><a href="#">e. Font weight</a></li>
+                <li class="margin-left-small"><a href="#">f. Position</a></li>
+                <li class="margin-left-small"><a href="#">g. Images</a></li>
+                <li class="margin-left-small"><a href="#">h. Movement</a></li>
+                <li class="margin-left-small margin-bottom-small"><a href="#">i. Internal surface area</a></li>
+                <li><a href="#"><b>4. Summary</b></a></li>
+              </ul>
+            </article>
+          </section>
+
+          <h3 class="large-section-header">Introduction</h3>
+          <div class="alert-box margin-top-large margin-bottom">
+            <div class="alert-box-header grid-row margin-remove">
+              <article class="grid-col grid-flex-center margin-remove">
+              <img src="assets/icons/question.svg" alt="A question mark in a blue circle" class="inline-block">
+              <h4 class="inline-block margin-left-small small-section-header">What is a Visual Hierarchy & why is it used?</h4>
+              </article>
+            </div>
+            <p class="margin-top">Visual hierarchy is a term used in the design world to describe the process of the arrangement or presentation of elements in a way that implies importance (Thanks Wikipedia!). In other words, designers use visual hierarchy to tell people where to look to find important pieces of information.</p>
+          </div>
+          <p class="margin-top">Take the above image for example. You might not realise the design effort that went into making that bag. The package designer has effectively used visual hierarchy techniques to get you to look at things in a specific order. Let's delve into why & how.</p>
+        </article>
+      </section>
+
+      <section class="grid-row blog-gutter padding-top-small padding-overlap-container-above">
+        <article class="grid-col">
+          <img src="assets/img/visual-hierarchy-numbered.jpg" alt="A person holding a bag of coffee" class="full-width-img margin-bottom">
+          <h4 class="small-section-header margin-top">1. Product Title - “Cameroon”</h4>
+          <p>For a coffee product you would be right in assuming people want to know the name first. So this is the element highest in the visual hierarchy. It has the biggest font, it's the most bold, it takes up the most horizontal space and its physically high up on the bag.</p>
+          <p>Notice how the company name is actually above this element but you looked at the product title first? The designer did this on purpose.</b></p>
+          <h4 class="small-section-header margin-top">2. Company name - “Trader Joe’s”</h4>
+          <p>Company name is also important to a potential buyer. A company brand promotes trust. People buy things from people they trust.</p>
+          <p>The designer has done something intentional here, the company name is actually the first text on the bag but it is read second. Thats because its the second most important element visible but still very important in the scope of the entire product.</b></p>
+          <p>So the font is smaller than the product title, its slightly less bold and takes up less horizontal space.</p>
+          <h4 class="small-section-header margin-top">3. Description - “Mount Oku small lot coffee”</h4>
+          <p>Again, the font used here is smaller and less bold than the first two elements. Still an important element for the potential customer but we’re slowly starting to move down the visual hierarchy tree.</p>
+          <h4 class="small-section-header margin-top">4. Branding</h4>
+          <p>This section is meant to have a bright colour contrast (notice the blue and red colours against the white background) to stand out to the customer on the store shelf. Less important than identifying elements but still important in the hierarchy.</p>
+          <h4 class="small-section-header margin-top">5. Secondary description, flavour notes & weight</h4>
+          <p>Now we are moving onto the secondary information. Notice the top three elements are grouped together and have lots of white space surrounding the text? That tells the customer they should look there first. It contains the most important information. <b>Grouping elements signifies shared importance over other groups, individual element hierarchy shows importance within that group</b> (don’t worry we’ll cover this in more detail later in the article!).</p>
+          <p>The following three elements are all secondary information. The top group are identifiers, they let the customer know what the product is. The bottom group of elements are influencing the customer to buy this product. </p>
+          <p>They are elements that help a customer make a purchasing decision when they are comparing different products. The flavour and weight of the bag could make a customer buy the product over a competitor that has less flavour and a smaller bag for the same price.</p>
+          <p>These elements have the smallest and least bold fonts and appear the furthest south on the product bag. This is because the customer is already interested in the product if they are reading this far. The designer doesn’t need this group to grab attention, its supporting or “Secondary content”.. Notice how even within this group there is still individual expression of visual hierarchy?</p>
+          <p>The net weight is still more bold than the flavour information. Why? I would assume it's because the weight of the product is more important to someone buying coffee than the flavour. Visual hierarchy decisions are based in research, nothing is random.</p>
+          <h3 class="large-section-header margin-top">Breaking down Visual Hierarchy into digestible chunks</h3>
+          <p>So you’ve seen a live example of a product utilizing visual hierarchy techniques & why designers do it. But that was only a few, there are lots of different techniques.</p>
+          <p>Like I mentioned before there are macro hierarchies and micro hierarchies and they all work together to form an overall hierarchy within the product or interface.</p>
+          <h4 class="small-section-header margin-top">Macro hierarchies</h4>
+          <p>A macro hierarchy is a hierarchy that addresses the importance of <b>groups of elements</b> within a whole page or product. This tells the user “Hey! This group of elements is more important than those other groups. Look here first!”.</p>
+          <img src="assets/img/vh-1.png" alt="Multiple squares of differing contrasts" class="full-width-img">
+          <h4 class="small-section-header margin-top">Micro hierarchies</h4>
+          <p>A micro hierarchy is a hierarchy that addresses the importance of <b>elements within a macro hierarchy (group)</b>. This tells the user “Hey! This element within this group is more important than those other elements within this group. Look here first!”. Micro heirarches provide additional context once a customer has their attention on a group.</p>
+          <img src="assets/img/vh-2.png" alt="Multiple squares of differing contrasts" class="full-width-img">
+          <h3 class="large-section-header margin-top">Visual hierarchy techniques</h3>
+          <p>These are not in order of importance. Typically (but not always) the more techniques you apply to a single element or group, the higher importance it conveys in the hierarchy. Be careful not to go overboard, usually subtle differences can make a world of difference.</p>
+          <h4 class="small-section-header margin-top">1. Size</h3>
+          <p>Pretty simple. Bigger elements are looked at first within an interface. Size is arguably the easiest to implement and most influential technique to make people look at things you want them to look at. It's the reason newspaper headlines are bigger than everything else on the page.</p>
+          <p>Don’t forget <b>size is contextual</b>. If everything is big in an interface, nothing is. Be sure to make your most important elements <b>bigger</b> than everything else, not just big.</p>
+          <img src="assets/img/vh-3.png" alt="2 squares of differing sizes" class="full-width-img">
+          <h4 class="small-section-header margin-top">2. Contrast</h3>
+          <p>People mistakenly think that bright colours attract attention. This is incorrect. It is <b>contrast</b> that attracts visual attention. If you have a web page with 40 elements and they're all varying shades of purple and yellow, nothing stands out. But if you have a web page with 37 grey, brown and black elements and 3 are purples and yellows, you’re on to a winner.</p>
+          <p>It doesn’t even need to be bright colours to effectively use contrast to direct customer attention. You can use a grey with more saturation or hue compared to the rest of the page.</p>
+          <img src="assets/img/vh-4.png" alt="Multiple squares of differing contrasts" class="full-width-img">
+          <h4 class="small-section-header margin-top">3. Opacity</h3>
+          <p>I wouldn’t advise making block elements different opacities but it is an effective technique for text. Especially when combined with size. Think of contact cards or testimonial cards on websites you have visited. They typically have a bold, important snippet of text supported by a smaller, less opaque header and an even less opaque sub header. </p>
+          <p>Make supporting elements a slightly lower opacity to achieve less importance compared to your primary content, but not so much where it affects readability.</p>
+          <img src="assets/img/vh-5.png" alt="A contact card" class="full-width-img">
+          <h4 class="small-section-header margin-top">4. Font weight</h3>
+          <p>The more bold the text, the higher importance it conveys in your visual hierarchy. Simple. Especially effective when used for headers, sub headers and the like. It's also very effective to make important snippets of text within a large body of text bold like this to make specific phrases or individual words stand out against the rest of the body of text.</p>
+          <p>Below the two text elements are the same font & size. But one is much more visually apparrent than the other because of its font weight.</p>
+          <img src="assets/img/vh-6.png" alt="Two text elements with different font weights" class="full-width-img">
+          <h4 class="small-section-header margin-top">5. Position</h3>
+          <p>With exceptions of specific demographics most people read from top to bottom. Have you ever opened a web page and scrolled right to the bottom and started reading up? Place your most important elements at the top of your pages and cascade downwards depending on importance.</p>
+          <img src="assets/img/vh-7.png" alt="Various rectangles arranged on a square" class="full-width-img">
+          <h4 class="small-section-header margin-top">6. Images</h3>
+          <p>There is a wealth of scientific research on the fact that peoples visual attention is drawn to images before anything else, especially if a human face is present. My dissertation research in University concluded that people were around 30% more likely to click on a call to action button that had a picture of a smiling person close to it compared to an identical call to action button without an image.</p>
+          <p>You can effectively draw user attention and place more importance on elements close to or on top of images, especially if those images have human faces in them.</p>
+          <img src="assets/img/vh-8.png" alt="Two elements of text. One with an accompanying image and one without" class="full-width-img">
+          <h4 class="small-section-header margin-top">7. Movement</h3>
+          <p>People look at things that move. Go stand (safely!) next to a road and stare horizontally across to the other side. Keep your head still and try not to look at the cars as they drive past. It's impossible!</p>
+          <p>This is because we have ancient DNA in our bodies where we correlate movement with danger. If we lived 50,000 years ago and were foraging for fruits in a forest and saw a bush move, that could indicate a predator was stalking us.</p>
+          <p>The same tendency presents itself in digital interfaces. People cannot help but look at moving elements, that's why videos are such an effective form of marketing. Be warned, use this technique sparingly. People tend to like to make their own way through an interface and an element jiggling about shouting “HEY OVER HERE!” can annoy people. Think of ad pop ups on news websites.</p>
+          <h4 class="small-section-header margin-top">8. Internal surface area</h3>
+          <p>Similar or even identically shaped elements with more internal surface area have more weight in a visual hierarchy. Look at the two buttons below. They're the same shape, same dimensions, same font weight but the button on the left is more visually apparent. Why? Because there is more visual data <b>inside the element.</b></p>
+          <p>This technique is especially effective by declaring relational importance between buttons. For example, if you have a website that has a subscription service, you may have two primary calls to action. One for the customer to subscribe and the other to sign up for a newsletter. In relation to the rest of the interface these two elements are very important but one button is clearly more important than the other.</p>
+          <p>Use less internal surface area on secondary elements in close proximity to priority elements to indicate less importance in the visual hierarchy.</p>
+          <img src="assets/img/vh-9.png" alt="Two buttons" class="full-width-img">
+          <h3 class="large-section-header margin-top">Summary</h3>
+          <p>You’re armed with 8 new design techniques to level up your website. Remember, subtle differences can usually go a long way and try not to overdo it with too many techniques being applied to a single element. Usually one or two will do the trick.</p>
+          <p>Also, don’t just go applying these techniques to random elements. Have a clear goal in mind when constructing your web page. List every element in order of importance and then translate that to your web page design using a visual hierarchy so the customer understands also.</p>
+          <p>If you want to go a step further categorise your elements into groups and list those in order of importance compared to other groups and then order their children elements by importance.</p>
+          <p>Happy designing! If you have any questions reach out to us at hello@blackskull.agency or sign up to our mailing list to be notified of when we release new articles.</p>
+        </article>
+      </section>
+
+      <section class="overlap-container">
+        <div class="grid-row">
+          <article class="grid-col-60 padding-right padding-reset-right-mobile-only">
+            <h2 class="margin-top-remove large-section-header">Get your quote today.</h4>
+            <p>Get your free consultation today. What do you have to lose? If we suck you didn't waste a penny!</p>
+          </article>
+          <div class="grid-col grid-flex-center margin-bottom-remove-mobile-only margin-bottom-remove-tablet-only">
+            <div class="width-100">
+            <p class="margin-top-remove mobile-hide"><b>07506782509</b></p>
+            <p class="mobile-hide"><b>hello@blackskull.agency</b></p>
+            <button class="btn-primary btn-pink btn-mobile-full-width" onclick="showSubmission()">GET FREE QUOTE</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    </main>
+
+
+
+    <footer>
+      <section class="grid-row padding-overlap-container-below small-gutter cobalt-background">
+        <article class="grid-col-30 white-text-reset">
+          <h2 class="yellow-text-reset small-bold-header">STAY CONNECTED WITH OUR NEWSLETTER</h2>
+          <p class="margin-top margin-bottom">If you sign up we will send you articles about increasing your traffic and other interesting tips to growing your online presence. All free of course.</p>
+          <form action="https://formspree.io/meqqzpja" method="POST" class="newsletter margin-bottom">
+            <input type="text" placeholder="Email address" class="margin-right-small" name="email">
+            <button class="btn-primary btn-blue" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">SIGN UP</button>
+          </form>
+          <div class="grid-flex-start">
+            <a href="mailto:hello@blackskull.agency"><img src="assets/icons/email.svg" alt="An envelope" class="margin-right-small social-media-svg"></a>
+            <a href="https://www.instagram.com/blackskullweb/" target="_blank"><img src="assets/icons/instagram.svg" alt="The instagram logo" class="margin-right-small social-media-svg"></a>
+            <a href="https://www.facebook.com/blackskullweb/" target="_blank"><img src="assets/icons/facebook.svg" alt="The facebook logo" class="margin-right-small social-media-svg"></a>
+            <a href="https://www.linkedin.com/company/blackskull/" target="_blank"><img src="assets/icons/linkedin-social.svg" alt="The linkedin logo" class="margin-right-small social-media-svg"></a>
+          </div>
+        </article>
+        <div class="grid-col"></div>
+        <article class="grid-col-40">
+          <div class="grid-row grid-flex-end grid-row-reset-tablet">
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header">PAGES</h2>
+              <a href="index.html" class="footer-anchors margin-top">Home</a>
+              <a href="whatwedo.html" class="footer-anchors">What we do</a>
+              <a href="services.html" class="footer-anchors">Services</a>
+              <a href="pricing.html" class="footer-anchors">Pricing</a>
+              <a href="projects.html" class="footer-anchors">Projects</a>
+              <a href="blog.html" class="footer-anchors">Blog</a>
+              <a href="faq.html" class="footer-anchors">FAQs</a>
+            </article>
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header" class="yellow-text-reset">DEVELOPER TINGS</h2>
+              <a href="https://github.com/AdamElsbury/blackskull" class="footer-anchors margin-top">Github</a>
+              <a href="sitemap.xml" class="footer-anchors">Sitemap</a>
+            </article>
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header">DATA STUFF</h2>
+              <a href="cookies.html" class="footer-anchors margin-top">Cookie policy</a>
+
+              <a href="data-policy.html" class="footer-anchors">Data policy</a>
+            </article>
+          </div>
+          <div class="flex-direction-column padding-top">
+            <div class="grid-flex-start align-items-center">
+              <img src="assets/icons/copyright.svg" alt="The copyright symbol" class="inline-block social-media-svg margin-right-small"><p class="inline-block white-text-reset">All rights reserved by BlackSkull Media 2019</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </footer>
+
+
+
+
+    </div>
+
+
+
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
