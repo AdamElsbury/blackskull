@@ -5,18 +5,17 @@
   border: none;
 }
 
+
 // Buttons
 
 .btn-primary {
   font-family: $text-primary;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: $text-weight-semi-bold;
-  letter-spacing: 2px;
   border-radius: 7px;
   color: #FFFFFF;
   border: 3px solid transparent;
   padding: 10px 23px 10px 23px;
-  text-transform: uppercase;
   transition: all .3s;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
@@ -24,17 +23,33 @@
   min-width: 150px;
   outline: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+
+
+  svg {
+    height: auto;
+    width: auto;
+    max-height: 0.6rem;
+    margin-left: 20px;
+
+
+    path {
+      transition: all .3s;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -o-transition: all .3s;
+    }
+  }
 }
 
 .btn-secondary {
   font-family: $text-primary;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: $text-weight-semi-bold;
-  letter-spacing: 2px;
   background-color: transparent;
   border-radius: 7px;
   padding: 10px 23px 10px 23px;
-  text-transform: uppercase;
   transition: all .3s;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
@@ -67,6 +82,10 @@
     background-color: transparent;
     padding: 10px 23px 10px 23px;
     color: $color-blue;
+
+    path {
+      fill: $color-blue;
+    }
   }
 }
 
@@ -79,6 +98,10 @@
     background-color: transparent;
     padding: 10px 23px 10px 23px;
     color: $color-cobalt;
+
+    path {
+      fill: $color-cobalt;
+    }
   }
 }
 
@@ -91,6 +114,10 @@
     border: 3px solid $color-cobalt;
     background-color: $color-cobalt;
     color: #FFF;
+
+    path {
+      fill: #FFF;
+    }
   }
 }
 
@@ -103,6 +130,10 @@
     background-color: transparent;
     padding: 10px 23px 10px 23px;
     color: $color-pink;
+
+    path {
+      fill: $color-pink;
+    }
   }
 }
 
@@ -115,6 +146,10 @@
     background-color: transparent;
     padding: 10px 23px 10px 23px;
     color: #FFF;
+
+    path {
+      fill: #FFF;
+    }
   }
 }
 

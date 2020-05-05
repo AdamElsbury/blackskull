@@ -1,11 +1,19 @@
 // index
 
 .hero {
-  background-image: url("../assets/img/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  border: 15px solid $color-yellow;
-  height: 100vh;
+  position: relative;
+  height: 300px;
+
+  &:after {
+  content: '';
+  position: absolute;
+  background: $color-yellow;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  z-index: -10;
+  }
 }
 
 // Sub pages
