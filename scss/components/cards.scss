@@ -41,6 +41,51 @@
   background-color: #FFF;
 }
 
+// Case study styles
+
+.case-study-card {
+  border-radius: 25px 25px 0 0;
+
+  a {
+    img {
+      transition: all .3s;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -o-transition: all .3s;
+    }
+
+    &:hover {
+      img {
+        margin-left: 25px;
+      }
+    }
+  }
+}
+
+.case-study-padding {
+  padding: 7% 7% 0 7%;
+}
+
+.case-study-img-absolute {
+  position: absolute;
+  bottom: 0;
+  width: 87%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin-top: 35px;
+}
+
+.case-study-img {
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin-top: 35px;
+}
+
+
 // Mobile
 
 @media screen and ( max-width: 461px ) {

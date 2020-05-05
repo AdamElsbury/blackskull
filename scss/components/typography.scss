@@ -5,6 +5,16 @@ body {
   font-weight: $text-weight-light;
   font-size: $text-size-body;
   color: $color-cobalt;
+
+  p {
+    opacity: 0.8;
+  }
+}
+
+// Opacity
+
+.p-opacity-reset {
+  opacity: 1;
 }
 
 .large-p {
@@ -61,13 +71,12 @@ h2 {
 }
 
 .hero-h2 {
-  color: $color-white;
-  font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
-  font-weight: 400;
-  margin: 1.5% 0 1.5% 0;
+  color: $color-cobalt;
+  font-size: calc(29px + (40 - 29) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: $text-weight-bold;
   font-family: $text-primary;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: -10px;
+  margin-bottom: 25px;
 }
 
 .large-section-header {
@@ -96,7 +105,6 @@ h2 {
 }
 
 .small-section-header {
-  color: $color-cobalt;
   font-size: calc(21px + (24 - 21) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 600;
   margin: 1.5% 0 1.5% 0;

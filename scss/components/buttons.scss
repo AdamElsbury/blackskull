@@ -57,6 +57,42 @@
   min-width: 150px;
   outline: none;
   cursor: pointer;
+
+  svg {
+    height: auto;
+    width: auto;
+    max-height: 0.6rem;
+    margin-left: 20px;
+
+
+    path {
+      transition: all .3s;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -o-transition: all .3s;
+    }
+  }
+}
+
+.btn-text-only {
+  font-family: $text-primary;
+  font-size: 17px;
+  font-weight: $text-weight-semi-bold;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  min-width: 150px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+
+  img {
+    height: auto;
+    width: auto;
+    max-height: 0.8rem;
+    margin-left: 10px;
+  }
 }
 
 // Modifiers
