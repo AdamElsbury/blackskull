@@ -142,6 +142,29 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .case-study-img-absolute {
+    position: inherit;
+    width: 100%;
+  }
+
+  .case-study-header-reset {
+    display: block !important;
+  }
+
+  .testimonial-card {
+    padding-top: 38%;
+
+    .testimonial-card-img-container {
+      position: absolute;
+      top: -34px;
+      left: 5%;
+      height: auto;
+      width: 90%;
+    }
+  }
+}
+
 // Tablet
 
 @media (min-width: 601px) and (max-width: 796px) {

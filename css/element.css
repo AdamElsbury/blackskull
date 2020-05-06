@@ -644,7 +644,7 @@ vertically on devices smaller than 501px.
 
 @media screen and ( max-width: 1024px ) {
   .mobile-hide {
-    display: none;
+    display: none !important;
   }
 
   .grid-col {
