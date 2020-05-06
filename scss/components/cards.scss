@@ -85,6 +85,36 @@
   margin-top: 35px;
 }
 
+// Testimonial cards
+
+.testimonial-card {
+  background-color: #E8E8E8;
+  padding-top: 20%;
+  position: relative;
+  background-image: url("../assets/img/quotation.png");
+  background-position: 45% -20%;
+  background-size: 25%;
+  background-repeat: no-repeat;
+
+
+
+  .testimonial-card-img-container {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    height: 100%;
+    width: calc(30% + 40px);
+
+    img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      display: block;
+      border: 10px solid #FFF;
+    }
+  }
+}
+
 
 // Mobile
 

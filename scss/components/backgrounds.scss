@@ -45,3 +45,25 @@
   background-size: cover;
   background-position: center;
 }
+
+// Offset div backgrounds
+
+.yellow-offset-background {
+  position: relative;
+  min-height: 300px;
+
+  &:after {
+  content: '';
+  position: absolute;
+  background: $color-yellow;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 70%;
+  z-index: -10;
+  }
+}
+
+.white-div-border {
+  border: 15px solid #FFF;
+}
