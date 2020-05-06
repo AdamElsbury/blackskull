@@ -23,8 +23,8 @@ const slider = tns({
     slideBy: 'page',
     autoplay: false,
     speed: 800,
-    controlsContainer: "#customize-controls2",
     mouseDrag: true,
+    controlsContainer: "#customize-controls2",
     });
 
 

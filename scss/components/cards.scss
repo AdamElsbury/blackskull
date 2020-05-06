@@ -96,7 +96,12 @@
   background-size: 25%;
   background-repeat: no-repeat;
 
-
+  .testimonial-logo {
+    width: auto;
+    height: auto;
+    max-width: 35px;
+    display: block;
+  }
 
   .testimonial-card-img-container {
     position: absolute;
