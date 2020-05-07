@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152530454-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-152530454-1');
+  </script>
+  <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1590276,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web design Cardiff | BlackSkull</title>
+  <meta name="description" content="We can improve your site design through efficient user experience, produce an attractive visual design and implement a digital marketing strategy to ensure you are maximizing your ROI.">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/element.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+</head>
+<body onload="checkVisited()">
+  <div class="container">
+
+    <div class="cookie-notice" id="cookie-notice">
+      <div class="grid-row small-gutter">
+        <article class="grid-col-80 grid-flex-center">
+          <p>By using this site you are consenting to our <a href="cookies.html">cookie policy</a>. We don't save any personal data but we do use anonymous data with Google analytics to track things like traffic and user actions. This allows us to improve the site to give you a better experience.</p>
+        </article>
+        <div class="grid-col grid-flex-center">
+          <button class="btn-primary btn-cobalt" onclick="closeCookieNotice()">ACCEPT</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-container" id="menu">
+      <div class="menu-content">
+        <img src="assets/icons/blackskull-logo-white.png" alt="A skull with the word BlackSkull underneath" class="menu-logo">
+        <img src="assets/icons/error.svg" alt="A white circle with an X in the middle" class="cancel-button" onclick="closeMenu()">
+        <div class="grid-row padding-top-large medium-gutter">
+          <article class="grid-col white-text-reset menu-project-links padding-right order-2-mobile">
+            <h2 class="text-sub-cobalt large-section-header">Recent work</h2>
+            <a href="lps.html" class="margin-top inline-block">
+              <h3>Luisa Pereira Santos</h3>
+              <p class="text-sub-cobalt">Designing and building a professional portfolio to generate leads and showcase work</p>
+            </a>
+            <a href="pcss.html" class="margin-top inline-block">
+              <h3>Project Controls & Services Ltd</h3>
+              <p class="text-sub-cobalt">Designing, building & branding a professional web presence for Project planning company</p>
+            </a>
+            <a href="ovoc.html" class="margin-top inline-block">
+              <h3>Our voice our community</h3>
+              <p class="text-sub-cobalt">Designing & building a platform for young people to engage in politics</p>
+            </a>
+          </article>
+
+          <article class="grid-col padding-left padding-right order-1-mobile padding-reset-right-mobile-only padding-reset-left-mobile-only padding-reset-left-tablet-only padding-reset-right-tablet-only">
+            <h2 class="text-sub-cobalt large-section-header">Menu</h2>
+            <ul class="margin-top white-less-contrast-text-reset">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="whatwedo.html">What we do</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li class="margin-top-large"><a href="cookies.html" class="mini-li">Cookie policy</a></li>
+              <li><a href="faq.html" class="mini-li">FAQs</a></li>
+            </ul>
+          </article>
+
+          <div class="grid-col white-text-reset padding-left order-3-mobile padding-reset-left-mobile-only padding-reset-left-tablet-only margin-top-large-mobile-only margin-top-large-tablet-only">
+            <p class="text-sub-cobalt text-section-header">Web solutions with a different attitude.</p>
+            <h3 class="white-text-reset margin-top small-section-header">Location</h5>
+            <p class="text-sub-cobalt">Bridgend, South Wales</p>
+            <h3 class="white-text-reset margin-top small-section-header">Contact</h5>
+              <p class="text-sub-cobalt">hello@blackskull.agency</p>
+            <p class="text-sub-cobalt">07506782509</p>
+            <button class="btn-primary btn-pink margin-top" onclick="showSubmission();closeMenu();">GET FREE QUOTE</button>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <section class="submission-container" id="submission-container">
+      <div class="submission-content position-relative">
+        <img src="assets/icons/error.svg" alt="A white circle with an X in the middle" class="cancel-button" onclick="closeSubmission()">
+        <span class="white-text-reset">Get a quote.</span>
+        <p class="white-less-contrast-text-reset">Get a quotation for your new web solution. Due to our modular payment system every job is priced differently. The more details you can provide - the more accurate the quote. </p>
+        <p><b>07506782509</b></p>
+        <p><b>hello@blackskull.agency</b></p>
+        <hr>
+        <form action="https://formspree.io/mwkkqnrk" method="POST" class="quote">
+          <label for="enquiry"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT DO YOU NEED HELP WITH? *</p></label>
+          <input type="text" placeholder="e.g 'Website' or 'Digital marketing'" name="enquiry" id="enquiry">
+          <label for="budget"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT IS YOUR BUDGET? *</p></label>
+          <input type="text" placeholder="Rough estimates are fine" name="budget" id="budget">
+          <label for="deadline"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">DO YOU HAVE A DEADLINE IN MIND? *</p></label>
+          <input type="text" name="deadline" id="deadline">
+          <label for="email"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">WHAT IS YOUR EMAIL ADDRESS? *</p></label>
+          <input type="text" name="email" id="email" required>
+          <label for="message"><p class="white-text-reset margin-top margin-top-large-mobile-only small-bold-header">TELL US MORE ABOUT YOUR PROJECT *</p></label>
+          <textarea name="message" placeholder="Tell us about your goals, what's been done already & what your vision is for the outcome of this project. Use bullet points, a paragraph or hell even write us a poem. Or give us a call instead." id="message"></textarea>
+          <button type="submit" class="btn-primary btn-pink margin-top margin-top-large-mobile-only" onclick="gtag('event', 'Form submit', {'event_category': 'Quote submission', 'event_label': 'Quote'});">SEND MESSAGE</button>
+        </form>
+        <p>We always strive to deliver same day replies to all potential clients but sometimes deadlines are tight. Can't wait to chat!</p>
+      </div>
+    </section>
+
+    <header class="hero-ocs position-relative">
+      <div class="nav-container">
+        <a href="index.html"><img src="assets/icons/social-media-logo-large.png" alt="Two black boxes with the words Blackskull Media inside" class="logo"></a>
+        <ul class="nav-links">
+          <img src="assets/icons/hamburger.svg" alt="A hamburger menu" class="margin-right-small hamburger-svg" onclick="showMenu()">
+          <button class="btn-primary btn-pink margin-left" onclick="showSubmission()">Get free quote <svg xmlns="http://www.w3.org/2000/svg" width="59.714" height="40.878" viewBox="0 0 59.714 40.878"><path d="M58.9,60.435l-17.77-17.77A2.782,2.782,0,0,0,37.2,46.592L50.23,59.621H2.782a2.782,2.782,0,1,0,0,5.564h47.45L37.2,78.214a2.782,2.782,0,0,0,3.927,3.927L58.9,64.371a2.782,2.782,0,0,0,0-3.937Z" transform="translate(0 -41.964)" fill="#fff"/></svg></button>
+        </ul>
+      </div>
+
+      <div class="scroll-widget">
+        <p>SCROLL</p>
+        <span></span>
+      </div>
+
+      <div class="grid-row medium-gutter padding-top">
+        <article class="grid-col padding-top padding-bottom">
+          <div class="hero-offset-image white-background padding-large">
+            <img src="assets/icons/ocs-logo.png" alt="" class="margin-bottom-small">
+            <h1 class="small-bold-header pink-text-reset margin-bottom-small opacity-70">PREVIOUS WORK</h1>
+            <h2 class="hero-h2">One Central Square</h2>
+            <p class="small-bold-header pink-text-reset opacity-70">DESIGN | COPYWRITING | BRANDING | DEVELOPMENT | SEO</p>
+            <p>Designing & building a new branding identity for a local Office space rental company.</p>
+            <button class="btn-secondary btn-cobalt-secondary margin-top margin-top-large-mobile-only btn-mobile-full-width">Visit website <svg xmlns="http://www.w3.org/2000/svg" width="77.545" height="53.365" viewBox="0 0 77.545 53.365"><path d="M76.489,24.133,53.413,1.056a3.606,3.606,0,0,0-5.1,5.1L65.235,23.077H3.606a3.606,3.606,0,0,0,0,7.211H65.235L48.314,47.209a3.606,3.606,0,0,0,5.1,5.1L76.489,29.232A3.606,3.606,0,0,0,76.489,24.133Z" transform="translate(0)"/></svg></button>
+          </div>
+        </article>
+        <article class="grid-col-70 ocs-image-bg mobile-hide"></article>
+        <article class="grid-col desktop-hide">
+          <img src="assets/img/ocs-case-study.jpg" alt="" class="full-width-img">
+        </article>
+      </div>
+
+    </header>
+
+    <main class="position-relative">
+      <section class="grid-row padding-top-large padding-bottom grid-row-reset-5 medium-gutter">
+        <article class="grid-col grid-col-reset-5">
+          <p class="small-bold-header pink-text-reset margin-remove">01.</p>
+          <h3 class="large-section-header-bold margin-remove">The brief</h3>
+          <p>One Central Square is an office space rental company in the middle of Cardiff City Centre. We partnered with them to redesign their online platform to help showcase the robust professionalism that the company had worked so hard to create.</p>
+          <p>Their current website lacked any real UX direction or bespoke branding and the staff felt it did a poor job of conveying their company ethos & high quality service.</p>
+          <p>We created a bespoke UX strategy focused on showcasing the gorgeous office space & generating enquiries through a new marketing website. We also created a brand new branding design to really make their website stand out against their market competitors.</p>
+        </article>
+        <article class="grid-col grid-col-reset-5">
+          <img src="assets/img/ocs-screenshot-1.jpg" alt="Assorted screenshots of the One Central Square existing website" class="full-width-img">
+        </article>
+      </section>
+
+      <section class="grid-row padding-top grid-row-reset-3 ocs-blue-background medium-gutter padding-bottom">
+        <article class="grid-col grid-col-reset-3">
+          <img src="assets/img/ocs-wireframe-3.jpg" alt="A wireframe of the OVOC website" class="desktop-wireframe">
+          <img src="assets/img/ocs-wireframe-5.jpg" alt="A wireframe of the OVOC website" class="desktop-wireframe margin-top-3rem">
+          <img src="assets/img/ocs-wireframe-1.jpg" alt="A wireframe of the OVOC website" class="desktop-wireframe margin-top-3rem">
+        </article>
+        <article class="grid-col grid-col-reset-3 padding-top-large">
+          <img src="assets/img/ocs-wireframe-4.jpg" alt="A wireframe of the OVOC website" class="desktop-wireframe">
+          <img src="assets/img/ocs-wireframe-6.jpg" alt="A wireframe of the OVOC website" class="desktop-wireframe margin-top-3rem">
+          <img src="assets/img/ocs-wireframe-2.jpg" alt="A wireframe of the OVOC website" class="desktop-wireframe margin-top-3rem">
+        </article>
+      </section>
+
+      <section class="grid-row padding-top-large padding-bottom grid-row-reset-5 medium-gutter">
+        <article class="grid-col grid-col-reset-5">
+          <p class="small-bold-header pink-text-reset margin-remove">02.</p>
+          <h3 class="large-section-header-bold margin-remove">The approach</h3>
+          <p>We refocused the entire design on providing a marketing narrative which the existing site lacked completely. We designed a user journey to showcase the office space and provide tools to convert users in the form of a Call To Action enquiry form.</p>
+          <p>We employed a bright, contrasting visual design to draw users in to consume the content. We focused on the high quality photography OCS had of their office space and showcased it using image galleries and custom brochure style cut outs.</p>
+          <p>The content design was predicated around providing the user with the necessary information they required to make a purchasing decision. We identified two forms of important content in the research phase - Exclusion criteria & Decision criteria. Each user had a specific set of must haves (parking/price/location etc) which were then supplemented by nice to haves (internet speed/on-site refreshments/professional reception etc). These were reflected in the page hierarchies on the new website to allow users to easily access this information.</p>
+        </article>
+        <article class="grid-col grid-col-reset-5">
+        </article>
+      </section>
+
+      <section class="grid-row grid-row-reset-5 ocs-blue-background large-gutter padding-top padding-bottom">
+        <article class="grid-col grid-col-reset-5 padding-top">
+          <img src="assets/img/ocs-mobile-1.png" alt="" class="full-width-img">
+        </article>
+        <article class="grid-col grid-col-reset-5">
+          <img src="assets/img/ocs-mobile-2.png" alt="" class="full-width-img">
+        </article>
+        <article class="grid-col grid-col-reset-5 padding-top">
+          <img src="assets/img/ocs-mobile-3.png" alt="" class="full-width-img">
+        </article>
+      </section>
+
+
+      <section class="overlap-container">
+        <div class="grid-row">
+          <article class="grid-col-60 padding-right padding-reset-right-mobile-only">
+            <h2 class="margin-top-remove large-section-header">Get your free quote today.</h4>
+            <p>Take the first step to delivering a better web experience for your consumers.</p>
+          </article>
+          <div class="grid-col grid-flex-center margin-bottom-remove-mobile-only margin-bottom-remove-tablet-only">
+            <div class="width-100">
+            <p class="margin-top-remove mobile-hide"><b>07506782509</b></p>
+            <p class="mobile-hide"><b>hello@blackskull.agency</b></p>
+            <button class="btn-primary btn-pink btn-mobile-full-width" onclick="showSubmission()">Get free quote <svg xmlns="http://www.w3.org/2000/svg" width="59.714" height="40.878" viewBox="0 0 59.714 40.878"><path d="M58.9,60.435l-17.77-17.77A2.782,2.782,0,0,0,37.2,46.592L50.23,59.621H2.782a2.782,2.782,0,1,0,0,5.564h47.45L37.2,78.214a2.782,2.782,0,0,0,3.927,3.927L58.9,64.371a2.782,2.782,0,0,0,0-3.937Z" transform="translate(0 -41.964)" fill="#fff"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="grid-row padding-overlap-container-below small-gutter cobalt-background padding-bottom-small">
+        <article class="grid-col-30 white-text-reset">
+          <h2 class="yellow-text-reset small-bold-header">STAY CONNECTED WITH OUR NEWSLETTER</h2>
+          <p class="margin-top margin-bottom">Learn how to improve your User Experience design, optimise your digital marketing & SEO with our weekly articles. All free of course.</p>
+          <form action="https://formspree.io/meqqzpja" method="POST" class="newsletter margin-bottom">
+            <input type="text" placeholder="Email address" class="margin-right-small" name="email">
+            <button class="btn-primary btn-blue" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">Sign up <svg xmlns="http://www.w3.org/2000/svg" width="59.714" height="40.878" viewBox="0 0 59.714 40.878"><path d="M58.9,60.435l-17.77-17.77A2.782,2.782,0,0,0,37.2,46.592L50.23,59.621H2.782a2.782,2.782,0,1,0,0,5.564h47.45L37.2,78.214a2.782,2.782,0,0,0,3.927,3.927L58.9,64.371a2.782,2.782,0,0,0,0-3.937Z" transform="translate(0 -41.964)" fill="#fff"/></svg></button>
+          </form>
+          <div class="grid-flex-start">
+            <a href="mailto:hello@blackskull.agency"><img src="assets/icons/email.svg" alt="An envelope" class="margin-right-small social-media-svg"></a>
+            <a href="https://www.instagram.com/blackskullweb/" target="_blank"><img src="assets/icons/instagram.svg" alt="The instagram logo" class="margin-right-small social-media-svg"></a>
+            <a href="https://www.facebook.com/blackskullweb/" target="_blank"><img src="assets/icons/facebook.svg" alt="The facebook logo" class="margin-right-small social-media-svg"></a>
+            <a href="https://www.linkedin.com/company/blackskull/" target="_blank"><img src="assets/icons/linkedin-social.svg" alt="The linkedin logo" class="margin-right-small social-media-svg"></a>
+          </div>
+        </article>
+        <div class="grid-col"></div>
+        <article class="grid-col-40">
+          <div class="grid-row grid-flex-end grid-row-reset-tablet">
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header">PAGES</h2>
+              <a href="index.html" class="footer-anchors margin-top">Home</a>
+              <a href="whatwedo.html" class="footer-anchors">What we do</a>
+              <a href="services.html" class="footer-anchors">Services</a>
+              <a href="pricing.html" class="footer-anchors">Pricing</a>
+              <a href="projects.html" class="footer-anchors">Projects</a>
+              <a href="blog.html" class="footer-anchors">Blog</a>
+              <a href="faq.html" class="footer-anchors">FAQs</a>
+            </article>
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header" class="yellow-text-reset">DEVELOPER TINGS</h2>
+              <a href="https://github.com/AdamElsbury/blackskull" class="footer-anchors margin-top">Github</a>
+              <a href="sitemap.xml" class="footer-anchors">Sitemap</a>
+            </article>
+            <article class="grid-col white-text-reset">
+              <h2 class="yellow-text-reset small-bold-header">DATA STUFF</h2>
+              <a href="cookies.html" class="footer-anchors margin-top">Cookie policy</a>
+
+              <a href="data-policy.html" class="footer-anchors">Data policy</a>
+            </article>
+          </div>
+          <div class="flex-direction-column padding-top">
+            <div class="grid-flex-start align-items-center">
+              <img src="assets/icons/copyright.svg" alt="The copyright symbol" class="inline-block social-media-svg margin-right-small"><p class="inline-block white-text-reset">All rights reserved by BlackSkull Media 2019</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </footer>
+
+
+
+
+    </div>
+
+
+
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
