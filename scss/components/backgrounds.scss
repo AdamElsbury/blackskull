@@ -36,6 +36,9 @@
   background-color: #0A0E21;
 }
 
+
+// Background images
+
 .ocs-image-bg {
   background-image: url("../assets/img/ocs-case-study.jpg");
   background-size: cover;
@@ -43,6 +46,15 @@
   z-index: -1;
   border: 15px solid #FFF;
 }
+
+.ovoc-image-bg {
+  background-image: url("../assets/img/ovoc-case-study.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  border: 15px solid #FFF;
+}
+
 
 .hero-ocs {
   position: relative;
@@ -60,20 +72,24 @@
   }
 }
 
+.hero-ovoc {
+  position: relative;
+  min-height: 300px;
 
-// Case study headers
-
-.pcss-header {
-  background-image: url("../assets/img/pcss-header.jpg");
-  background-size: cover;
-  background-position: center;
+  &:after {
+  content: '';
+  position: absolute;
+  background: #05A8AA;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 70%;
+  z-index: -10;
+  }
 }
 
-.ovoc-header {
-  background-image: url("../assets/img/ovoc-header.jpg");
-  background-size: cover;
-  background-position: center;
-}
+
+
 
 // Offset div backgrounds
 

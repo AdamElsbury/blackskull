@@ -23,15 +23,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>BlackSkull | Our Voice, Our Community client case study </title>
-  <meta name="description" content="See our full working process when dealing with a real client - grassroots political platform OVOC.">
+  <title>Web design Cardiff | BlackSkull</title>
+  <meta name="description" content="We can improve your site design through efficient user experience, produce an attractive visual design and implement a digital marketing strategy to ensure you are maximizing your ROI.">
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/element.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
 </head>
-<body>
+<body onload="checkVisited()">
   <div class="container">
+
     <div class="cookie-notice" id="cookie-notice">
       <div class="grid-row small-gutter">
         <article class="grid-col-80 grid-flex-center">
@@ -42,7 +43,6 @@
         </div>
       </div>
     </div>
-
 
     <div class="menu-container" id="menu">
       <div class="menu-content">
@@ -117,176 +117,53 @@
       </div>
     </section>
 
-    <header class="ovoc-header">
+    <header class="hero-ovoc position-relative">
       <div class="nav-container">
-        <a href="index.html"><img src="assets/icons/blackskull-logo-white.png" alt="A skull with the word BlackSkull underneath" class="logo"></a>
+        <a href="index.html"><img src="assets/icons/social-media-logo-large.png" alt="Two black boxes with the words Blackskull Media inside" class="logo"></a>
         <ul class="nav-links">
-          <img src="assets/icons/hamburger.svg" alt="A hamburger menu" class="margin-right-small" onclick="showMenu()">
-          <button class="btn-primary btn-cobalt margin-left" onclick="showSubmission()">GET FREE QUOTE</button>
+          <img src="assets/icons/hamburger.svg" alt="A hamburger menu" class="margin-right-small hamburger-svg" onclick="showMenu()">
+          <button class="btn-primary btn-pink margin-left" onclick="showSubmission()">Get free quote <svg xmlns="http://www.w3.org/2000/svg" width="59.714" height="40.878" viewBox="0 0 59.714 40.878"><path d="M58.9,60.435l-17.77-17.77A2.782,2.782,0,0,0,37.2,46.592L50.23,59.621H2.782a2.782,2.782,0,1,0,0,5.564h47.45L37.2,78.214a2.782,2.782,0,0,0,3.927,3.927L58.9,64.371a2.782,2.782,0,0,0,0-3.937Z" transform="translate(0 -41.964)" fill="#fff"/></svg></button>
         </ul>
       </div>
 
-      <section class="grid-row justify-center padding-bottom padding-top small-gutter">
-        <article class="grid-col-50 text-center white-text-reset">
-          <img src="assets/img/bgc-logo.png" alt="An red circle with the letters BGC inside - company logo" class="case-study-logo">
-          <h1 class="large-section-header h1-no-underline white-text-reset margin-top-small">Our voice, our community</h1>
-          <h2 class="small-bold-header blue-text-reset">DESIGN | COPYWRITING | DEVELOPMENT | PROGRESSIVE WEB APP </h2>
-          <p class="large-p">Designing & building a platform to inspire young people to engage in politics.</p>
-          <a href="https://ovoc.netlify.com/" target="_blank"><button class="btn-primary btn-cobalt margin-top btn-mobile-full-width">VIEW WEBSITE</button></a>
-          <img src="assets/icons/mouse-down.svg" alt="A computer mouse with a down arrow underneath" class="mouse-down-svg margin-top">
+      <div class="scroll-widget mobile-hide">
+        <p>SCROLL</p>
+        <span></span>
+      </div>
+
+      <div class="grid-row medium-gutter padding-top">
+        <article class="grid-col padding-top padding-bottom">
+          <div class="hero-offset-image white-background padding-large">
+            <img src="assets/img/bgc-logo.png" alt="the BGC wales logo" class="margin-bottom-small case-study-logo">
+            <h1 class="small-bold-header pink-text-reset margin-bottom-small opacity-70">PREVIOUS WORK</h1>
+            <h2 class="hero-h2">One voice, one community</h2>
+            <p class="small-bold-header pink-text-reset opacity-70">UX DESIGN | COPYWRITING | BRANDING | DEVELOPMENT | PROGRESSIVE WEB APP</p>
+            <p>Designing & building a platform to inspire young people to engage in politics.</p>
+            <button class="btn-secondary btn-cobalt-secondary margin-top margin-top-large-mobile-only btn-mobile-full-width">Visit website <svg xmlns="http://www.w3.org/2000/svg" width="77.545" height="53.365" viewBox="0 0 77.545 53.365"><path d="M76.489,24.133,53.413,1.056a3.606,3.606,0,0,0-5.1,5.1L65.235,23.077H3.606a3.606,3.606,0,0,0,0,7.211H65.235L48.314,47.209a3.606,3.606,0,0,0,5.1,5.1L76.489,29.232A3.606,3.606,0,0,0,76.489,24.133Z" transform="translate(0)"/></svg></button>
+          </div>
         </article>
-      </section>
+        <article class="grid-col-70 ovoc-image-bg mobile-hide"></article>
+        <article class="grid-col desktop-hide">
+          <img src="assets/img/ovoc-case-study.jpg" alt="An image of a man speaking to a crowd" class="full-width-img">
+        </article>
+      </div>
+
     </header>
 
     <main class="position-relative">
-      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-bottom padding-top-large-tablet-only">
-        <article class="grid-col-40 grid-col-reset-5">
-          <p class="magazine-header">The problem statements</p>
-          <p class="small-bold-header blue-text-reset">ESTABLISHING WHAT PROBLEMS WE ARE SOLVING</p>
+      <section class="grid-row padding-top-large padding-bottom grid-row-reset-5 medium-gutter">
+        <article class="grid-col grid-col-reset-5">
+          <p class="small-bold-header pink-text-reset margin-remove">01.</p>
+          <h3 class="large-section-header-bold margin-remove">The brief</h3>
+          <p>Our voice, our community is a grassroots political program run by Boys & Girls club Wales. The purpose of the project is to get young people involved in local political decision making through youth forums & legislation campaigns.</p>
+          <p>The project had gained some success through internal events & offline work but there was no online presence to showcase their success or generate new interest with young people. The staff at BGC Wales explained that they currently gave young people a brochure with relevant information but they wanted a digital solution that young people were more likely to use.</p>
+          <p>We created a single page web application aimed at generating interest through collections of external links for further reading & a curated list of actions the young people could take to get directly involved.</p>
         </article>
         <article class="grid-col grid-col-reset-5">
-          <p>The Our voice our community project had gained some success with events and offline work but they had no online presence outside of their social media platforms to showcase their success or generate political interest with young people.</p>
-          <p>They wanted the website to inspire, gain interest, provide evidence of young people affecting the world and provide a curated list of helpful links for the young people to go off, do their own research and get involved in local politics.</p>
-          <p>They had a vision, but nowhere to present it online.</p>
-          <div class="grid-row padding-top">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/1-cobalt.svg" alt="A number one in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Nowhere online to show the project exists</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/2-cobalt.svg" alt="A number 2 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Nowhere online to show the current success of the project</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/3-cobalt.svg" alt="A number 3 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Nowhere online to influence young people to get involved in politics</p>
-            </article>
-          </div>
         </article>
       </section>
 
-      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-bottom padding-top-large-tablet-only">
-        <article class="grid-col-40 grid-col-reset-5">
-          <p class="magazine-header">The market research</p>
-          <p class="small-bold-header blue-text-reset">FIGURING OUT IF OTHER PROJECTS EXIST</p>
-        </article>
-        <article class="grid-col grid-col-reset-5">
-          <p>Unfortunately, we couldn't find any other similar websites to create a base knowledge. There were plenty of resources explaining how to get young people involved in local politics and the benefits however.</p>
-          <p>So the direction of the research moved towards understanding the thought processes of a young person becoming aware of a project, what information they needed or didn't like and providing a sufficient solution to connect them to organisations to become involved.</p>
-          <p>The information was primarily found in empirical studies and articles written by local councils and the Youth Parliament UK initiative.</p>
-          <div class="grid-row padding-top">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/1-cobalt.svg" alt="A number one in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">No websites for similar projects exist</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/2-cobalt.svg" alt="A number 2 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Lots of info on psychological processes of young people reading literature</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/3-cobalt.svg" alt="A number 3 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Blueprint to influence young people & inspire them exists in empyrical studies</p>
-            </article>
-          </div>
-        </article>
-      </section>
-
-      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-bottom padding-top-large-tablet-only">
-        <article class="grid-col-40 grid-col-reset-5">
-          <p class="magazine-header">The user journey</p>
-          <p class="small-bold-header blue-text-reset">THE JOURNEY TO INSPIRE YOUNG PEOPLE TO GET INVOLVED</p>
-        </article>
-        <article class="grid-col grid-col-reset-5">
-          <p>As stated above we read empirical studies & YPUK articles to get a good understanding of the current environment of youth opinion on politics and why they aren't engaging, and how to create interesting, inspiring content to change that.</p>
-          <p>The biggest issues with young people is thinking their opinion or voice has no impact, older people don't respect their opinion & they don't trust the political situation in the UK.</p>
-          <p>So we crafted up a user journey to visually represent the different stages of the a young persons thought process when interacting with political materials to guide them through our content and reach a conclusion. That journey is below.</p>
-          <div class="grid-row padding-top">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/1-cobalt.svg" alt="A number one in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Provide current context of global problems & show young people getting involved helps</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/2-cobalt.svg" alt="A number 2 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Provide statistics of young people being jaded with politics & that local councils need their help</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/3-cobalt.svg" alt="A number 3 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Provide evidence of an influential figure in youth politics making an active difference in the world through activism</p>
-            </article>
-          </div>
-          <div class="grid-row padding-top-small">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/4-cobalt.svg" alt="A number 4 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Show importance of social medias role in activism (young peoples preferred medium)</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/5-cobalt.svg" alt="A number 5 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Provide trust indicator for BGC Wales being a reputable partner</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/6-cobalt.svg" alt="A number 6 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">explain what our voice our community project aims to do & has already done</p>
-            </article>
-          </div>
-          <div class="grid-row padding-top-small">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/7-cobalt.svg" alt="A number 7 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Explain why BGC Wales is trying to help</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/8-cobalt.svg" alt="A number 8 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Show tangible benefits for young people getting involved</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/9-cobalt.svg" alt="A number 9 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Provide curated list of links to allow young people to get involved</p>
-            </article>
-          </div>
-        </article>
-      </section>
-
-      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-bottom padding-top-large-tablet-only">
-        <article class="grid-col-40 grid-col-reset-5">
-          <p class="magazine-header">The project goals</p>
-          <p class="small-bold-header blue-text-reset">WHAT ARE WE AIMING TO DELIVER</p>
-        </article>
-        <article class="grid-col grid-col-reset-5">
-          <p>We found out through our research how to inspire young people, now it was a case of translating those steps into a web interface. Below are the project deliverables.</p>
-          <div class="grid-row padding-top">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/1-cobalt.svg" alt="A number one in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Create a bespoke visual design to appeal to young people</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/2-cobalt.svg" alt="A number 2 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Enrich content with graphics & info with links to read more if they choose</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/3-cobalt.svg" alt="A number 3 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">create ux journey to achieve all 9 steps from the research</p>
-            </article>
-          </div>
-          <div class="grid-row padding-top">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/4-cobalt.svg" alt="A number 4 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Provide a link to bgc wales & provide curated list of links to get involved</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/5-cobalt.svg" alt="A number 5 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Allow site to be accessible offline as a progressive web app</p>
-            </article>
-          </div>
-        </article>
-      </section>
-
-
-      <section class="grid-row padding-top padding-bottom justify-center ovoc-green-background">
-        <article class="grid-col-40 text-center">
-          <h4 class="large-section-header-bold underlined-white-center white-text-reset">The Wireframes</h4>
-        </article>
-      </section>
-
-      <section class="grid-row grid-row-reset-3 ovoc-green-background medium-gutter padding-bottom">
+      <section class="grid-row padding-top grid-row-reset-3 ovoc-green-background medium-gutter padding-bottom">
         <article class="grid-col grid-col-reset-3">
           <img src="assets/img/ovoc-wireframe-1.jpg" alt="A wireframe of the OVOC website" class="desktop-wireframe">
         </article>
@@ -295,16 +172,52 @@
         </article>
       </section>
 
-      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-overlap-container-above padding-top-large-tablet-only">
-        <article class="grid-col-40 grid-col-reset-5">
-          <p class="magazine-header">The design solution</p>
-          <p class="small-bold-header blue-text-reset">WHY DID WE DESIGN THE SITE THE WAY WE DID?</p>
+      <section class="grid-row padding-top-large padding-bottom grid-row-reset-5 medium-gutter">
+        <article class="grid-col grid-col-reset-5">
+          <p class="small-bold-header pink-text-reset margin-remove">02.</p>
+          <h3 class="large-section-header-bold margin-remove">The approach</h3>
+          <p>Our solution had to be informative & appealing to young people. Too much information would put them off so the design needed to be clean. We decided to use a bright color palette and made use of a promotional video in the top section of the website as young people tend to digest video content the most regularly.</p>
+          <p>The rest of the page showed examples of youth activists, that BGC Wales was a reputable company & showcased direct benefits that the young people would receive if they were to get involved.</p>
+          <p>The website ended up being a dashboard of links, a home hub for the young people to use to get involved in local politics.</p>
         </article>
         <article class="grid-col grid-col-reset-5">
-          <p>We had to make this project appealing to young people so we had to ensure there was not too much text used and we had bright, visually appealing graphics and imagery to draw attention to key content.</p>
-          <p>We came up with the "speech bubble" concept because of the project name. All buttons and some elements are shaped like speech bubbles to create an accurate brand to give the site an extra layer of professionalism.</p>
-          <p>The user journey was planned out like a story like our market research instructed with steps to inspire, give examples, explain benefits and provide knowledge & opportunity to get started.</p>
-          <a href="https://ovoc.netlify.com/" target="_blank"><button class="btn-primary btn-cobalt margin-top">VIEW WEBSITE</button></a>
+        </article>
+      </section>
+
+      <section class="grid-row grid-row-reset-5 ovoc-green-background large-gutter padding-top padding-bottom grid-row-reset-tablet">
+        <article class="grid-col grid-col-reset-5 padding-top medium-gutter-mobile-only">
+          <img src="assets/img/ovoc-mobile-1.png" alt="" class="mobile-wireframe box-shadow">
+        </article>
+        <article class="grid-col grid-col-reset-5 medium-gutter-mobile-only padding-top-mobile-only">
+          <img src="assets/img/ovoc-mobile-2.png" alt="" class="mobile-wireframe box-shadow">
+        </article>
+        <article class="grid-col grid-col-reset-5 padding-top medium-gutter-mobile-only">
+          <img src="assets/img/ovoc-mobile-3.png" alt="" class="mobile-wireframe box-shadow">
+        </article>
+      </section>
+
+      <section class="grid-row xl-gutter padding-top padding-bottom">
+        <article class="grid-col text-center">
+          <p class="large-section-header p-opacity-reset margin-bottom-small">"If you're looking for a creative, up and coming web design company I can't recommend BlackSkull enough!"</p>
+          <p class="margin-remove pink-text-reset"><b>Jonathan Price</b></p>
+          <p class="margin-remove small-p opacity-70 pink-text-reset">Youth Officer | BGC Wales</p>
+        </article>
+      </section>
+
+      <section class="grid-row padding-top padding-bottom medium-gutter padding-overlap-container-above grid-row-reset-mobile">
+        <article class="grid-col">
+          <div>
+            <h4 class="small-bold-header pink-text-reset margin-remove">GO BACK</h4>
+            <p class="large-section-header-bold p-opacity-reset margin-remove">Work dashboard</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="182" height="182" viewBox="0 0 182 182" class="margin-top pagination-controls"><g transform="translate(182.346 182) rotate(180)"><g transform="translate(0.346)" fill="none" stroke="#ff0080" stroke-width="6"><circle cx="91" cy="91" r="91" stroke="none"/><circle cx="91" cy="91" r="88" fill="none"/></g><path d="M81.783,67.611,57.108,42.936a3.863,3.863,0,0,0-5.453,5.453L69.746,66.481H3.863a3.863,3.863,0,1,0,0,7.726H69.749L51.658,92.3a3.863,3.863,0,0,0,5.453,5.453L81.783,73.077a3.863,3.863,0,0,0,0-5.466Z" transform="translate(49.537 20.355)" fill="#ff0080"/></g></svg>
+          </div>
+        </article>
+        <article class="grid-col grid-flex-end text-right-mobile-only text-right-tablet-only">
+          <div>
+            <h4 class="small-bold-header pink-text-reset margin-remove">GO FORWARD</h4>
+            <p class="large-section-header-bold p-opacity-reset margin-remove">Next project</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="182" height="182" viewBox="0 0 182 182" class="margin-top pagination-controls"><g transform="translate(-0.346)"><g transform="translate(0.346)" fill="none" stroke="#ff0080" stroke-width="6"><circle cx="91" cy="91" r="91" stroke="none"/><circle cx="91" cy="91" r="88" fill="none"/></g><path d="M81.783,67.611,57.108,42.936a3.863,3.863,0,0,0-5.453,5.453L69.746,66.481H3.863a3.863,3.863,0,1,0,0,7.726H69.749L51.658,92.3a3.863,3.863,0,0,0,5.453,5.453L81.783,73.077a3.863,3.863,0,0,0,0-5.466Z" transform="translate(49.537 20.355)" fill="#ff0080"/></g></svg>
+          </div>
         </article>
       </section>
 
@@ -318,23 +231,21 @@
             <div class="width-100">
             <p class="margin-top-remove mobile-hide"><b>07506782509</b></p>
             <p class="mobile-hide"><b>hello@blackskull.agency</b></p>
-            <button class="btn-primary btn-pink btn-mobile-full-width" onclick="showSubmission()">GET FREE QUOTE</button>
+            <button class="btn-primary btn-pink btn-mobile-full-width" onclick="showSubmission()">Get free quote <svg xmlns="http://www.w3.org/2000/svg" width="59.714" height="40.878" viewBox="0 0 59.714 40.878"><path d="M58.9,60.435l-17.77-17.77A2.782,2.782,0,0,0,37.2,46.592L50.23,59.621H2.782a2.782,2.782,0,1,0,0,5.564h47.45L37.2,78.214a2.782,2.782,0,0,0,3.927,3.927L58.9,64.371a2.782,2.782,0,0,0,0-3.937Z" transform="translate(0 -41.964)" fill="#fff"/></svg></button>
             </div>
           </div>
         </div>
       </section>
     </main>
 
-
-
     <footer>
-      <section class="grid-row padding-overlap-container-below small-gutter cobalt-background">
+      <section class="grid-row padding-overlap-container-below small-gutter cobalt-background padding-bottom-small">
         <article class="grid-col-30 white-text-reset">
           <h2 class="yellow-text-reset small-bold-header">STAY CONNECTED WITH OUR NEWSLETTER</h2>
           <p class="margin-top margin-bottom">Learn how to improve your User Experience design, optimise your digital marketing & SEO with our weekly articles. All free of course.</p>
           <form action="https://formspree.io/meqqzpja" method="POST" class="newsletter margin-bottom">
             <input type="text" placeholder="Email address" class="margin-right-small" name="email">
-            <button class="btn-primary btn-blue" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">SIGN UP</button>
+            <button class="btn-primary btn-blue" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">Sign up <svg xmlns="http://www.w3.org/2000/svg" width="59.714" height="40.878" viewBox="0 0 59.714 40.878"><path d="M58.9,60.435l-17.77-17.77A2.782,2.782,0,0,0,37.2,46.592L50.23,59.621H2.782a2.782,2.782,0,1,0,0,5.564h47.45L37.2,78.214a2.782,2.782,0,0,0,3.927,3.927L58.9,64.371a2.782,2.782,0,0,0,0-3.937Z" transform="translate(0 -41.964)" fill="#fff"/></svg></button>
           </form>
           <div class="grid-flex-start">
             <a href="mailto:hello@blackskull.agency"><img src="assets/icons/email.svg" alt="An envelope" class="margin-right-small social-media-svg"></a>
