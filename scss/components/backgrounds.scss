@@ -55,6 +55,16 @@
   border: 15px solid #FFF;
 }
 
+.lps-image-bg {
+  background-image: url("../assets/img/hand-bulb.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  border: 15px solid #FFF;
+}
+
+
+//
 
 .hero-ocs {
   position: relative;
@@ -80,6 +90,22 @@
   content: '';
   position: absolute;
   background: #05A8AA;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 70%;
+  z-index: -10;
+  }
+}
+
+.hero-lps {
+  position: relative;
+  min-height: 300px;
+
+  &:after {
+  content: '';
+  position: absolute;
+  background: #F9E3D6;
   top: 0;
   right: 0;
   width: 60%;
@@ -116,7 +142,7 @@
 // Mobile
 
 @media screen and (max-width: 600px) {
-  .hero-ocs {
+  .hero-ocs, .hero-ovoc, .hero-lps {
 
     &:after {
     height: 63%;
@@ -128,7 +154,7 @@
 // Tablet
 
 @media (min-width: 601px) and (max-width: 1024px) {
-  .hero-ocs {
+  .hero-ocs, .hero-ovoc, .hero-lps {
 
     &:after {
     height: 52%;

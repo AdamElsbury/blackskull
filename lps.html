@@ -23,15 +23,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>BlackSkull | LPS client case study </title>
-  <meta name="description" content="See our full working process when dealing with a real client - digital marketing expert Luisa Pereira Santos.">
+  <title>Web design Cardiff | BlackSkull</title>
+  <meta name="description" content="We can improve your site design through efficient user experience, produce an attractive visual design and implement a digital marketing strategy to ensure you are maximizing your ROI.">
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/element.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
 </head>
-<body>
+<body onload="checkVisited()">
   <div class="container">
+
     <div class="cookie-notice" id="cookie-notice">
       <div class="grid-row small-gutter">
         <article class="grid-col-80 grid-flex-center">
@@ -42,7 +43,6 @@
         </div>
       </div>
     </div>
-
 
     <div class="menu-container" id="menu">
       <div class="menu-content">
@@ -117,147 +117,106 @@
       </div>
     </section>
 
-    <header class="lps-pink-background">
+    <header class="hero-lps position-relative">
       <div class="nav-container">
-        <a href="index.html"><img src="assets/icons/blackskull-logo-cobalt.png" alt="A skull with the word BlackSkull underneath" class="logo"></a>
+        <a href="index.html"><img src="assets/icons/social-media-logo-large.png" alt="Two black boxes with the words Blackskull Media inside" class="logo"></a>
         <ul class="nav-links">
-          <img src="assets/icons/hamburger-cobalt.svg" alt="A hamburger menu" class="margin-right-small" onclick="showMenu()">
-          <button class="btn-primary btn-cobalt margin-left" onclick="showSubmission()">GET FREE QUOTE</button>
+          <img src="assets/icons/hamburger.svg" alt="A hamburger menu" class="margin-right-small hamburger-svg" onclick="showMenu()">
+          <button class="btn-primary btn-pink margin-left" onclick="showSubmission()">Get free quote <svg xmlns="http://www.w3.org/2000/svg" width="59.714" height="40.878" viewBox="0 0 59.714 40.878"><path d="M58.9,60.435l-17.77-17.77A2.782,2.782,0,0,0,37.2,46.592L50.23,59.621H2.782a2.782,2.782,0,1,0,0,5.564h47.45L37.2,78.214a2.782,2.782,0,0,0,3.927,3.927L58.9,64.371a2.782,2.782,0,0,0,0-3.937Z" transform="translate(0 -41.964)" fill="#fff"/></svg></button>
         </ul>
       </div>
 
-      <section class="grid-row justify-center padding-bottom padding-top small-gutter">
-        <article class="grid-col-50 text-center">
-          <img src="assets/icons/luisa-logo.svg" alt="Luisa Pereira Santos in text" class="case-study-logo">
-          <h1 class="large-section-header h1-no-underline margin-top-small">Luisa Pereira | Digital Marketing Manager</h1>
-          <h2 class="small-bold-header blue-text-reset">DESIGN | COPYWRITING | DEVELOPMENT </h2>
-          <p class="large-p">Designing & building a professional portfolio to generate leads and showcase work.</p>
-          <a href="https://aluisaps.com/" target="_blank"><button class="btn-primary btn-cobalt margin-top btn-mobile-full-width">VIEW WEBSITE</button></a>
-          <img src="assets/icons/mouse-down.svg" alt="A computer mouse with a down arrow underneath" class="mouse-down-svg margin-top">
+      <div class="scroll-widget mobile-hide">
+        <p>SCROLL</p>
+        <span></span>
+      </div>
+
+      <div class="grid-row medium-gutter padding-top">
+        <article class="grid-col padding-top padding-bottom">
+          <div class="hero-offset-image white-background padding-large">
+            <h1 class="small-bold-header pink-text-reset margin-bottom-small opacity-70">PREVIOUS WORK</h1>
+            <h2 class="hero-h2">Luisa Pereira Santos</h2>
+            <p class="small-bold-header pink-text-reset opacity-70">DESIGN | COPYWRITING | BRANDING | DEVELOPMENT</p>
+            <p>Luisa Santos is a Social Media Manager from Portugal. She needed a professional portfolio to showcase her work and generate new clients.</p>
+            <button class="btn-secondary btn-cobalt-secondary margin-top margin-top-large-mobile-only btn-mobile-full-width">Visit website <svg xmlns="http://www.w3.org/2000/svg" width="77.545" height="53.365" viewBox="0 0 77.545 53.365"><path d="M76.489,24.133,53.413,1.056a3.606,3.606,0,0,0-5.1,5.1L65.235,23.077H3.606a3.606,3.606,0,0,0,0,7.211H65.235L48.314,47.209a3.606,3.606,0,0,0,5.1,5.1L76.489,29.232A3.606,3.606,0,0,0,76.489,24.133Z" transform="translate(0)"/></svg></button>
+          </div>
         </article>
-      </section>
+        <article class="grid-col-70 lps-image-bg mobile-hide"></article>
+        <article class="grid-col desktop-hide">
+          <img src="assets/img/hand-bulb.jpg" alt="An image of a man speaking to a crowd" class="full-width-img">
+        </article>
+      </div>
+
     </header>
 
     <main class="position-relative">
-      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-bottom padding-top-large-tablet-only">
-        <article class="grid-col-40 grid-col-reset-5">
-          <p class="magazine-header">The problem statements</p>
-          <p class="small-bold-header blue-text-reset">ESTABLISHING WHAT PROBLEMS WE ARE SOLVING</p>
+      <section class="grid-row padding-top-large padding-bottom grid-row-reset-5 medium-gutter">
+        <article class="grid-col grid-col-reset-5">
+          <p class="small-bold-header pink-text-reset margin-remove">01.</p>
+          <h3 class="large-section-header-bold margin-remove">The brief</h3>
+          <p>Luisa Santos is a Social Media Manager based in Southampton. She came to us needing a professional portfolio to showcase her work & services to generate new clients for her business.</p>
+          <p>We created her a new portfolio website with a bespoke branding strategy to translate her wonderful personality & professional acumen to her digital presence.</p>
         </article>
         <article class="grid-col grid-col-reset-5">
-          <p>Luisa stated she found new clients mainly through word of mouth and applying for open positions online. Nothing wrong with that approach but she said she found it difficult when the companies asked her for examples of her work.</p>
-          <p>She had a list of documents and links in a google drive document that she would send to prospective clients but understandably this is time consuming and inefficient. Clients simply don't want to click on 20 separate links.</p>
-          <p>Luisa also expressed her interest in passively generating leads through visiting her website by selling her services framed in a marketing narrative to convert them.</p>
-          <p>With Luisa being a social media professional she already has great knowledge on digital marketing so there was no need to focus on that. We aimed to create an attractive product with great UX and conversion inducing copy.</p>
-          <div class="grid-row padding-top">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/1-cobalt.svg" alt="A number one in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Difficulty showing clients examples of her work</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/2-cobalt.svg" alt="A number 2 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">No passive way of generating leads</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/3-cobalt.svg" alt="A number 3 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Outside of social media no professional online presence</p>
-            </article>
-          </div>
         </article>
       </section>
 
-      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-bottom padding-top-large-tablet-only">
-        <article class="grid-col-40 grid-col-reset-5">
-          <p class="magazine-header">The market research</p>
-          <p class="small-bold-header blue-text-reset">FIGURING OUT IF OTHER PROJECTS EXIST</p>
-        </article>
-        <article class="grid-col grid-col-reset-5">
-          <p>To put it bluntly other social media professionals don't really utilise website portfolios to generate business. A few had one but it was the minority. They generally use LinkedIn or social media accounts to market their services.</p>
-          <p>Sounds self explanatory right? Your service is creating social media content, surely marketing through social media is enough? No! A big chunk of companies refuse to hire contractors through social media for various reasons. These competitors were missing out on a part of the market by not having an online portfolio.</p>
-          <p>The few portfolios we did find were brief, succinct, clearly defined their services and provided evidence of their work & success metrics high in the visual hierarchy. So that's what we set out to do.</p>
-          <div class="grid-row padding-top">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/1-cobalt.svg" alt="A number one in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Social media pros typically dont have portfolios</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/2-cobalt.svg" alt="A number 2 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Success metrics important to businesses hiring social media pros</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/3-cobalt.svg" alt="A number 3 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Other portfolios were framed in a marketing narrative</p>
-            </article>
-          </div>
-        </article>
-      </section>
-
-      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-bottom padding-top-large-tablet-only">
-        <article class="grid-col-40 grid-col-reset-5">
-          <p class="magazine-header">The project goals</p>
-          <p class="small-bold-header blue-text-reset">WHAT ARE WE AIMING TO DELIVER</p>
-        </article>
-        <article class="grid-col grid-col-reset-5">
-          <div class="grid-row padding-top">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/1-cobalt.svg" alt="A number one in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">create a bespoke visual design to represent Luisa as a brand</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/2-cobalt.svg" alt="A number 2 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Create case study structure to allow Luisa to showcase her working method & success metrics</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/3-cobalt.svg" alt="A number 3 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">provide strong marketing copy to convert visitors to the website into new clients</p>
-            </article>
-          </div>
-          <div class="grid-row padding-top">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/4-cobalt.svg" alt="A number 4 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Create a form submission so Luisa receives leads via email</p>
-            </article>
-          </div>
-        </article>
-      </section>
-
-
-      <section class="grid-row padding-top padding-bottom justify-center lps-pink-background">
-        <article class="grid-col-40 text-center">
-          <h4 class="large-section-header-bold underlined-white-center white-text-reset">The Wireframes</h4>
-        </article>
-      </section>
-
-      <section class="grid-row grid-row-reset-3 lps-pink-background medium-gutter padding-bottom">
+      <section class="grid-row padding-top grid-row-reset-3 lps-pink-background medium-gutter padding-bottom">
         <article class="grid-col grid-col-reset-3">
-          <img src="assets/img/luisa-wireframe-1.jpg" alt="A wireframe of the OVOC website" class="desktop-wireframe">
-          <img src="assets/img/luisa-wireframe-3.jpg" alt="A wireframe of the OVOC website" class="desktop-wireframe margin-top-3rem">
+          <img src="assets/img/aluisaps-wireframe-1.jpg" alt="A wireframe of the LPS website" class="desktop-wireframe">
+          <img src="assets/img/aluisaps-wireframe-3.jpg" alt="A wireframe of the lps website" class="desktop-wireframe margin-top">
         </article>
         <article class="grid-col grid-col-reset-3 padding-top-large">
-          <img src="assets/img/luisa-wireframe-2.jpg" alt="A wireframe of the OVOC website" class="desktop-wireframe">
-          <div class="grid-row padding-top">
-            <article class="grid-col">
-              <img src="assets/img/luisa-wireframe-4.jpg" alt="A wireframe of the OVOC website" class="desktop-wireframe">
-            </article>
-            <article class="grid-col grid-flex-end">
-              <div>
-                <img src="assets/img/luisa-wireframe-5.jpg" alt="A wireframe of the OVOC website" class="desktop-wireframe">
-              </div>
-            </article>
-          </div>
+          <img src="assets/img/aluisaps-wireframe-2.jpg" alt="A wireframe of the lps website" class="desktop-wireframe">
+          <img src="assets/img/aluisaps-wireframe-4.jpg" alt="A wireframe of the lps website" class="desktop-wireframe margin-top">
         </article>
       </section>
 
-      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-overlap-container-above padding-top-large-tablet-only">
-        <article class="grid-col-40 grid-col-reset-5">
-          <p class="magazine-header">The design solution</p>
-          <p class="small-bold-header blue-text-reset">WHY DID WE DESIGN THE SITE THE WAY WE DID?</p>
+      <section class="grid-row padding-top-large padding-bottom grid-row-reset-5 medium-gutter">
+        <article class="grid-col grid-col-reset-5">
+          <p class="small-bold-header pink-text-reset margin-remove">02.</p>
+          <h3 class="large-section-header-bold margin-remove">The approach</h3>
+          <p>We gave Luisa's new site a strong visual aesthetic with bold pink areas of content & relied heavily on imagery to form the basis of most pages. Luisa is a talented photographer so we found it easy to find high quality images for the project.</p>
+          <p>Luisa had a number of soft skills in the industry that we decided to focus on in the design to allow her to stand out against her competitors. Case studies were heavily focused on performance metrics as is commonplace in the digital marketing world.</p>
         </article>
         <article class="grid-col grid-col-reset-5">
-          <p>During the planning phase we found out Luisa was a talented photographer & videographer. Two very valuable skills to social media content creation. She had even won several awards for her work.</p>
-          <p>Bearing this in mind we decided to go with an artistic visual design & include images she had taken and show her with cameras and on film sets. This was to allow Luisa to stand out against her competitors and show off her artistic talents.</p>
-          <p>The visual design had a soft, matte palette to give it an "artsy" feel with bold, pleasing imagery to compliment and contrast against the simplistic backdrop. Sans serif fonts seemed to match the aesthetic the best. Images were given canvas borders to almost represent paintings.</p>
-          <a href="https://aluisaps.com/" target="_blank"><button class="btn-primary btn-cobalt margin-top">VIEW WEBSITE</button></a>
+        </article>
+      </section>
+
+      <section class="grid-row grid-row-reset-5 lps-pink-background large-gutter padding-top padding-bottom grid-row-reset-tablet">
+        <article class="grid-col grid-col-reset-5 padding-top medium-gutter-mobile-only">
+          <img src="assets/img/aluisaps-mobile-1.jpg" alt="" class="mobile-wireframe box-shadow">
+        </article>
+        <article class="grid-col grid-col-reset-5 medium-gutter-mobile-only padding-top-mobile-only">
+          <img src="assets/img/aluisaps-mobile-2.jpg" alt="" class="mobile-wireframe box-shadow">
+        </article>
+        <article class="grid-col grid-col-reset-5 padding-top medium-gutter-mobile-only">
+          <img src="assets/img/aluisaps-mobile-3.jpg" alt="" class="mobile-wireframe box-shadow">
+        </article>
+      </section>
+
+      <section class="grid-row xl-gutter padding-top padding-bottom">
+        <article class="grid-col text-center">
+          <p class="large-section-header p-opacity-reset margin-bottom-small">""BlackSkull were so good at listening to what I wanted and providing exactly what I needed. I love my new website and I can't thank BlackSkull enough for their high quality service!"</p>
+          <p class="margin-remove pink-text-reset"><b>Luisa Pereira Santos</b></p>
+          <p class="margin-remove small-p opacity-70 pink-text-reset">Social Media Manager</p>
+        </article>
+      </section>
+
+      <section class="grid-row padding-top padding-bottom medium-gutter padding-overlap-container-above grid-row-reset-mobile">
+        <article class="grid-col">
+          <div>
+            <h4 class="small-bold-header pink-text-reset margin-remove">GO BACK</h4>
+            <p class="large-section-header-bold p-opacity-reset margin-remove">Work dashboard</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="182" height="182" viewBox="0 0 182 182" class="margin-top pagination-controls"><g transform="translate(182.346 182) rotate(180)"><g transform="translate(0.346)" fill="none" stroke="#ff0080" stroke-width="6"><circle cx="91" cy="91" r="91" stroke="none"/><circle cx="91" cy="91" r="88" fill="none"/></g><path d="M81.783,67.611,57.108,42.936a3.863,3.863,0,0,0-5.453,5.453L69.746,66.481H3.863a3.863,3.863,0,1,0,0,7.726H69.749L51.658,92.3a3.863,3.863,0,0,0,5.453,5.453L81.783,73.077a3.863,3.863,0,0,0,0-5.466Z" transform="translate(49.537 20.355)" fill="#ff0080"/></g></svg>
+          </div>
+        </article>
+        <article class="grid-col grid-flex-end text-right-mobile-only text-right-tablet-only">
+          <div>
+            <h4 class="small-bold-header pink-text-reset margin-remove">GO FORWARD</h4>
+            <p class="large-section-header-bold p-opacity-reset margin-remove">Next project</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="182" height="182" viewBox="0 0 182 182" class="margin-top pagination-controls"><g transform="translate(-0.346)"><g transform="translate(0.346)" fill="none" stroke="#ff0080" stroke-width="6"><circle cx="91" cy="91" r="91" stroke="none"/><circle cx="91" cy="91" r="88" fill="none"/></g><path d="M81.783,67.611,57.108,42.936a3.863,3.863,0,0,0-5.453,5.453L69.746,66.481H3.863a3.863,3.863,0,1,0,0,7.726H69.749L51.658,92.3a3.863,3.863,0,0,0,5.453,5.453L81.783,73.077a3.863,3.863,0,0,0,0-5.466Z" transform="translate(49.537 20.355)" fill="#ff0080"/></g></svg>
+          </div>
         </article>
       </section>
 
@@ -271,23 +230,21 @@
             <div class="width-100">
             <p class="margin-top-remove mobile-hide"><b>07506782509</b></p>
             <p class="mobile-hide"><b>hello@blackskull.agency</b></p>
-            <button class="btn-primary btn-pink btn-mobile-full-width" onclick="showSubmission()">GET FREE QUOTE</button>
+            <button class="btn-primary btn-pink btn-mobile-full-width" onclick="showSubmission()">Get free quote <svg xmlns="http://www.w3.org/2000/svg" width="59.714" height="40.878" viewBox="0 0 59.714 40.878"><path d="M58.9,60.435l-17.77-17.77A2.782,2.782,0,0,0,37.2,46.592L50.23,59.621H2.782a2.782,2.782,0,1,0,0,5.564h47.45L37.2,78.214a2.782,2.782,0,0,0,3.927,3.927L58.9,64.371a2.782,2.782,0,0,0,0-3.937Z" transform="translate(0 -41.964)" fill="#fff"/></svg></button>
             </div>
           </div>
         </div>
       </section>
     </main>
 
-
-
     <footer>
-      <section class="grid-row padding-overlap-container-below small-gutter cobalt-background">
+      <section class="grid-row padding-overlap-container-below small-gutter cobalt-background padding-bottom-small">
         <article class="grid-col-30 white-text-reset">
           <h2 class="yellow-text-reset small-bold-header">STAY CONNECTED WITH OUR NEWSLETTER</h2>
           <p class="margin-top margin-bottom">Learn how to improve your User Experience design, optimise your digital marketing & SEO with our weekly articles. All free of course.</p>
           <form action="https://formspree.io/meqqzpja" method="POST" class="newsletter margin-bottom">
             <input type="text" placeholder="Email address" class="margin-right-small" name="email">
-            <button class="btn-primary btn-blue" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">SIGN UP</button>
+            <button class="btn-primary btn-blue" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">Sign up <svg xmlns="http://www.w3.org/2000/svg" width="59.714" height="40.878" viewBox="0 0 59.714 40.878"><path d="M58.9,60.435l-17.77-17.77A2.782,2.782,0,0,0,37.2,46.592L50.23,59.621H2.782a2.782,2.782,0,1,0,0,5.564h47.45L37.2,78.214a2.782,2.782,0,0,0,3.927,3.927L58.9,64.371a2.782,2.782,0,0,0,0-3.937Z" transform="translate(0 -41.964)" fill="#fff"/></svg></button>
           </form>
           <div class="grid-flex-start">
             <a href="mailto:hello@blackskull.agency"><img src="assets/icons/email.svg" alt="An envelope" class="margin-right-small social-media-svg"></a>
