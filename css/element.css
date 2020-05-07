@@ -724,7 +724,7 @@ vertically on devices smaller than 501px.
 
 /*[GUTTERS]*/
 @media screen and ( max-width: 600px ) {
-.small-gutter, .medium-gutter, .large-gutter, .xl-gutter {
+.small-gutter, .medium-gutter, .large-gutter, .xl-gutter, .medium-gutter-mobile-only {
   padding-left: 5%;
   padding-right: 5%;
 }
