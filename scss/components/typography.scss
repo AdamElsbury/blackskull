@@ -8,6 +8,7 @@ body {
 
   p {
     opacity: 0.8;
+    font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1600 - 300)));
   }
 }
 
@@ -21,7 +22,8 @@ body {
   opacity: 0.7;
 }
 
-//
+// Body text
+
 
 .large-p {
   font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));

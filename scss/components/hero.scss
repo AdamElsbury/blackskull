@@ -36,7 +36,7 @@
 
 // Mobile
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .hero-offset-image {
     margin-right: 0 !important;
   }
@@ -54,6 +54,22 @@
   .hero {
     border: 9px solid $color-yellow;
     height: auto;
+  }
+}
+
+// Tablet
+
+@media (min-width: 601px) and ( max-width: 1024px ) {
+  .hero-offset-image {
+    margin-right: 0 !important;
+  }
+
+  .hero {
+
+    &:after {
+    height: 52%;
+    width: 42%;
+    }
   }
 }
 
