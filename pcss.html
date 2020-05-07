@@ -23,15 +23,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>BlackSkull | PCSS client case study </title>
-  <meta name="description" content="See our full working process when dealing with a real client - project planning experts PCSS Ltd.">
+  <title>Web design Cardiff | BlackSkull</title>
+  <meta name="description" content="We can improve your site design through efficient user experience, produce an attractive visual design and implement a digital marketing strategy to ensure you are maximizing your ROI.">
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/element.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
 </head>
-<body>
+<body onload="checkVisited()">
   <div class="container">
+
     <div class="cookie-notice" id="cookie-notice">
       <div class="grid-row small-gutter">
         <article class="grid-col-80 grid-flex-center">
@@ -42,7 +43,6 @@
         </div>
       </div>
     </div>
-
 
     <div class="menu-container" id="menu">
       <div class="menu-content">
@@ -117,138 +117,105 @@
       </div>
     </section>
 
-    <header class="pcss-header">
+    <header class="hero-pcss position-relative">
       <div class="nav-container">
-        <a href="index.html"><img src="assets/icons/blackskull-logo-white.png" alt="A skull with the word BlackSkull underneath" class="logo"></a>
+        <a href="index.html"><img src="assets/icons/social-media-logo-large.png" alt="Two black boxes with the words Blackskull Media inside" class="logo"></a>
         <ul class="nav-links">
-          <img src="assets/icons/hamburger.svg" alt="A hamburger menu" class="margin-right-small" onclick="showMenu()">
-          <button class="btn-primary btn-cobalt margin-left" onclick="showSubmission()">GET FREE QUOTE</button>
+          <img src="assets/icons/hamburger.svg" alt="A hamburger menu" class="margin-right-small hamburger-svg" onclick="showMenu()">
+          <button class="btn-primary btn-pink margin-left" onclick="showSubmission()">Get free quote <svg xmlns="http://www.w3.org/2000/svg" width="59.714" height="40.878" viewBox="0 0 59.714 40.878"><path d="M58.9,60.435l-17.77-17.77A2.782,2.782,0,0,0,37.2,46.592L50.23,59.621H2.782a2.782,2.782,0,1,0,0,5.564h47.45L37.2,78.214a2.782,2.782,0,0,0,3.927,3.927L58.9,64.371a2.782,2.782,0,0,0,0-3.937Z" transform="translate(0 -41.964)" fill="#fff"/></svg></button>
         </ul>
       </div>
 
-      <section class="grid-row justify-center padding-bottom padding-top small-gutter">
-        <article class="grid-col-50 text-center white-text-reset">
-          <img src="assets/icons/pcss-logo-white.svg" alt="An orange circle with the PCSS company name" class="case-study-logo">
-          <h1 class="large-section-header h1-no-underline white-text-reset margin-top-small">Project Controls & Services Ltd</h1>
-          <h2 class="small-bold-header blue-text-reset">DESIGN | COPYWRITING | DEVELOPMENT | LOGO </h2>
-          <p class="large-p">Bespoke website design, branding with a strong emphasis on content strategy.</p>
-          <a href="https://pcssltd.wales/" target="_blank"><button class="btn-primary btn-cobalt margin-top btn-mobile-full-width">VIEW WEBSITE</button></a>
-          <img src="assets/icons/mouse-down.svg" alt="A computer mouse with a down arrow underneath" class="mouse-down-svg margin-top">
+      <div class="scroll-widget mobile-hide">
+        <p>SCROLL</p>
+        <span></span>
+      </div>
+
+      <div class="grid-row medium-gutter padding-top">
+        <article class="grid-col padding-top padding-bottom">
+          <div class="hero-offset-image white-background padding-large">
+            <img src="assets/img/pcss-logo.png" alt="the BGC wales logo" class="margin-bottom-small case-study-logo">
+            <h1 class="small-bold-header pink-text-reset margin-bottom-small opacity-70">PREVIOUS WORK</h1>
+            <h2 class="hero-h2">Project Controls & Support Services Ltd</h2>
+            <p class="small-bold-header pink-text-reset opacity-70">DESIGN | COPYWRITING | BRANDING | DEVELOPMENT | LOGO</p>
+            <p>PCSS is a project planning company based in South Wales. They wanted a new marketing website to showcase their work and generate new clients.</p>
+            <button class="btn-secondary btn-cobalt-secondary margin-top margin-top-large-mobile-only btn-mobile-full-width">Visit website <svg xmlns="http://www.w3.org/2000/svg" width="77.545" height="53.365" viewBox="0 0 77.545 53.365"><path d="M76.489,24.133,53.413,1.056a3.606,3.606,0,0,0-5.1,5.1L65.235,23.077H3.606a3.606,3.606,0,0,0,0,7.211H65.235L48.314,47.209a3.606,3.606,0,0,0,5.1,5.1L76.489,29.232A3.606,3.606,0,0,0,76.489,24.133Z" transform="translate(0)"/></svg></button>
+          </div>
         </article>
-      </section>
+        <article class="grid-col-70 pcss-image-bg mobile-hide"></article>
+        <article class="grid-col desktop-hide">
+          <img src="assets/img/pcss-case-study.jpg" alt="Several people sitting around a table discussing business" class="full-width-img">
+        </article>
+      </div>
+
     </header>
 
     <main class="position-relative">
-      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-bottom padding-top-large-tablet-only">
-        <article class="grid-col-40 grid-col-reset-5">
-          <p class="magazine-header">The problem statements</p>
-          <p class="small-bold-header blue-text-reset">ESTABLISHING WHAT PROBLEMS WE ARE SOLVING</p>
+      <section class="grid-row padding-top-large padding-bottom grid-row-reset-5 medium-gutter">
+        <article class="grid-col grid-col-reset-5">
+          <p class="small-bold-header pink-text-reset margin-remove">01.</p>
+          <h3 class="large-section-header-bold margin-remove">The brief</h3>
+          <p>PCSS is a small family run project planning business operating out of South Wales. They generated new contracts primarily through word of mouth & LinkedIn but wanted to have a more professional online presence to showcase their work history.</p>
+          <p>We created a bespoke website with vibrant branding to show off PCSS high quality of service and dependability & added a portfolio page to list all previous work.</p>
         </article>
         <article class="grid-col grid-col-reset-5">
-          <p>PCSS met with us and explained the issues surrounding their client acquisition model. They typically relied on being contacted by recruiters and through LinkedIn. Perfectly acceptable models but they received a lot of enquiries for jobs that didn't offer enough money or were based in the wrong location.</p>
-          <p>They were wasting time reading these offers. They were also interested in having an online product to showcase their services and work history to have a modern way of applying to roles to stand out against their competitors.</p>
-          <p>They also stressed the importance of a professional visual design due to industry requirements which sometimes a CV doesn't convey well.</p>
-          <div class="grid-row padding-top">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/1-cobalt.svg" alt="A number one in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Wasting time responding to inaccurate job offers from recruiters</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/2-cobalt.svg" alt="A number 2 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">No modern product to showcase work and job history</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/3-cobalt.svg" alt="A number 3 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">CV lacked branding and didnt convey professionalism of the company</p>
-            </article>
-          </div>
         </article>
       </section>
 
-      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-bottom padding-top-large-tablet-only">
-        <article class="grid-col-40 grid-col-reset-5">
-          <p class="magazine-header">The market research</p>
-          <p class="small-bold-header blue-text-reset">FIGURING OUT IF OTHER PROJECTS EXIST</p>
-        </article>
-        <article class="grid-col grid-col-reset-5">
-          <p>Surprisingly there were quite a few project planning companies who had online portfolios. A lot of these sites looked archaic and out of touch visually however which could push away younger clients.</p>
-          <p>The websites UX designs were simple. They resembled marketing sites, which makes sense. All we are doing is selling a service to a prospective client. Another thing was none of these companies portrayed any branding or company philosophy, it was hard to distinguish any differences.</p>
-          <div class="grid-row padding-top">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/1-cobalt.svg" alt="A number one in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Other sites were poor visually</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/2-cobalt.svg" alt="A number 2 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Other sites lacked any real brand recognition</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/3-cobalt.svg" alt="A number 3 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Other sites failed to convey company philiosophies</p>
-            </article>
-          </div>
-        </article>
-      </section>
-
-      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-bottom padding-top-large-tablet-only">
-        <article class="grid-col-40 grid-col-reset-5">
-          <p class="magazine-header">The market research</p>
-          <p class="small-bold-header blue-text-reset">FIGURING OUT IF OTHER PROJECTS EXIST</p>
-        </article>
-        <article class="grid-col grid-col-reset-5">
-          <p>From our research and the client requirements we drafted up 5 clear project goals to form our early design and set out our project scope.</p>
-          <div class="grid-row padding-top">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/1-cobalt.svg" alt="A number one in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Create a bespoke visual design to promote a professional aesthetic</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/2-cobalt.svg" alt="A number 2 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Provide a unique branding scheme</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/3-cobalt.svg" alt="A number 3 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Convey company philosophy</p>
-            </article>
-          </div>
-          <div class="grid-row padding-top-small">
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/4-cobalt.svg" alt="A number 4 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Accurately describe what jobs the client was interested in</p>
-            </article>
-            <article class="grid-col-thirds padding-right-small">
-              <img src="assets/icons/3-cobalt.svg" alt="A number 5 in a circle" class="logo margin-bottom-small">
-              <p class="blue-text-reset">Show key stats high in the visual heirarchy</p>
-            </article>
-          </div>
-        </article>
-      </section>
-
-      <section class="grid-row padding-top padding-bottom justify-center pcss-navy-background">
-        <article class="grid-col-40 text-center">
-          <h4 class="large-section-header-bold underlined-white-center white-text-reset">The Wireframes</h4>
-        </article>
-      </section>
-
-      <section class="grid-row grid-row-reset-3 pcss-navy-background medium-gutter padding-bottom">
+      <section class="grid-row padding-top grid-row-reset-3 pcss-navy-background medium-gutter padding-bottom">
         <article class="grid-col grid-col-reset-3">
           <img src="assets/img/pcss-wireframe-1.jpg" alt="A wireframe of the PCSS website" class="desktop-wireframe">
         </article>
-        <article class="grid-col grid-col-reset-3 padding-top-large grid-flex-end">
+        <article class="grid-col grid-col-reset-3 padding-top-large">
           <img src="assets/img/pcss-wireframe-2.jpg" alt="A wireframe of the PCSS website" class="desktop-wireframe">
         </article>
       </section>
 
-      <section class="grid-row grid-row-reset-5 medium-gutter padding-top padding-overlap-container-above padding-top-large-tablet-only">
-        <article class="grid-col-40 grid-col-reset-5">
-          <p class="magazine-header">The design solution</p>
-          <p class="small-bold-header blue-text-reset">WHY DID WE DESIGN THE SITE THE WAY WE DID?</p>
+      <section class="grid-row padding-top-large padding-bottom grid-row-reset-5 medium-gutter">
+        <article class="grid-col grid-col-reset-5">
+          <p class="small-bold-header pink-text-reset margin-remove">02.</p>
+          <h3 class="large-section-header-bold margin-remove">The approach</h3>
+          <p>PCSS wanted a bold branding approach and we delivered a visual design that really popped but also maintained a strong emphasis on professionalism, a key ingredient within the industry.</p>
+          <p>We created a brochure style "About us" page to show off the strong emphasis on family values the company held in addition to a more traditional "techy" portfolio page so potential hiring agencies could see the long history of high value contracts they had completed.</p>
         </article>
         <article class="grid-col grid-col-reset-5">
-          <p>To address the client requirements we created a strong brand identity with the bright contrasting colours whilst maintaining a professional tone. We created a "key stats" section at the top of the page so clients could easily access primary information when considering PCSS for a role.</p>
-          <p>Additionally to address PCSS need to express their business ethos of collaboration instead of bossing people around we created an "About us" page which was absent from our market research. Here we added attractive copy & graphics explaining how the company works and why they stand out.</p>
-          <p>We also made sure to include the location and type of job PCSS wanted to acquire to eliminate bad referrals.</p>
-          <a href="https://pcssltd.wales/" target="_blank"><button class="btn-primary btn-cobalt margin-top">VIEW WEBSITE</button></a>
+        </article>
+      </section>
+
+      <section class="grid-row grid-row-reset-5 pcss-navy-background large-gutter padding-top padding-bottom grid-row-reset-tablet">
+        <article class="grid-col grid-col-reset-5 padding-top medium-gutter-mobile-only">
+          <img src="assets/img/pcss-mobile-1.jpg" alt="" class="mobile-wireframe box-shadow">
+        </article>
+        <article class="grid-col grid-col-reset-5 medium-gutter-mobile-only padding-top-mobile-only">
+          <img src="assets/img/pcss-mobile-2.jpg" alt="" class="mobile-wireframe box-shadow">
+        </article>
+        <article class="grid-col grid-col-reset-5 padding-top medium-gutter-mobile-only">
+          <img src="assets/img/pcss-mobile-3.jpg" alt="" class="mobile-wireframe box-shadow">
+        </article>
+      </section>
+
+      <section class="grid-row xl-gutter padding-top padding-bottom">
+        <article class="grid-col text-center">
+          <p class="large-section-header p-opacity-reset margin-bottom-small">"I was blown away by BlackSkull's attention to detail & desire to deliver great customer service. I love my new logo & website!"</p>
+          <p class="margin-remove pink-text-reset"><b>Nicholas Owen</b></p>
+          <p class="margin-remove small-p opacity-70 pink-text-reset">Director</p>
+        </article>
+      </section>
+
+      <section class="grid-row padding-top padding-bottom medium-gutter padding-overlap-container-above grid-row-reset-mobile">
+        <article class="grid-col">
+          <div>
+            <h4 class="small-bold-header pink-text-reset margin-remove">GO BACK</h4>
+            <p class="large-section-header-bold p-opacity-reset margin-remove">Work dashboard</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="182" height="182" viewBox="0 0 182 182" class="margin-top pagination-controls"><g transform="translate(182.346 182) rotate(180)"><g transform="translate(0.346)" fill="none" stroke="#ff0080" stroke-width="6"><circle cx="91" cy="91" r="91" stroke="none"/><circle cx="91" cy="91" r="88" fill="none"/></g><path d="M81.783,67.611,57.108,42.936a3.863,3.863,0,0,0-5.453,5.453L69.746,66.481H3.863a3.863,3.863,0,1,0,0,7.726H69.749L51.658,92.3a3.863,3.863,0,0,0,5.453,5.453L81.783,73.077a3.863,3.863,0,0,0,0-5.466Z" transform="translate(49.537 20.355)" fill="#ff0080"/></g></svg>
+          </div>
+        </article>
+        <article class="grid-col grid-flex-end text-right-mobile-only text-right-tablet-only">
+          <div>
+            <h4 class="small-bold-header pink-text-reset margin-remove">GO FORWARD</h4>
+            <p class="large-section-header-bold p-opacity-reset margin-remove">Next project</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="182" height="182" viewBox="0 0 182 182" class="margin-top pagination-controls"><g transform="translate(-0.346)"><g transform="translate(0.346)" fill="none" stroke="#ff0080" stroke-width="6"><circle cx="91" cy="91" r="91" stroke="none"/><circle cx="91" cy="91" r="88" fill="none"/></g><path d="M81.783,67.611,57.108,42.936a3.863,3.863,0,0,0-5.453,5.453L69.746,66.481H3.863a3.863,3.863,0,1,0,0,7.726H69.749L51.658,92.3a3.863,3.863,0,0,0,5.453,5.453L81.783,73.077a3.863,3.863,0,0,0,0-5.466Z" transform="translate(49.537 20.355)" fill="#ff0080"/></g></svg>
+          </div>
         </article>
       </section>
 
@@ -262,23 +229,21 @@
             <div class="width-100">
             <p class="margin-top-remove mobile-hide"><b>07506782509</b></p>
             <p class="mobile-hide"><b>hello@blackskull.agency</b></p>
-            <button class="btn-primary btn-pink btn-mobile-full-width" onclick="showSubmission()">GET FREE QUOTE</button>
+            <button class="btn-primary btn-pink btn-mobile-full-width" onclick="showSubmission()">Get free quote <svg xmlns="http://www.w3.org/2000/svg" width="59.714" height="40.878" viewBox="0 0 59.714 40.878"><path d="M58.9,60.435l-17.77-17.77A2.782,2.782,0,0,0,37.2,46.592L50.23,59.621H2.782a2.782,2.782,0,1,0,0,5.564h47.45L37.2,78.214a2.782,2.782,0,0,0,3.927,3.927L58.9,64.371a2.782,2.782,0,0,0,0-3.937Z" transform="translate(0 -41.964)" fill="#fff"/></svg></button>
             </div>
           </div>
         </div>
       </section>
     </main>
 
-
-
     <footer>
-      <section class="grid-row padding-overlap-container-below small-gutter cobalt-background">
+      <section class="grid-row padding-overlap-container-below small-gutter cobalt-background padding-bottom-small">
         <article class="grid-col-30 white-text-reset">
           <h2 class="yellow-text-reset small-bold-header">STAY CONNECTED WITH OUR NEWSLETTER</h2>
           <p class="margin-top margin-bottom">Learn how to improve your User Experience design, optimise your digital marketing & SEO with our weekly articles. All free of course.</p>
           <form action="https://formspree.io/meqqzpja" method="POST" class="newsletter margin-bottom">
             <input type="text" placeholder="Email address" class="margin-right-small" name="email">
-            <button class="btn-primary btn-blue" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">SIGN UP</button>
+            <button class="btn-primary btn-blue" type="submit" onclick="gtag('event', 'Form submit', {'event_category': 'Newsletter sign up', 'event_label': 'Newsletter'});">Sign up <svg xmlns="http://www.w3.org/2000/svg" width="59.714" height="40.878" viewBox="0 0 59.714 40.878"><path d="M58.9,60.435l-17.77-17.77A2.782,2.782,0,0,0,37.2,46.592L50.23,59.621H2.782a2.782,2.782,0,1,0,0,5.564h47.45L37.2,78.214a2.782,2.782,0,0,0,3.927,3.927L58.9,64.371a2.782,2.782,0,0,0,0-3.937Z" transform="translate(0 -41.964)" fill="#fff"/></svg></button>
           </form>
           <div class="grid-flex-start">
             <a href="mailto:hello@blackskull.agency"><img src="assets/icons/email.svg" alt="An envelope" class="margin-right-small social-media-svg"></a>
