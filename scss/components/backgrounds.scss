@@ -108,3 +108,15 @@
     }
   }
 }
+
+// Tablet
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .hero-ocs {
+
+    &:after {
+    height: 52%;
+    width: 42%;
+    }
+  }
+}

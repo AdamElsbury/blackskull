@@ -1111,6 +1111,10 @@ vertically on devices smaller than 501px.
 .text-center-tablet-only {
   text-align: center;
 }
+
+.text-right-mobile-only {
+  text-align: right;
+}
 }
 
 /*
