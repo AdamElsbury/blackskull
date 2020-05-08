@@ -11,6 +11,10 @@ body {
     font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1600 - 300)));
     line-height: 1.9rem;
   }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 // Opacity

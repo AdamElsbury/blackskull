@@ -132,6 +132,16 @@
   top: 0;
   right: 0;
   cursor: pointer;
+
+  path {
+    transition: all .3s;
+  }
+
+    &:hover {
+      path {
+        fill: $color-pink;
+      }
+    }
 }
 
 .menu-logo {
