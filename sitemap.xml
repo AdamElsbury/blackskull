@@ -9,87 +9,92 @@
 
 <url>
   <loc>https://blackskull.agency/</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://blackskull.agency/cookies.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blackskull.agency/lps.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://blackskull.agency/pcss.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <loc>https://blackskull.agency/ocs.html</loc>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blackskull.agency/ovoc.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blackskull.agency/lps.html</loc>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blackskull.agency/index.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blackskull.agency/whatwedo.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blackskull.agency/services.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blackskull.agency/pricing.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blackskull.agency/projects.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blackskull.agency/blog.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blackskull.agency/faq.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blackskull.agency/data-policy.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://blackskull.agency/pcss.html</loc>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://blackskull.agency/visual-hierarchy.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://blackskull.agency/benefits-of-a-professional-website.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://blackskull.agency/content-marketing-for-smes.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://blackskull.agency/consumer-decision-journey.html</loc>
-  <lastmod>2019-12-18T20:07:48+00:00</lastmod>
+  <lastmod>2020-05-08T15:38:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
