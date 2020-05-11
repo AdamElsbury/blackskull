@@ -31,6 +31,37 @@
 }
 }
 
+.arrow-svg-cobalt {
+  width: auto;
+  height: auto;
+  max-height: 50px;
+  cursor: pointer;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+
+
+  g, circle {
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    fill: #FFF;
+  }
+
+  &:hover {
+
+  g, circle {
+    fill: $color-cobalt;
+  }
+
+  path {
+    fill: #FFF;
+  }
+}
+}
+
 // Hide control buttons from tinyslider
 
 .tns-nav {

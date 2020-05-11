@@ -9,7 +9,7 @@
 // Buttons
 
 .btn-primary {
-  font-family: $text-primary;
+  font-family: $text-headers;
   font-size: 13px;
   font-weight: $text-weight-semi-bold;
   border-radius: 7px;
@@ -45,7 +45,7 @@
 }
 
 .btn-secondary {
-  font-family: $text-primary;
+  font-family: $text-headers;
   font-size: 13px;
   font-weight: $text-weight-semi-bold;
   background-color: transparent;
@@ -80,7 +80,7 @@
 }
 
 .btn-text-only {
-  font-family: $text-primary;
+  font-family: $text-headers;
   font-size: 17px;
   font-weight: $text-weight-semi-bold;
   transition: all .3s;
