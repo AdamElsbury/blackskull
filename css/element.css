@@ -1181,7 +1181,13 @@ vertically on devices smaller than 501px.
 .padding-right-12-sl-only {
   padding-right: 12%;
 }
+}
 
+@media screen and ( min-width: 1921px ) {
+  .small-gutter, .medium-gutter, .large-gutter {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }
 
 /*
